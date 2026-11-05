@@ -1,0 +1,29 @@
+
+# Experiment outputs
+logs/
+results/
+*.log
+*.out
+*.err
+
+# Model weights and embeddings
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+
+# Raw sequence data and generated windows
+*.fasta
+*.fa
+*.fna
+*.fastq
+*.jsonl
+*_weights.csv
+
+# Python environment and cache
+__pycache__/
+*.pyc
+.venv/
+.env
