@@ -1,0 +1,20 @@
+{
+  "output": "../LTEE_prospective/phase2a_synthetic",
+  "seeds": [
+    11,
+    23,
+    42
+  ],
+  "populations": 4,
+  "samples_per_population": 120,
+  "low_sample_n": 25,
+  "validation_n": 60,
+  "test_n": 120,
+  "rate": 0.08,
+  "penalties": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "maxiter": 80
+}

@@ -1,0 +1,392 @@
+{
+  "null_11": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 8,
+      "objective": 0.15765264381468921
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 14,
+      "objective": 0.15743862860692706
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 14,
+      "objective": 0.15737215523130255
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 17,
+      "objective": 0.15720080686751112
+    }
+  },
+  "null_23": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 7,
+      "objective": 0.1424084195595226
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 14,
+      "objective": 0.1419866074541013
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 18,
+      "objective": 0.1418027234557172
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 19,
+      "objective": 0.1419146769404017
+    }
+  },
+  "null_42": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 9,
+      "objective": 0.15882165881956234
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 13,
+      "objective": 0.15862669031691795
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 15,
+      "objective": 0.15854474323445972
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 19,
+      "objective": 0.15827913181855782
+    }
+  },
+  "null_67": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 10,
+      "objective": 0.16835570554619653
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 16,
+      "objective": 0.16830388251747955
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 19,
+      "objective": 0.16816355365916152
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 18,
+      "objective": 0.1678827275639707
+    }
+  },
+  "null_101": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 8,
+      "objective": 0.1603468052931514
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 13,
+      "objective": 0.16015067279919565
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 15,
+      "objective": 0.1600571677395598
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 17,
+      "objective": 0.1601994871504438
+    }
+  },
+  "linear_11": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 7,
+      "objective": 0.15020684298712272
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 17,
+      "objective": 0.13403489976662242
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 20,
+      "objective": 0.1338036847231016
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 17,
+      "objective": 0.14989981781019873
+    }
+  },
+  "linear_23": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 7,
+      "objective": 0.14584515970706086
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 14,
+      "objective": 0.12742202127780536
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 21,
+      "objective": 0.12716707927275803
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 16,
+      "objective": 0.14553322044465597
+    }
+  },
+  "linear_42": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 9,
+      "objective": 0.1515835644446445
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 14,
+      "objective": 0.1350770737946631
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 18,
+      "objective": 0.1350070992735178
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 16,
+      "objective": 0.1512842201664175
+    }
+  },
+  "linear_67": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 9,
+      "objective": 0.1618563847843678
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 16,
+      "objective": 0.14501722039244153
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 25,
+      "objective": 0.144766522606314
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 18,
+      "objective": 0.1615460539534423
+    }
+  },
+  "linear_101": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 7,
+      "objective": 0.14953789046421803
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 15,
+      "objective": 0.13550081747568365
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 21,
+      "objective": 0.13541000143398954
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 16,
+      "objective": 0.14931393566335027
+    }
+  },
+  "nonlinear_11": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 8,
+      "objective": 0.1435196209111761
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 15,
+      "objective": 0.14226155196527743
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 30,
+      "objective": 0.10679270030366249
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 18,
+      "objective": 0.1432176431681802
+    }
+  },
+  "nonlinear_23": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 8,
+      "objective": 0.13819508184391754
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 13,
+      "objective": 0.1370222288052197
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 23,
+      "objective": 0.10412798071271032
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 15,
+      "objective": 0.1375837970294176
+    }
+  },
+  "nonlinear_42": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 6,
+      "objective": 0.13681566795955102
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 12,
+      "objective": 0.13626432863798968
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 24,
+      "objective": 0.1069148461922306
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 17,
+      "objective": 0.13555201480032542
+    }
+  },
+  "nonlinear_67": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 9,
+      "objective": 0.15669763606596485
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 14,
+      "objective": 0.1560904989855201
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 39,
+      "objective": 0.11537135870892645
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 20,
+      "objective": 0.15574771884563055
+    }
+  },
+  "nonlinear_101": {
+    "M2": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 7,
+      "objective": 0.14698799334768625
+    },
+    "M3_linear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 13,
+      "objective": 0.14553454749758002
+    },
+    "M3_nonlinear": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 27,
+      "objective": 0.11177776496823945
+    },
+    "M3_shuffled": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 21,
+      "objective": 0.14592977115239064
+    }
+  }
+}

@@ -1,0 +1,15 @@
+
+# LTEE local raw data
+*.fastq
+*.fastq.gz
+*.fasta
+*.fna
+*.gbk
+*.gd
+
+# Model weights and caches
+*.pt
+*.pth
+*.safetensors
+__pycache__/
+*.pyc
