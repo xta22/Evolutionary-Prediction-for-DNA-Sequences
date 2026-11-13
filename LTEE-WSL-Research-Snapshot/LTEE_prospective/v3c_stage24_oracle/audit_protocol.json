@@ -1,0 +1,27 @@
+{
+  "status": "EXPLORATORY_ORACLE_DIAGNOSTIC",
+  "oracle_conditioning": "full population state at cutoff plus true V3-B mechanism",
+  "oracle_type": "Monte Carlo marginal future allele probability",
+  "limitations": [
+    "Not joint haplotype likelihood",
+    "Finite Monte Carlo approximation",
+    "Requires exact replay of original V3-B implementation and configuration",
+    "Seeds previously inspected are exploratory, not locked confirmatory test",
+    "No hidden parameters enter B1 model"
+  ],
+  "input": "../LTEE_prospective/v3b_simulation",
+  "seeds": [
+    42
+  ],
+  "scenarios": [
+    "neutral",
+    "heterogeneous",
+    "context",
+    "regime_shift",
+    "linkage_only",
+    "recombination",
+    "selection_only",
+    "epistasis"
+  ],
+  "replicates": 200
+}

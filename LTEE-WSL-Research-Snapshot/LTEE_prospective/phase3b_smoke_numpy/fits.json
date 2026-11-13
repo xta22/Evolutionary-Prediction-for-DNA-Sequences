@@ -1,0 +1,312 @@
+[
+  {
+    "seed": 42,
+    "scenario": "homogeneous",
+    "model": "M1",
+    "fit": {
+      "best_validation_nll": 0.2915686236405349,
+      "epochs_ran": 5,
+      "max_gradient_norm": 0.00043957234124246663,
+      "fit_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+    },
+    "true_parameters": {
+      "population_log_rates": [
+        0.0,
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "spectrum": [
+        [
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "base_rate": 0.065
+    },
+    "fitted_global_log_rate": -1.8485830402591041,
+    "fitted_pop_rates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "seed": 42,
+    "scenario": "homogeneous",
+    "model": "M2",
+    "fit": {
+      "best_validation_nll": 0.26295874897009164,
+      "epochs_ran": 5,
+      "max_gradient_norm": 0.014867571352795896,
+      "fit_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+    },
+    "true_parameters": {
+      "population_log_rates": [
+        0.0,
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "spectrum": [
+        [
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "base_rate": 0.065
+    },
+    "fitted_global_log_rate": -1.9643311405589274,
+    "fitted_pop_rates": [
+      -0.025950325863887735,
+      0.7095687524837503,
+      -0.1462020295530824,
+      -0.5374149505111898
+    ]
+  },
+  {
+    "seed": 42,
+    "scenario": "homogeneous",
+    "model": "M3_linear",
+    "fit": {
+      "best_validation_nll": 0.2399872304450749,
+      "epochs_ran": 5,
+      "max_gradient_norm": 0.054008180624133345,
+      "fit_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+    },
+    "true_parameters": {
+      "population_log_rates": [
+        0.0,
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "spectrum": [
+        [
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "base_rate": 0.065
+    },
+    "fitted_global_log_rate": -2.1732488521780446,
+    "fitted_pop_rates": [
+      0.05531172416793609,
+      0.13997420026873614,
+      -0.08548538978942398,
+      -0.10980048553566503
+    ]
+  },
+  {
+    "seed": 42,
+    "scenario": "homogeneous",
+    "model": "M3_nonlinear",
+    "fit": {
+      "best_validation_nll": 0.24146045165123284,
+      "epochs_ran": 5,
+      "max_gradient_norm": 0.06713690902593639,
+      "fit_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+    },
+    "true_parameters": {
+      "population_log_rates": [
+        0.0,
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "spectrum": [
+        [
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "base_rate": 0.065
+    },
+    "fitted_global_log_rate": -2.1734745181880233,
+    "fitted_pop_rates": [
+      0.05529180880576821,
+      0.13992380160670842,
+      -0.08545461019389827,
+      -0.10976095112467807
+    ]
+  },
+  {
+    "seed": 42,
+    "scenario": "homogeneous",
+    "model": "M3_shuffled",
+    "fit": {
+      "best_validation_nll": 0.2663448904678365,
+      "epochs_ran": 5,
+      "max_gradient_norm": 0.02863982609921041,
+      "fit_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+    },
+    "true_parameters": {
+      "population_log_rates": [
+        0.0,
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "spectrum": [
+        [
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "base_rate": 0.065
+    },
+    "fitted_global_log_rate": -2.2053923234028003,
+    "fitted_pop_rates": [
+      0.05247501486096128,
+      0.1327955031188676,
+      -0.08110119811082499,
+      -0.1041692732761504
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "seed": 23,
+  "scenario": "neutral",
+  "selected_site": 32,
+  "partner_site": 64,
+  "selection_strength": 0.0,
+  "epistasis_strength": 0.0,
+  "recombination_probability": 0.0,
+  "context_multiplier": null,
+  "shift_generation": null
+}

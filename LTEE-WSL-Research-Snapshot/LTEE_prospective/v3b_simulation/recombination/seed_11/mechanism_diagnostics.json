@@ -1,0 +1,17 @@
+{
+  "structural_pass": true,
+  "summary": {
+    "mean_pre_mutations": 23.76,
+    "mean_post_mutations": 22.12,
+    "expected_pre_mutations": 23.040000000000006,
+    "expected_post_mutations": 23.040000000000006,
+    "crossovers_total": 11980,
+    "allele_a_start": 0.24583333333333332,
+    "allele_a_end": 0.29583333333333334,
+    "double_mutant_start": 0.24583333333333332,
+    "double_mutant_end": 0.13333333333333333,
+    "r2_start": 1.0000000000000007,
+    "r2_end": 0.018202211344187817,
+    "haplotype_diversity_end": 0.9938194444444445
+  }
+}

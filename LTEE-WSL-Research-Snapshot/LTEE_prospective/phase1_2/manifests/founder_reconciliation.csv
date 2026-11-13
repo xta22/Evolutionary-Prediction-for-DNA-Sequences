@@ -1,0 +1,3 @@
+founder_id,side,occurrences,unique_hashes,populations,sha256,status
+Anc+_0gen_REL607,Ara+,6,1,Ara+1;Ara+2;Ara+3;Ara+4;Ara+5;Ara+6,4a189019225340a10fd26e7b8acfc7f6a50810e548858c31505800c5a0a90860,PASS_SHARED_IDENTICAL
+Anc-_0gen_REL606,Ara-,6,1,Ara-1;Ara-2;Ara-3;Ara-4;Ara-5;Ara-6,1416d1f031651da4e440638305422af58bb7a45e9218eb52a364f1c19ecee478,PASS_SHARED_IDENTICAL

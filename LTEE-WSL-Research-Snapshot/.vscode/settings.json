@@ -1,0 +1,5 @@
+{
+    "cmake.sourceDirectory": "/wsl.localhost/Ubuntu/home/xiaoyuetang/LTEE-Ecoli/lsd2",
+    "cmake.autoDetectSourceDirectory": false,
+    "cmake.ignoreCMakeListsMissing": true
+}

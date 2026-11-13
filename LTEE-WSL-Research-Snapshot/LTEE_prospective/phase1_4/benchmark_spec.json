@@ -1,0 +1,27 @@
+{
+  "version": "1.4.0",
+  "task": "future sampled-clone SNP-resolved reference-state distribution",
+  "scope": "REL606-coordinate A/C/G/T states only; structural variation not predicted",
+  "forecast_unit": "population x cutoff x target generation; target clone IDs evaluator-only",
+  "history": "all eligible observed clone records with generation <= cutoff",
+  "origin_policy": "latest observed generation, uniform mixture of available clone origins; mixture is not a population-frequency estimate",
+  "future_target_policy": "future sampled clone, not assumed to descend directly from any origin clone",
+  "information_boundary": "training, preprocessing, feature selection and hyperparameter fitting must use only data available by the forecast cutoff",
+  "evaluation_tracks": {
+    "snp_only_exploratory": "SNP-only reference representation; not full genome, non-SNP and coverage limitations disclosed",
+    "structural_exclusion_sensitivity": "candidate intervals evaluated only by evaluator after future observation; not a verified callable mask",
+    "strict_callable": "BLOCKED until independently validated coverage and structural-event masks exist"
+  },
+  "metrics": [
+    "full-base log_loss vs identity baseline",
+    "mutation AUROC/AUPRC",
+    "precision_at_k",
+    "observed_vs_predicted_changed_sites",
+    "conditional substitution log_loss on changed sites"
+  ],
+  "metric_notes": "SNP-only state comparisons are not direct lineage mutation counts; use full-genome or probability-correct sampling for rate calibration",
+  "development_rule": "Only historical inner folds may select architecture and hyperparameters; candidate future folds are exploratory until pre-registered",
+  "confirmatory_rule": "Not locked; no test performance claims or test-driven model selection",
+  "provenance": "GD curation time-causality unverified",
+  "model_training_authorized": false
+}

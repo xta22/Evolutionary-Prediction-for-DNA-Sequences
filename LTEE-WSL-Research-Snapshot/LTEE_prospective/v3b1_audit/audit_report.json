@@ -1,0 +1,34 @@
+{
+  "status": "DESCRIPTIVE_MECHANISM_AUDIT_NOT_CERTIFIED",
+  "seeds": [
+    11,
+    23,
+    42,
+    67,
+    101,
+    137,
+    173,
+    211,
+    257,
+    307,
+    401,
+    503,
+    601,
+    701,
+    809,
+    907,
+    1009,
+    1103,
+    1201,
+    1301
+  ],
+  "fitness_identity_positive": 0.0799999999999999,
+  "fitness_identity_additive": 4.163336342344337e-17,
+  "limitations": [
+    "Standalone audit simulator; does not validate implementation of v3b_simulate.py",
+    "Paired runs share initial populations but not matched subsequent random draws",
+    "Two-locus haplotypes; no four-state genome prediction",
+    "LD undefined at fixed loci; means omit NaNs",
+    "Power requires more seeds and effect-size uncertainty intervals"
+  ]
+}

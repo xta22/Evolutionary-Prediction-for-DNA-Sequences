@@ -1,0 +1,56 @@
+[
+  {
+    "population": "P00",
+    "rate_multiplier": 0.8190661029906742,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "ACAAAGGGGTACAGAGGACCTTTATAAGGTAAGCTATGCGTCGGAACTCGTCATGAAGGATATACCGAAACGAGATATCCATAGATCCAGCGATCC"
+  },
+  {
+    "population": "P01",
+    "rate_multiplier": 1.1410033796808754,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "ACAAAGGGGTACAGAGGACCTTTATAAGGTAAGCTATGCGTCGGAACTCGTCATGAAGGATATACCGAAACGAGATATCCATAGATCCAGCGATCC"
+  },
+  {
+    "population": "P02",
+    "rate_multiplier": 0.8910433077837395,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "ACAAAGGGGTACAGAGGACCTTTATAAGGTAAGCTATGCGTCGGAACTCGTCATGAAGGATATACCGAAACGAGATATCCATAGATCCAGCGATCC"
+  },
+  {
+    "population": "P03",
+    "rate_multiplier": 1.9488051651891094,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "ACAAAGGGGTACAGAGGACCTTTATAAGGTAAGCTATGCGTCGGAACTCGTCATGAAGGATATACCGAAACGAGATATCCATAGATCCAGCGATCC"
+  },
+  {
+    "population": "P04",
+    "rate_multiplier": 0.6824153331672917,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "ACAAAGGGGTACAGAGGACCTTTATAAGGTAAGCTATGCGTCGGAACTCGTCATGAAGGATATACCGAAACGAGATATCCATAGATCCAGCGATCC"
+  },
+  {
+    "population": "P05",
+    "rate_multiplier": 0.9926816795054982,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "ACAAAGGGGTACAGAGGACCTTTATAAGGTAAGCTATGCGTCGGAACTCGTCATGAAGGATATACCGAAACGAGATATCCATAGATCCAGCGATCC"
+  }
+]

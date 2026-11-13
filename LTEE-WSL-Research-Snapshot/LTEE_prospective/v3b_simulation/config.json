@@ -1,0 +1,35 @@
+{
+  "seeds": [
+    11,
+    23,
+    42,
+    67,
+    101
+  ],
+  "individuals": 240,
+  "sites": 96,
+  "generations": 100,
+  "observe_step": 10,
+  "horizon": 10,
+  "sample_size": 8,
+  "rate": 0.001,
+  "initial_frequency": 0.25,
+  "context_sigma": 1.0,
+  "heterogeneity_multiplier": 3.0,
+  "shift_generation": 50,
+  "shift_multiplier": 4.0,
+  "recombination_probability": 0.5,
+  "selection_strength": 0.12,
+  "epistasis_strength": 0.25,
+  "scenarios": [
+    "neutral",
+    "heterogeneous",
+    "context",
+    "regime_shift",
+    "linkage_only",
+    "recombination",
+    "selection_only",
+    "epistasis"
+  ],
+  "output": "../LTEE_prospective/v3b_simulation"
+}

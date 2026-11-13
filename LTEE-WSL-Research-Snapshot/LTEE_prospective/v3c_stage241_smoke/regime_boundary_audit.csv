@@ -1,0 +1,5 @@
+scenario,seed,fold_id,cutoff,target,period,n_pre_steps,n_post_steps,true_pre_rate,true_post_rate
+neutral,42,0_to_10,0,10,pre_shift,10,0,0.001,0.001
+neutral,42,10_to_20,10,20,pre_shift,10,0,0.001,0.001
+regime_shift,42,0_to_10,0,10,pre_shift,10,0,0.001,0.004
+regime_shift,42,10_to_20,10,20,pre_shift,10,0,0.001,0.004

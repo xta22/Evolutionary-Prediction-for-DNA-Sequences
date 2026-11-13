@@ -1,0 +1,34 @@
+{
+  "train_seeds": [
+    11,
+    23
+  ],
+  "validation_seeds": [
+    42
+  ],
+  "test_seeds": [],
+  "scenarios": [
+    "context",
+    "epistasis",
+    "heterogeneous",
+    "linkage_only",
+    "neutral",
+    "recombination",
+    "regime_shift",
+    "selection_only"
+  ],
+  "horizon_scale_train_only": 10.0,
+  "volatility_scale_train_only": 0.05629322075175086,
+  "gate_semantics": "historical frequency volatility proxy; NOT identified biological mutator state",
+  "target_semantics": "binary site-level allele probabilities for future sampled genomes",
+  "limitations": [
+    "not four-state DNA",
+    "not joint haplotype model",
+    "simulation parameters may not match LTEE",
+    "overlapping folds correlated",
+    "neutral and linkage_only may be identical",
+    "test seeds previously inspected are exploratory",
+    "unobserved future regime shift cannot be predicted without precursor signal"
+  ],
+  "restricted_files": "Only evaluation_targets_RESTRICTED.csv is read for scoring; no simulation_truth, mutation_events or population_statistics read"
+}

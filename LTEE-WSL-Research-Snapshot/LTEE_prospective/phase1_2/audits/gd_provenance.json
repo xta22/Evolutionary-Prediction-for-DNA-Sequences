@@ -1,0 +1,21 @@
+{
+  "status": "UNVERIFIED",
+  "gd_header_key_counts": {
+    "#=GENOME_DIFF": 303,
+    "#=TITLE": 303,
+    "#=TIME": 303,
+    "#=POPULATION": 303,
+    "#=TREATMENT": 303,
+    "#=CLONE": 303,
+    "#=REFSEQ": 303,
+    "#=READSEQ": 461,
+    "#=MUTATOR_STATUS": 242
+  },
+  "required_external_evidence": [
+    "clone-level sequencing accession / sample metadata",
+    "variant calling pipeline and reference version",
+    "confirmation of no future-sample joint correction",
+    "callable regions / coverage evidence",
+    "indel and structural event interpretation"
+  ]
+}

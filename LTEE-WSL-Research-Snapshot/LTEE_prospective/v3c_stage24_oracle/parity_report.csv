@@ -1,0 +1,9 @@
+scenario,seed,status,observations_verified
+neutral,42,EXACT_REPLAY_PASS,88
+heterogeneous,42,EXACT_REPLAY_PASS,88
+context,42,EXACT_REPLAY_PASS,88
+regime_shift,42,EXACT_REPLAY_PASS,88
+linkage_only,42,EXACT_REPLAY_PASS,88
+recombination,42,EXACT_REPLAY_PASS,88
+selection_only,42,EXACT_REPLAY_PASS,88
+epistasis,42,EXACT_REPLAY_PASS,88

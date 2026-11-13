@@ -1,0 +1,53 @@
+{
+  "status": "BLOCKED",
+  "hard_issues": [
+    "GD metadata/event conflicts: 2"
+  ],
+  "reference_id": "REL606.6",
+  "reference_length": 4629812,
+  "gd_files": 305,
+  "phase1_manifest_rows": 303,
+  "phase1_clone_id_column": "clone_id",
+  "fold_rows": 124,
+  "invalid_fold_rows": 0,
+  "event_types": {
+    "SNP": 55411,
+    "MOB": 2309,
+    "DEL": 4205,
+    "INS": 4123,
+    "AMP": 195,
+    "CON": 86,
+    "SUB": 35,
+    "INV": 4
+  },
+  "event_classifications": {
+    "SNP_RECORD": 55411,
+    "ANCHOR_ONLY": 6432,
+    "CANDIDATE_REFERENCE_INTERVAL": 4524,
+    "UNRESOLVED": 1
+  },
+  "metadata_conflicts_examples": [
+    {
+      "clone": "Anc-_0gen_REL606",
+      "issues": [
+        "MISSING_READSEQ"
+      ]
+    },
+    {
+      "clone": "Ara+4_50000gen_11349",
+      "issues": [
+        "76:INVALID_OR_UNKNOWN_SIZE"
+      ]
+    }
+  ],
+  "provenance": "SOURCE_TRACEABILITY_ONLY; upstream calling and curation NOT certified time-causal",
+  "callability": "NOT VERIFIED; candidate intervals are NOT a callable mask",
+  "training_authorized": false,
+  "limitations": [
+    "SNP-only reference representation",
+    "No verified coverage-based callable regions",
+    "Future target annotations must be used only by evaluator",
+    "No assessment of upstream joint variant calling or post-hoc curation",
+    "No biological interpretation of candidate interval semantics without GenomeDiff specification"
+  ]
+}

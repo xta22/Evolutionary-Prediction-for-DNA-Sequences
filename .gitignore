@@ -13,3 +13,31 @@
 *.safetensors
 __pycache__/
 *.pyc
+
+# Large TreeTime outputs
+LTEE-WSL-Research-Snapshot/dating_results/treetime/**/branch_mutations.txt
+LTEE-WSL-Research-Snapshot/dating_results/treetime/**/auspice_tree.json
+
+# Large generated analysis outputs
+LTEE-WSL-Research-Snapshot/**/*.fastq
+LTEE-WSL-Research-Snapshot/**/*.fastq.gz
+LTEE-WSL-Research-Snapshot/**/*.fasta
+LTEE-WSL-Research-Snapshot/**/*.fna
+LTEE-WSL-Research-Snapshot/**/*.gbk
+LTEE-WSL-Research-Snapshot/**/*.gd
+
+# Large TreeTime intermediate outputs
+LTEE-WSL-Research-Snapshot/dating_results/treetime/**/branch_mutations.txt
+LTEE-WSL-Research-Snapshot/dating_results/treetime/**/auspice_tree.json
+
+# Sensitive local environment files
+.env
+.env.*
+*.pem
+*.key
+id_ed25519
+id_rsa
+
+# Python cache
+__pycache__/
+*.pyc

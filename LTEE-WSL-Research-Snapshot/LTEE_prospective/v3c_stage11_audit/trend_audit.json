@@ -1,0 +1,206 @@
+{
+  "metrics": {
+    "group_keys": [
+      "split",
+      "scenario",
+      "seed",
+      "fold_id",
+      "cutoff",
+      "target_generation"
+    ],
+    "metric_columns": [
+      "nll",
+      "brier",
+      "abs_count_error"
+    ],
+    "comparisons": {
+      "B2_shrunk_trend_vs_B1": {
+        "compared": 216,
+        "exact_equal": 216,
+        "max_abs_difference": 0.0
+      },
+      "B3_site_trend_vs_B1": {
+        "compared": 216,
+        "exact_equal": 216,
+        "max_abs_difference": 0.0
+      }
+    },
+    "warning": "Aggregate equality does not prove per-site prediction identity."
+  },
+  "source": {
+    "path": "v3c_forecast.py",
+    "relevant_symbols": [
+      {
+        "name": "predict",
+        "line": 37
+      },
+      {
+        "name": "select_hyperparams",
+        "line": 99
+      }
+    ],
+    "relevant_lines": [
+      {
+        "line": 7,
+        "text": "Validation/test seeds are disjoint. No hidden simulator truth is read."
+      },
+      {
+        "line": 14,
+        "text": "MODELS=('B0_global','B1_latest','B2_shrunk_trend','B3_site_trend')"
+      },
+      {
+        "line": 37,
+        "text": "def predict(arrays,cutoff,target,model,alpha,trend_strength):"
+      },
+      {
+        "line": 43,
+        "text": "global_rate=(pooled.sum()+alpha)/(pooled.size+2*alpha)"
+      },
+      {
+        "line": 46,
+        "text": "p=(last.sum(axis=0)+alpha*global_rate)/(len(last)+alpha)"
+      },
+      {
+        "line": 47,
+        "text": "if model=='B1_latest': return np.clip(p,1e-5,1-1e-5)"
+      },
+      {
+        "line": 50,
+        "text": "q=(prev.sum(axis=0)+alpha*global_rate)/(len(prev)+alpha)"
+      },
+      {
+        "line": 53,
+        "text": "if model=='B2_shrunk_trend':"
+      },
+      {
+        "line": 55,
+        "text": "out=p+trend_strength*horizon*delta"
+      },
+      {
+        "line": 56,
+        "text": "elif model=='B3_site_trend':"
+      },
+      {
+        "line": 57,
+        "text": "out=p+trend_strength*horizon*(p-q)"
+      },
+      {
+        "line": 77,
+        "text": "def evaluate_run(d,model,alpha,strength,min_cutoff):"
+      },
+      {
+        "line": 93,
+        "text": "probs=predict(arr,cutoff,target,model,alpha,strength)"
+      },
+      {
+        "line": 99,
+        "text": "def select_hyperparams(root,scenarios,seeds,alpha_grid,strength_grid,min_cutoff):"
+      },
+      {
+        "line": 100,
+        "text": "# Validation trajectories only; test seeds never touched here."
+      },
+      {
+        "line": 103,
+        "text": "candidates=[(a,s) for a in alpha_grid for s in (strength_grid if model.startswith('B2') or model.startswith('B3') else [0.0])]"
+      },
+      {
+        "line": 113,
+        "text": "if not opts:raise ValueError('no validation folds')"
+      },
+      {
+        "line": 115,
+        "text": "selected[model]={'alpha':a,'trend_strength':s,'validation_nll':loss}"
+      },
+      {
+        "line": 123,
+        "text": "ap.add_argument('--validation-seeds',nargs='+',type=int,default=[42])"
+      },
+      {
+        "line": 128,
+        "text": "groups=[set(args.train_seeds),set(args.validation_seeds),set(args.test_seeds)]"
+      },
+      {
+        "line": 133,
+        "text": "# for later learned models. Hyperparameters selected ONLY on validation seeds."
+      },
+      {
+        "line": 134,
+        "text": "selected=select_hyperparams(root,args.scenarios,args.validation_seeds,[1.0,5.0,20.0],[0.0,0.25,0.5,1.0],args.min_cutoff)"
+      },
+      {
+        "line": 137,
+        "text": "for split,seeds in [('validation',args.validation_seeds),('test',args.test_seeds)]:"
+      },
+      {
+        "line": 142,
+        "text": "for r in evaluate_run(get_run(root,scenario,seed),model,conf['alpha'],conf['trend_strength'],args.min_cutoff):"
+      },
+      {
+        "line": 145,
+        "text": "report={'status':'EXPLORATORY_BASELINES_ONLY','input':str(root),'splits':{k:getattr(args,k.replace('-','_')) for k in ['train_seeds','validation_seeds','test_seeds']},"
+      }
+    ],
+    "note": "Static inspection only; no claim of runtime equivalence."
+  },
+  "selection_metadata": [
+    {
+      "file": "../LTEE_prospective/v3c_stage1/selected_hyperparameters.json",
+      "matches": [
+        {
+          "path": "B0_global.alpha",
+          "value": "20.0"
+        },
+        {
+          "path": "B0_global.trend_strength",
+          "value": "0.0"
+        },
+        {
+          "path": "B1_latest.alpha",
+          "value": "5.0"
+        },
+        {
+          "path": "B1_latest.trend_strength",
+          "value": "0.0"
+        },
+        {
+          "path": "B2_shrunk_trend",
+          "value": "{'alpha': 5.0, 'trend_strength': 0.0, 'validation_nll': 0.5528309121940658}"
+        },
+        {
+          "path": "B2_shrunk_trend.alpha",
+          "value": "5.0"
+        },
+        {
+          "path": "B2_shrunk_trend.trend_strength",
+          "value": "0.0"
+        },
+        {
+          "path": "B3_site_trend",
+          "value": "{'alpha': 5.0, 'trend_strength': 0.0, 'validation_nll': 0.5528309121940658}"
+        },
+        {
+          "path": "B3_site_trend.alpha",
+          "value": "5.0"
+        },
+        {
+          "path": "B3_site_trend.trend_strength",
+          "value": "0.0"
+        }
+      ]
+    }
+  ],
+  "reference_fixture": {
+    "latest": [
+      0.4,
+      0.6
+    ],
+    "nonzero_trend_prediction": [
+      0.5,
+      0.5
+    ],
+    "warning": "Only validates reference arithmetic, not production B2/B3 implementation."
+  },
+  "conclusion": "INSUFFICIENT_FOR_PREDICTION_IDENTITY; inspect selected hyperparameters and actual per-site predictions.",
+  "read_only": true
+}

@@ -1,0 +1,19 @@
+{
+  "seeds": [
+    11,
+    23,
+    42,
+    67,
+    101
+  ],
+  "scenarios": [
+    "null",
+    "linear",
+    "nonlinear"
+  ],
+  "sites": 1800,
+  "dim": 8,
+  "penalty": 2.0,
+  "maxiter": 200,
+  "output": "../LTEE_prospective/phase3a_synthetic"
+}

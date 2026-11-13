@@ -1,0 +1,27 @@
+{
+  "status": "EXPLORATORY_VALIDATION_ONLY",
+  "train_seeds": [
+    11,
+    23
+  ],
+  "validation_seeds": [
+    42
+  ],
+  "scenarios": [
+    "neutral",
+    "heterogeneous",
+    "context",
+    "regime_shift",
+    "linkage_only",
+    "recombination",
+    "selection_only",
+    "epistasis"
+  ],
+  "test_seeds_accessed": false,
+  "restricted_truth_accessed": false,
+  "caveats": [
+    "Fixed nonlinear expansion is not a universal capacity test",
+    "Feature informativeness is not established by permutation alone",
+    "Oracle fixture is separate synthetic data, not actual simulator truth"
+  ]
+}

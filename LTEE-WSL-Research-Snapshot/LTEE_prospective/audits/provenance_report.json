@@ -1,0 +1,15 @@
+{
+  "status": "UNVERIFIED",
+  "source": "clone-local GenomeDiff files",
+  "reference": "/home/xiaoyuetang/LTEE-Ecoli/reference/REL606.gbk",
+  "gd_directory": "/home/xiaoyuetang/LTEE-Ecoli/LTEE-clone-curated",
+  "limitations": [
+    "GD variant calling provenance not independently verified",
+    "SNP-only states: indels/structural changes not represented",
+    "non-SNP affected sites are NOT masked",
+    "full-tree selection avoided by scanning GD files",
+    "GD file naming and sample generation require independent metadata verification",
+    "future fold targets not independent across overlapping folds",
+    "No future test period locked; do not use folds for final claims"
+  ]
+}

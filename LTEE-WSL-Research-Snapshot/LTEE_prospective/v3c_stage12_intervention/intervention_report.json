@@ -1,0 +1,41 @@
+{
+  "status": "EXPLORATORY_VALIDATION_ONLY",
+  "production_source": "/home/xiaoyuetang/LTEE-Ecoli/ltee_v3/v3c_forecast.py",
+  "original_selection_file": "../LTEE_prospective/v3c_stage1/selected_hyperparameters.json",
+  "fixture": {
+    "zero_strength_exact_identity": true,
+    "B2_nonzero_max_difference": 0.05555555555555558,
+    "B3_nonzero_max_difference": 0.16666666666666663,
+    "B2_horizon_scaling": true
+  },
+  "validation_seeds": [
+    42
+  ],
+  "test_seeds_not_accessed": [
+    67,
+    101
+  ],
+  "scenarios": [
+    "neutral",
+    "heterogeneous",
+    "context",
+    "regime_shift",
+    "linkage_only",
+    "recombination",
+    "selection_only",
+    "epistasis"
+  ],
+  "strength_grid": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "n_validation_rows": 648,
+  "notes": [
+    "Actual production predict(), parse_history(), score() called.",
+    "No test data or simulation_truth_RESTRICTED files accessed.",
+    "This diagnostic must not be used to retune original held-out test performance.",
+    "Original selected hyperparameters and original metrics remain unchanged."
+  ]
+}

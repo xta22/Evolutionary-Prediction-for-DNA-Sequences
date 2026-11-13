@@ -1,0 +1,327 @@
+{
+  "status": "READ_ONLY_PARTIAL_AUDIT",
+  "test_fold_metric_comparison": [
+    {
+      "model": "B1_latest",
+      "n_folds": 144,
+      "mean_nll_delta": 0.000555068970125532,
+      "median_nll_delta": 0.0005110620750397032,
+      "fraction_better": 0.2847222222222222,
+      "max_abs_delta": 0.003432011658147105
+    },
+    {
+      "model": "M2_history",
+      "n_folds": 144,
+      "mean_nll_delta": -1.6480384345362294e-05,
+      "median_nll_delta": -2.0343915688531e-05,
+      "fraction_better": 0.5486111111111112,
+      "max_abs_delta": 0.0006640656641881959
+    },
+    {
+      "model": "M3_local_context",
+      "n_folds": 144,
+      "mean_nll_delta": -3.430211705389199e-05,
+      "median_nll_delta": -3.6268070819744924e-05,
+      "fraction_better": 0.5486111111111112,
+      "max_abs_delta": 0.0012464969936820114
+    }
+  ],
+  "validation_fold_metric_comparison": [
+    {
+      "model": "B1_latest",
+      "n_folds": 72,
+      "mean_nll_delta": 0.00026429394931944974,
+      "median_nll_delta": 0.00018774605962001978,
+      "fraction_better": 0.4166666666666667,
+      "max_abs_delta": 0.00372370952510348
+    },
+    {
+      "model": "M2_history",
+      "n_folds": 72,
+      "mean_nll_delta": 2.594152509491971e-06,
+      "median_nll_delta": -5.7288945158884275e-06,
+      "fraction_better": 0.5416666666666666,
+      "max_abs_delta": 0.0003916734193132876
+    },
+    {
+      "model": "M3_local_context",
+      "n_folds": 72,
+      "mean_nll_delta": -7.092711097341714e-07,
+      "median_nll_delta": -3.751188096978719e-05,
+      "fraction_better": 0.5555555555555556,
+      "max_abs_delta": 0.0006404400631806473
+    }
+  ],
+  "model_metadata": {
+    "M1_shared": {
+      "penalty": 0.1,
+      "validation_nll": 0.5525666182447462,
+      "fit_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 2,
+      "coefficients": {
+        "shape": [
+          2
+        ],
+        "l2_norm": 0.04461119429934849,
+        "max_abs": 0.03666456491857155,
+        "near_zero_fraction": 0.0
+      }
+    },
+    "M2_history": {
+      "penalty": 0.1,
+      "validation_nll": 0.5525692123972559,
+      "fit_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 4,
+      "coefficients": {
+        "shape": [
+          5
+        ],
+        "l2_norm": 0.05638829452001859,
+        "max_abs": 0.03613143387495014,
+        "near_zero_fraction": 0.0
+      }
+    },
+    "M3_local_context": {
+      "penalty": 0.1,
+      "validation_nll": 0.5525659089736366,
+      "fit_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 3,
+      "coefficients": {
+        "shape": [
+          8
+        ],
+        "l2_norm": 0.06356833364708994,
+        "max_abs": 0.035328454809436464,
+        "near_zero_fraction": 0.0
+      }
+    }
+  },
+  "source": {
+    "functions": [
+      {
+        "name": "read_rows",
+        "line": 24,
+        "args": [
+          "path"
+        ]
+      },
+      {
+        "name": "write_rows",
+        "line": 29,
+        "args": [
+          "path",
+          "rows"
+        ]
+      },
+      {
+        "name": "sigmoid",
+        "line": 39,
+        "args": [
+          "z"
+        ]
+      },
+      {
+        "name": "logit",
+        "line": 44,
+        "args": [
+          "p"
+        ]
+      },
+      {
+        "name": "parse_history",
+        "line": 49,
+        "args": [
+          "rows",
+          "cutoff"
+        ]
+      },
+      {
+        "name": "make_features",
+        "line": 69,
+        "args": [
+          "history",
+          "cutoff",
+          "target",
+          "alpha"
+        ]
+      },
+      {
+        "name": "load_fold",
+        "line": 104,
+        "args": [
+          "root",
+          "scenario",
+          "seed",
+          "fold",
+          "include_target"
+        ]
+      },
+      {
+        "name": "collect",
+        "line": 125,
+        "args": [
+          "root",
+          "scenarios",
+          "seeds",
+          "min_cutoff"
+        ]
+      },
+      {
+        "name": "prepare",
+        "line": 143,
+        "args": [
+          "data",
+          "model"
+        ]
+      },
+      {
+        "name": "fit_model",
+        "line": 151,
+        "args": [
+          "data",
+          "model",
+          "penalty"
+        ]
+      },
+      {
+        "name": "predict",
+        "line": 169,
+        "args": [
+          "d",
+          "model",
+          "fitted"
+        ]
+      },
+      {
+        "name": "metrics",
+        "line": 177,
+        "args": [
+          "p",
+          "y"
+        ]
+      },
+      {
+        "name": "mean_nll",
+        "line": 188,
+        "args": [
+          "data",
+          "model",
+          "fit"
+        ]
+      },
+      {
+        "name": "main",
+        "line": 192,
+        "args": []
+      },
+      {
+        "name": "objective",
+        "line": 155,
+        "args": [
+          "w"
+        ]
+      }
+    ],
+    "imports": [
+      "argparse",
+      "csv",
+      "json",
+      "numpy",
+      "pathlib",
+      "scipy.optimize"
+    ],
+    "review_literals": [
+      {
+        "line": 2,
+        "literal": "V3-C Stage 2: trainable binary marginal forecasting baselines.\n\nM1: shared log-odds correction; M2: "
+      },
+      {
+        "line": 20,
+        "literal": "B1_latest"
+      },
+      {
+        "line": 170,
+        "literal": "B1_latest"
+      },
+      {
+        "line": 197,
+        "literal": "--validation-seeds"
+      },
+      {
+        "line": 198,
+        "literal": "--test-seeds"
+      },
+      {
+        "line": 54,
+        "literal": "FUTURE HISTORY LEAKAGE"
+      },
+      {
+        "line": 205,
+        "literal": "train/validation/test trajectory seeds must be nonempty and disjoint"
+      },
+      {
+        "line": 218,
+        "literal": "validation_nll"
+      },
+      {
+        "line": 221,
+        "literal": "validation NLL"
+      },
+      {
+        "line": 225,
+        "literal": "validation"
+      },
+      {
+        "line": 225,
+        "literal": "test"
+      },
+      {
+        "line": 249,
+        "literal": "test NLL"
+      },
+      {
+        "line": 237,
+        "literal": "validation_seeds"
+      },
+      {
+        "line": 237,
+        "literal": "test_seeds"
+      },
+      {
+        "line": 116,
+        "literal": "evaluation_targets_RESTRICTED.csv"
+      },
+      {
+        "line": 243,
+        "literal": "Previously inspected seeds: exploratory test only"
+      },
+      {
+        "line": 228,
+        "literal": "B1_latest"
+      },
+      {
+        "line": 248,
+        "literal": "test"
+      }
+    ],
+    "warning": "Static source scan is not a proof of temporal isolation."
+  },
+  "features": {
+    "status": "NOT_AVAILABLE",
+    "reason": "features CSV not supplied"
+  },
+  "predictions": {
+    "status": "NOT_AVAILABLE",
+    "reason": "predictions CSV not supplied"
+  },
+  "not_verified": [
+    "gradient norms / training loss curves (need optimizer trace or production instrumentation)",
+    "permutation importance (needs feature matrices and production prediction interface)",
+    "mechanism alignment (needs documented feature semantics and training-only observations)",
+    "true independent trajectory uncertainty (requires additional independent seeds)"
+  ],
+  "policy": "Does not fit, select hyperparameters, or read restricted simulator truth. Test metrics are descriptive only; test was previously inspected."
+}

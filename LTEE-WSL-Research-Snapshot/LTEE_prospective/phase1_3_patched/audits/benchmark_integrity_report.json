@@ -1,0 +1,52 @@
+{
+  "status": "AUDITED_NOT_APPROVED",
+  "hard_issues": [],
+  "reference_id": "REL606.6",
+  "reference_length": 4629812,
+  "gd_files": 305,
+  "phase1_manifest_rows": 303,
+  "phase1_clone_id_column": "clone_id",
+  "fold_rows": 124,
+  "invalid_fold_rows": 0,
+  "event_types": {
+    "SNP": 55411,
+    "MOB": 2309,
+    "DEL": 4205,
+    "INS": 4123,
+    "AMP": 195,
+    "CON": 86,
+    "SUB": 35,
+    "INV": 4
+  },
+  "event_classifications": {
+    "SNP_RECORD": 55411,
+    "ANCHOR_ONLY": 6432,
+    "CANDIDATE_REFERENCE_INTERVAL": 4524,
+    "CIRCULAR_INTERVAL_CANDIDATE": 1
+  },
+  "metadata_conflicts_examples": [],
+  "founder_readseq_exceptions": [
+    "Anc-_0gen_REL606"
+  ],
+  "circular_candidates": [
+    {
+      "clone_id": "Ara+4_50000gen_11349",
+      "line": 76,
+      "event_id": "66",
+      "event_type": "AMP",
+      "candidate_segments": "[[4462642, 4629812], [1, 24058]]",
+      "relation_annotations": "within=65:2"
+    }
+  ],
+  "provenance": "SOURCE_TRACEABILITY_ONLY; upstream calling and curation NOT certified time-causal",
+  "callability": "NOT VERIFIED; candidate intervals are NOT a callable mask",
+  "training_authorized": false,
+  "limitations": [
+    "SNP-only reference representation",
+    "No verified coverage-based callable regions",
+    "Future target annotations must be used only by evaluator",
+    "No assessment of upstream joint variant calling or post-hoc curation",
+    "No biological interpretation of candidate interval semantics without GenomeDiff specification",
+    "Circular wraparound coordinates are hypotheses, not confirmed GenomeDiff interpretations"
+  ]
+}

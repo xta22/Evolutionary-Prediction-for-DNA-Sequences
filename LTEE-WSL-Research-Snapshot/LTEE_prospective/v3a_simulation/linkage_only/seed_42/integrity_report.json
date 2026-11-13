@@ -1,0 +1,7 @@
+{
+  "status": "PASS_STRUCTURAL_CHECKS_ONLY",
+  "fold_count": 42,
+  "historical_links": 1680,
+  "target_links": 336,
+  "warning": "Synthetic scenarios validate code paths, not biological realism."
+}

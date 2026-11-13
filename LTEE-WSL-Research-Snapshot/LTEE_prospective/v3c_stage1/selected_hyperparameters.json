@@ -1,0 +1,22 @@
+{
+  "B0_global": {
+    "alpha": 20.0,
+    "trend_strength": 0.0,
+    "validation_nll": 0.597762534023608
+  },
+  "B1_latest": {
+    "alpha": 5.0,
+    "trend_strength": 0.0,
+    "validation_nll": 0.5528309121940658
+  },
+  "B2_shrunk_trend": {
+    "alpha": 5.0,
+    "trend_strength": 0.0,
+    "validation_nll": 0.5528309121940658
+  },
+  "B3_site_trend": {
+    "alpha": 5.0,
+    "trend_strength": 0.0,
+    "validation_nll": 0.5528309121940658
+  }
+}

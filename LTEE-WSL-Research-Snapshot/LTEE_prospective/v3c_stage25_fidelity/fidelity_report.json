@@ -1,0 +1,39 @@
+{
+  "status": "DESCRIPTIVE_NOT_COMPARABLE",
+  "real_clones": 303,
+  "sim_sample_timepoints": 440,
+  "real_populations": 12,
+  "sim_scenarios": [
+    "context",
+    "epistasis",
+    "heterogeneous",
+    "linkage_only",
+    "neutral",
+    "recombination",
+    "regime_shift",
+    "selection_only"
+  ],
+  "issues": [
+    {
+      "file": "Anc+_0gen_REL607.gd",
+      "issue": "unrecognized clone name; excluded"
+    },
+    {
+      "file": "Anc-_0gen_REL606.gd",
+      "issue": "unrecognized clone name; excluded"
+    }
+  ],
+  "critical_limitations": [
+    "V3-B binary sites are not 4-state LTEE nucleotide positions: no direct SNP spectrum or per-site mutation-rate comparison.",
+    "GD SNP counts are accumulated differences from REL606, not branch mutation events or population allele frequencies.",
+    "GD non-SNP events and callable regions are unresolved; no confident unchanged-site labels.",
+    "Observed clones are not parent-child pairs; no branch-level mutation count inferred.",
+    "Sampling intervals in generations do not imply equivalent mutation scales or effective population sizes.",
+    "No similarity score or calibration certificate is issued; compare only within well-defined common observables."
+  ],
+  "next_steps": [
+    "Implement reference-coordinate-aware callable masks and event parsing",
+    "Build a real four-state observed-clone benchmark with certified time-causal provenance",
+    "Calibrate simulation observation model and event-rate scale before sim-to-real claims"
+  ]
+}

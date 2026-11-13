@@ -1,0 +1,17 @@
+{
+  "seeds": [
+    42
+  ],
+  "scenarios": [
+    "homogeneous"
+  ],
+  "populations": 4,
+  "sites": 30,
+  "dim": 6,
+  "train": 80,
+  "validation": 40,
+  "test": 50,
+  "epochs": 5,
+  "penalty": 0.003,
+  "output": "../LTEE_prospective/phase3b_smoke_numpy"
+}

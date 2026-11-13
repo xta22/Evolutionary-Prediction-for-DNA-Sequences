@@ -1,0 +1,5 @@
+scenario,seed,status,observed_rows
+neutral,42,EXACT_REPLAY_PASS,88
+regime_shift,42,EXACT_REPLAY_PASS,88
+selection_only,42,EXACT_REPLAY_PASS,88
+epistasis,42,EXACT_REPLAY_PASS,88

@@ -1,0 +1,56 @@
+[
+  {
+    "population": "P00",
+    "rate_multiplier": 1.0438543345313627,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "GATATTATTTGGCCCCAATCTATTGGAAAGGGTGGAGAAAGCTGTCTTCCCGAATTCGGGGGATATCGAATACGTTACCCAAAGGGTCGGGACCCT"
+  },
+  {
+    "population": "P01",
+    "rate_multiplier": 1.5652033534047605,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "GATATTATTTGGCCCCAATCTATTGGAAAGGGTGGAGAAAGCTGTCTTCCCGAATTCGGGGGATATCGAATACGTTACCCAAAGGGTCGGGACCCT"
+  },
+  {
+    "population": "P02",
+    "rate_multiplier": 4.222452261033353,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "GATATTATTTGGCCCCAATCTATTGGAAAGGGTGGAGAAAGCTGTCTTCCCGAATTCGGGGGATATCGAATACGTTACCCAAAGGGTCGGGACCCT"
+  },
+  {
+    "population": "P03",
+    "rate_multiplier": 0.7841205833995937,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "GATATTATTTGGCCCCAATCTATTGGAAAGGGTGGAGAAAGCTGTCTTCCCGAATTCGGGGGATATCGAATACGTTACCCAAAGGGTCGGGACCCT"
+  },
+  {
+    "population": "P04",
+    "rate_multiplier": 1.0521718643981934,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "GATATTATTTGGCCCCAATCTATTGGAAAGGGTGGAGAAAGCTGTCTTCCCGAATTCGGGGGATATCGAATACGTTACCCAAAGGGTCGGGACCCT"
+  },
+  {
+    "population": "P05",
+    "rate_multiplier": 0.9021772531763815,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "GATATTATTTGGCCCCAATCTATTGGAAAGGGTGGAGAAAGCTGTCTTCCCGAATTCGGGGGATATCGAATACGTTACCCAAAGGGTCGGGACCCT"
+  }
+]

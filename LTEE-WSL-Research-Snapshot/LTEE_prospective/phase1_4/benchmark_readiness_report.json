@@ -1,0 +1,23 @@
+{
+  "status": "SPECIFIED_NOT_CERTIFIED",
+  "errors": [],
+  "warnings": [],
+  "manifest_rows": 303,
+  "fold_rows": 124,
+  "fold_counts": {
+    "10000->15000": 25,
+    "10000->20000": 25,
+    "20000->30000": 26,
+    "30000->40000": 24,
+    "40000->50000": 24
+  },
+  "gd_provenance_certified": false,
+  "strict_callable_mask_certified": false,
+  "confirmatory_test_locked": false,
+  "training_authorized": false,
+  "next_actions": [
+    "Verify GD upstream curation provenance",
+    "Specify coverage/structural callability or keep explicit SNP-only exploratory track",
+    "Pre-register historical validation and locked final test"
+  ]
+}

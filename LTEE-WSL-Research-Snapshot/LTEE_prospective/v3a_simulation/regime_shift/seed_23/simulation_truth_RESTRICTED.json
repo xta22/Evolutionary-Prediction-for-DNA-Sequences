@@ -1,0 +1,56 @@
+[
+  {
+    "population": "P00",
+    "rate_multiplier": 1.0,
+    "regime_shift_generation": 40,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "ACAAAGGGGTACAGAGGACCTTTATAAGGTAAGCTATGCGTCGGAACTCGTCATGAAGGATATACCGAAACGAGATATCCATAGATCCAGCGATCC"
+  },
+  {
+    "population": "P01",
+    "rate_multiplier": 1.0,
+    "regime_shift_generation": 40,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "ACAAAGGGGTACAGAGGACCTTTATAAGGTAAGCTATGCGTCGGAACTCGTCATGAAGGATATACCGAAACGAGATATCCATAGATCCAGCGATCC"
+  },
+  {
+    "population": "P02",
+    "rate_multiplier": 1.0,
+    "regime_shift_generation": 40,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "ACAAAGGGGTACAGAGGACCTTTATAAGGTAAGCTATGCGTCGGAACTCGTCATGAAGGATATACCGAAACGAGATATCCATAGATCCAGCGATCC"
+  },
+  {
+    "population": "P03",
+    "rate_multiplier": 1.0,
+    "regime_shift_generation": 40,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "ACAAAGGGGTACAGAGGACCTTTATAAGGTAAGCTATGCGTCGGAACTCGTCATGAAGGATATACCGAAACGAGATATCCATAGATCCAGCGATCC"
+  },
+  {
+    "population": "P04",
+    "rate_multiplier": 1.0,
+    "regime_shift_generation": 40,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "ACAAAGGGGTACAGAGGACCTTTATAAGGTAAGCTATGCGTCGGAACTCGTCATGAAGGATATACCGAAACGAGATATCCATAGATCCAGCGATCC"
+  },
+  {
+    "population": "P05",
+    "rate_multiplier": 1.0,
+    "regime_shift_generation": 40,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "ACAAAGGGGTACAGAGGACCTTTATAAGGTAAGCTATGCGTCGGAACTCGTCATGAAGGATATACCGAAACGAGATATCCATAGATCCAGCGATCC"
+  }
+]

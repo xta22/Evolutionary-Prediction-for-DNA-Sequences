@@ -1,0 +1,11 @@
+{
+  "version": "1.4.0",
+  "strict_callable": "NOT_AVAILABLE",
+  "candidate_reference_exclusions": "NOT_CERTIFIED",
+  "future_target_masks": "evaluation-only; never fed to predictor or preprocessing fit",
+  "INS_MOB": "anchor annotations do not establish full affected extent",
+  "AMP_CON_INV": "complex events require event-specific review",
+  "circular_intervals": "candidate coordinate splits only, not verified event resolution",
+  "coverage": "not assessed",
+  "recommended_use": "exploratory SNP-only sensitivity only; no strict callability claims"
+}

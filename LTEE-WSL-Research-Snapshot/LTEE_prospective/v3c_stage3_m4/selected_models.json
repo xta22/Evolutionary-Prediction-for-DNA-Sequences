@@ -1,0 +1,98 @@
+{
+  "B1_latest": {
+    "penalty": 0.0,
+    "validation_nll": 0.5674596490263795,
+    "coefficients": [],
+    "optimizer": {
+      "success": true,
+      "iterations": 0,
+      "message": "baseline"
+    },
+    "n_train_folds": 160,
+    "n_validation_folds": 80
+  },
+  "M1_shared": {
+    "penalty": 0.001,
+    "validation_nll": 0.5662940112921312,
+    "coefficients": [
+      -0.049636066910085576,
+      -0.049636066910085576
+    ],
+    "optimizer": {
+      "success": true,
+      "iterations": 3,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    },
+    "n_train_folds": 160,
+    "n_validation_folds": 80
+  },
+  "M4_static": {
+    "penalty": 0.001,
+    "validation_nll": 0.5550012871786857,
+    "coefficients": [
+      0.3092750771274958,
+      0.30935440967376676,
+      -1.0861602858544386,
+      -1.0861145039772544,
+      -0.4640079910625833,
+      -0.4640511663760291,
+      -0.262587127279246,
+      -0.2626096069737329
+    ],
+    "optimizer": {
+      "success": true,
+      "iterations": 22,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    },
+    "n_train_folds": 160,
+    "n_validation_folds": 80
+  },
+  "M4_latent": {
+    "penalty": 0.001,
+    "validation_nll": 0.553773501135882,
+    "coefficients": [
+      -0.2705122613423543,
+      -0.2704986635904877,
+      -0.572559234676834,
+      -0.5725565928166059,
+      0.7722233513708661,
+      0.7722212368335659,
+      -1.2706638416655904,
+      -1.270676103321645,
+      -1.3264773968983496,
+      -0.018199353073464326,
+      -0.0181941474619417
+    ],
+    "optimizer": {
+      "success": true,
+      "iterations": 54,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    "n_train_folds": 160,
+    "n_validation_folds": 80
+  },
+  "M4_shuffled": {
+    "penalty": 0.001,
+    "validation_nll": 0.5538199265276282,
+    "coefficients": [
+      -0.29146506575372133,
+      -0.2914866791974134,
+      -0.5409719990380425,
+      -0.5410122299756963,
+      0.6931263565563797,
+      0.6931309273753778,
+      -1.2635473852419918,
+      -1.2635229913125396,
+      -1.2484747701750267,
+      0.0032408751063075962,
+      0.0031591459413170186
+    ],
+    "optimizer": {
+      "success": true,
+      "iterations": 49,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    "n_train_folds": 160,
+    "n_validation_folds": 80
+  }
+}

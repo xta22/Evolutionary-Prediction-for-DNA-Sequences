@@ -1,0 +1,76 @@
+{
+  "status": "AUDITED_NOT_APPROVED",
+  "hard_issues": [],
+  "warnings": [],
+  "founders": [
+    {
+      "founder_id": "Anc+_0gen_REL607",
+      "side": "Ara+",
+      "occurrences": 6,
+      "unique_hashes": 1,
+      "populations": "Ara+1;Ara+2;Ara+3;Ara+4;Ara+5;Ara+6",
+      "sha256": "4a189019225340a10fd26e7b8acfc7f6a50810e548858c31505800c5a0a90860",
+      "status": "PASS_SHARED_IDENTICAL"
+    },
+    {
+      "founder_id": "Anc-_0gen_REL606",
+      "side": "Ara-",
+      "occurrences": 6,
+      "unique_hashes": 1,
+      "populations": "Ara-1;Ara-2;Ara-3;Ara-4;Ara-5;Ara-6",
+      "sha256": "1416d1f031651da4e440638305422af58bb7a45e9218eb52a364f1c19ecee478",
+      "status": "PASS_SHARED_IDENTICAL"
+    }
+  ],
+  "aliases": [
+    {
+      "old_id": "Ara-2_30000gen_30K_11832",
+      "canonical_id": "Ara-2_30000gen_11832",
+      "n_snps": 716,
+      "status": "PASS_EQUIVALENT",
+      "details": "bad_snp_lines=[]; malformed=0; old_length=4629812"
+    },
+    {
+      "old_id": "Ara-2_30000gen_30K_11833",
+      "canonical_id": "Ara-2_30000gen_11833",
+      "n_snps": 523,
+      "status": "PASS_EQUIVALENT",
+      "details": "bad_snp_lines=[]; malformed=0; old_length=4629812"
+    }
+  ],
+  "non_snp": {
+    "records": 10957,
+    "by_type": {
+      "MOB": 2309,
+      "DEL": 4205,
+      "INS": 4123,
+      "AMP": 195,
+      "CON": 86,
+      "SUB": 35,
+      "INV": 4
+    },
+    "by_classification": {
+      "ANCHOR_ONLY_UNRESOLVED_EXTENT": 6432,
+      "REFERENCE_INTERVAL": 4524,
+      "INVALID_INTERVAL": 1
+    },
+    "clones_with_unresolved_events": 261,
+    "interval_rows": 9463,
+    "mask_semantics": "EXCLUSION CANDIDATES ONLY; not a verified callable mask"
+  },
+  "temporal_status": "CANDIDATE_ONLY",
+  "gd_provenance": "UNVERIFIED",
+  "limitations": [
+    "Only SNP-resolved reference-aligned states available",
+    "INS/MOB insertion sequence has no one-to-one reference coordinate mapping",
+    "AMP/CON/INV extents and affected alleles need expert review",
+    "A position outside exclusion intervals is NOT proven callable",
+    "Full-tree-derived old FASTAs used only for reconciliation, never model features",
+    "Future target labels are never loaded by this script"
+  ],
+  "approval": "NO_TRAINING_AUTHORIZATION",
+  "input_hashes": {
+    "reference": "d068425134e474e93110e8a1817b0627b737799aba48c7fd14f3e7b90e504c59",
+    "phase1_manifest": "b4c15af61838863da430b1b04f783af373f0230faef7c9036eb0ad61bb6aadfd"
+  }
+}

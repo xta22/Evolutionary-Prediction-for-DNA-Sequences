@@ -1,0 +1,19 @@
+{
+  "status": "EXPLORATORY_2X2_INFORMATION_INTERVENTION",
+  "estimated_mechanism": "historical allele-frequency movement proxy + neutral reproduction; NOT a fitted V3-B mechanism estimator",
+  "sampled_state": "bootstrap latest sampled haplotypes to simulated population size; not posterior sampling",
+  "true_mechanism": "original V3-B step() and original context weights; evaluator only",
+  "state": "exact replay of full cutoff population for full cells",
+  "warning": "Contrasts are not a unique causal or information-theoretic decomposition. Sampled-state/true-mechanism is privileged. No joint haplotype likelihood. Previously inspected seeds are exploratory.",
+  "source": "/home/xiaoyuetang/LTEE-Ecoli/ltee_v3/v3c_stage24.py",
+  "replicates": 100,
+  "seeds": [
+    42
+  ],
+  "scenarios": [
+    "neutral",
+    "regime_shift",
+    "selection_only",
+    "epistasis"
+  ]
+}

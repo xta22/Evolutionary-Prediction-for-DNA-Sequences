@@ -1,0 +1,11 @@
+{
+  "folds": 124,
+  "missing_folds": [],
+  "rules": [
+    "historical_generation <= cutoff",
+    "target_generation > cutoff",
+    "target IDs for evaluation only",
+    "no full-tree reconstruction"
+  ],
+  "status": "CANDIDATE_ONLY"
+}

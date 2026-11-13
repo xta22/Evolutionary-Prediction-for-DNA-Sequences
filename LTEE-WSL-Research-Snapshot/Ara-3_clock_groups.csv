@@ -1,0 +1,4 @@
+clock_group,clade_root,clade_root_distance,n_tips,n_distinct_generations,min_generation,max_generation,pearson_r,spearman_r
+Ara-3_clade_1,Ara-3_internal_8,44.0,4,4,25000,33000,0.9798974461519554,0.9486832980505138
+Ara-3_clade_2,Ara-3_internal_14,58.0,7,7,30000,40000,0.9803620123178997,0.9910312089651149
+Ara-3_clade_3,Ara-3_internal_20,53.0,30,16,25000,50000,0.918248320390186,0.9791141786058233

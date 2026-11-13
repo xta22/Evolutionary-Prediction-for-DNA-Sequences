@@ -1,0 +1,22 @@
+{
+  "seeds": [
+    11,
+    23,
+    42
+  ],
+  "scenarios": [
+    "homogeneous",
+    "rate_spectrum",
+    "linear",
+    "nonlinear"
+  ],
+  "populations": 4,
+  "sites": 240,
+  "dim": 6,
+  "train": 900,
+  "validation": 240,
+  "test": 400,
+  "epochs": 110,
+  "penalty": 0.003,
+  "output": "../LTEE_prospective/phase3b_synthetic"
+}

@@ -1,0 +1,24 @@
+{
+  "output": "../LTEE_prospective/v3a_simulation",
+  "seeds": [
+    11,
+    23,
+    42
+  ],
+  "scenarios": [
+    "neutral",
+    "heterogeneous",
+    "context",
+    "regime_shift",
+    "linkage_only",
+    "selection_only",
+    "epistasis"
+  ],
+  "populations": 6,
+  "individuals": 120,
+  "sites": 96,
+  "generations": 80,
+  "observe_step": 10,
+  "horizon": 10,
+  "rate": 0.002
+}

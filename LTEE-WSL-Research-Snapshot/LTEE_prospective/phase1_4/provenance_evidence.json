@@ -1,0 +1,13 @@
+{
+  "version": "1.4.0",
+  "source_files": {
+    "splits/rolling_origin_folds.csv": "2985f9d801be697f3044e22aaedd5410fb5e7fc5aae577a6a841b9cb6c241693",
+    "manifests/observed_clone_manifest.csv": "b4c15af61838863da430b1b04f783af373f0230faef7c9036eb0ad61bb6aadfd"
+  },
+  "phase13_report": "/home/xiaoyuetang/LTEE-Ecoli/LTEE_prospective/phase1_3_patched/audits/benchmark_integrity_report.json",
+  "phase13_report_sha256": "fb9bd2ebd76baa5e26a2ed52025a016f78e18cbb2882cb574ecdcfa7a13ecb17",
+  "gd_provenance": "SOURCE_TRACEABLE_ONLY; upstream calling and curation time-causality unverified",
+  "coverage_based_callability": "UNVERIFIED",
+  "founder_and_alias": "See Phase 1.2 and patched Phase 1.3 reports",
+  "reference_coordinate_coverage": "SNP-only; non-SNP events incompletely represented"
+}

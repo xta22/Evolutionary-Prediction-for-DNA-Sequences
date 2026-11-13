@@ -1,0 +1,16 @@
+{
+  "version": "1.4.0",
+  "folds": {
+    "10000->15000": 25,
+    "10000->20000": 25,
+    "20000->30000": 26,
+    "30000->40000": 24,
+    "40000->50000": 24
+  },
+  "fold_row_count": 124,
+  "development": "historical-only inner temporal validation; future targets evaluator-only",
+  "locked_test": "NOT_LOCKED",
+  "rolling_origin": "refit at cutoff only with <= cutoff observations; hyperparameter policy fixed from prior history",
+  "target_id_feature_allowed": false,
+  "training_authorized": false
+}

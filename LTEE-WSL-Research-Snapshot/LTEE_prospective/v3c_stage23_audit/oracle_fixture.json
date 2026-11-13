@@ -1,0 +1,9 @@
+{
+  "status": "SYNTHETIC_ORACLE_DIAGNOSTIC_ONLY",
+  "n_train": 10000,
+  "n_validation": 4000,
+  "oracle_hidden_z_nll": 0.3753344117862822,
+  "observable_noisy_proxy_nll": 0.4300281965330703,
+  "uninformative_noise_nll": 0.48968631589347705,
+  "warning": "Oracle hidden z is a diagnostic upper bound, never a legitimate forecasting input."
+}

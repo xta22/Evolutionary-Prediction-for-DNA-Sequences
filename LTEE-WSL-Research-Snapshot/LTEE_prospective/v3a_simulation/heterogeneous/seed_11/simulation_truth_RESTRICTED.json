@@ -1,0 +1,56 @@
+[
+  {
+    "population": "P00",
+    "rate_multiplier": 1.5561985098263926,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "CTCAATTACCATGGTCCCAGTTTGTTCGGACAGTCCTCTACATCTAGTAGAGAAAACCTGGTAACTATCGTTGTGTCTAGGACTCCCCAACATCTG"
+  },
+  {
+    "population": "P01",
+    "rate_multiplier": 2.3462372073463245,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "CTCAATTACCATGGTCCCAGTTTGTTCGGACAGTCCTCTACATCTAGTAGAGAAAACCTGGTAACTATCGTTGTGTCTAGGACTCCCCAACATCTG"
+  },
+  {
+    "population": "P02",
+    "rate_multiplier": 0.7015853928593259,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "CTCAATTACCATGGTCCCAGTTTGTTCGGACAGTCCTCTACATCTAGTAGAGAAAACCTGGTAACTATCGTTGTGTCTAGGACTCCCCAACATCTG"
+  },
+  {
+    "population": "P03",
+    "rate_multiplier": 1.0281221910152643,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "CTCAATTACCATGGTCCCAGTTTGTTCGGACAGTCCTCTACATCTAGTAGAGAAAACCTGGTAACTATCGTTGTGTCTAGGACTCCCCAACATCTG"
+  },
+  {
+    "population": "P04",
+    "rate_multiplier": 1.1334713585693588,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "CTCAATTACCATGGTCCCAGTTTGTTCGGACAGTCCTCTACATCTAGTAGAGAAAACCTGGTAACTATCGTTGTGTCTAGGACTCCCCAACATCTG"
+  },
+  {
+    "population": "P05",
+    "rate_multiplier": 0.4633167316259882,
+    "regime_shift_generation": null,
+    "selection_site_a": null,
+    "selection_site_b": null,
+    "epistasis_log_fitness": 0.0,
+    "founder_sequence": "CTCAATTACCATGGTCCCAGTTTGTTCGGACAGTCCTCTACATCTAGTAGAGAAAACCTGGTAACTATCGTTGTGTCTAGGACTCCCCAACATCTG"
+  }
+]

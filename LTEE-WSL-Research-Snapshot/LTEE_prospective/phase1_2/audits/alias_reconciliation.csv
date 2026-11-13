@@ -1,0 +1,3 @@
+old_id,canonical_id,n_snps,status,details
+Ara-2_30000gen_30K_11832,Ara-2_30000gen_11832,716,PASS_EQUIVALENT,bad_snp_lines=[]; malformed=0; old_length=4629812
+Ara-2_30000gen_30K_11833,Ara-2_30000gen_11833,523,PASS_EQUIVALENT,bad_snp_lines=[]; malformed=0; old_length=4629812

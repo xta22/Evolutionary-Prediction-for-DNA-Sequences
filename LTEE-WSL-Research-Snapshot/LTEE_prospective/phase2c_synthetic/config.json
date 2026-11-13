@@ -1,0 +1,23 @@
+{
+  "seeds": [
+    11,
+    23,
+    42,
+    67,
+    101
+  ],
+  "rates": [
+    1e-08,
+    1e-07,
+    1e-06
+  ],
+  "exposures": [
+    100000.0,
+    1000000.0,
+    10000000.0
+  ],
+  "populations": 12,
+  "train_intervals": 4,
+  "test_intervals": 3,
+  "output": "../LTEE_prospective/phase2c_synthetic"
+}

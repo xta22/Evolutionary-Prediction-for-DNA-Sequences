@@ -1,0 +1,11 @@
+{
+  "seed": 101,
+  "scenario": "epistasis",
+  "selected_site": 32,
+  "partner_site": 64,
+  "selection_strength": 0.12,
+  "epistasis_strength": 0.25,
+  "recombination_probability": 0.0,
+  "context_multiplier": null,
+  "shift_generation": null
+}

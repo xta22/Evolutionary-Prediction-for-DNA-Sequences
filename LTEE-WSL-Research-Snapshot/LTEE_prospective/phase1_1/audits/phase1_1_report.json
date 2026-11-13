@@ -1,0 +1,88 @@
+{
+  "status": "BLOCKED",
+  "hard_issues": [
+    "duplicate old FASTA IDs: ['Anc+_0gen_REL607', 'Anc+_0gen_REL607', 'Anc+_0gen_REL607', 'Anc+_0gen_REL607', 'Anc+_0gen_REL607', 'Anc-_0gen_REL606', 'Anc-_0gen_REL606', 'Anc-_0gen_REL606', 'Anc-_0gen_REL606', 'Anc-_0gen_REL606']"
+  ],
+  "warnings": [
+    "cohort mismatch: old_only=4 new_only=2"
+  ],
+  "founders": [
+    {
+      "file": "Anc-_0gen_REL606.gd",
+      "role": "Ara- founder REL606",
+      "exists": true,
+      "sha256": "e5bb813772351b40048d4f464264f4477b2ff52b1199199b5a0f4d3fe24a8171",
+      "generation": 0,
+      "status": "FOUND_UNVERIFIED"
+    },
+    {
+      "file": "Anc+_0gen_REL607.gd",
+      "role": "Ara+ founder REL607",
+      "exists": true,
+      "sha256": "5e27087becb59a3befe2db940e6ee0bc61ef762f305ba20fb05d460e23c329da",
+      "generation": 0,
+      "status": "FOUND_UNVERIFIED"
+    }
+  ],
+  "clone_reconciliation": {
+    "old_fasta_ids": 305,
+    "phase1_valid_ids": 303,
+    "old_only": [
+      "Anc+_0gen_REL607",
+      "Anc-_0gen_REL606",
+      "Ara-2_30000gen_30K_11832",
+      "Ara-2_30000gen_30K_11833"
+    ],
+    "new_only": [
+      "Ara-2_30000gen_11832",
+      "Ara-2_30000gen_11833"
+    ],
+    "duplicate_old_ids": [
+      "Anc+_0gen_REL607",
+      "Anc+_0gen_REL607",
+      "Anc+_0gen_REL607",
+      "Anc+_0gen_REL607",
+      "Anc+_0gen_REL607",
+      "Anc-_0gen_REL606",
+      "Anc-_0gen_REL606",
+      "Anc-_0gen_REL606",
+      "Anc-_0gen_REL606",
+      "Anc-_0gen_REL606"
+    ]
+  },
+  "non_snp": {
+    "records": 10957,
+    "by_type": {
+      "MOB": 2309,
+      "DEL": 4205,
+      "INS": 4123,
+      "AMP": 195,
+      "CON": 86,
+      "SUB": 35,
+      "INV": 4
+    },
+    "callable_mask_status": "NOT_IMPLEMENTED; do not score non-SNP affected sites as confidently unchanged"
+  },
+  "protocol": {
+    "folds": 60,
+    "origin_rows": 127,
+    "evaluation_target_rows": 124,
+    "missing_folds": [],
+    "policy": "latest-generation observed clones, uniform mixture; not a true population frequency estimate",
+    "future_target_ids": "evaluation_targets_RESTRICTED.csv only; never provide as model inputs",
+    "usage": "development folds exploratory; locked_candidate folds NOT independently locked until approved"
+  },
+  "unverified": [
+    "upstream clone-local GD variant-calling provenance",
+    "GD naming and actual sample time metadata",
+    "non-SNP/callable masking",
+    "preprocessing dependency graph and independent evaluation",
+    "train/validation/test freeze protocol"
+  ],
+  "source_hashes": {
+    "reference": "d068425134e474e93110e8a1817b0627b737799aba48c7fd14f3e7b90e504c59",
+    "phase1_manifest": "b4c15af61838863da430b1b04f783af373f0230faef7c9036eb0ad61bb6aadfd",
+    "phase1_folds": "2985f9d801be697f3044e22aaedd5410fb5e7fc5aae577a6a841b9cb6c241693"
+  },
+  "approval": "NO_TRAINING_AUTHORIZATION"
+}

@@ -1,0 +1,3701 @@
+{
+  "reference_id": "REL606.6",
+  "reference_length": 4629812,
+  "allowed_reference_ids": [
+    "REL606",
+    "REL606.6"
+  ],
+  "status_counts": {
+    "PASS": 303
+  },
+  "unparsed_files": [
+    "Anc+_0gen_REL607.gd",
+    "Anc-_0gen_REL606.gd"
+  ],
+  "per_clone": [
+    {
+      "clone_id": "Ara+1_10000gen_4530A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 16,
+        "DEL": 9,
+        "INS": 2,
+        "AMP": 1
+      },
+      "snp_records": 12,
+      "unique_snps": 12
+    },
+    {
+      "clone_id": "Ara+1_10000gen_4530B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 8,
+        "MOB": 18,
+        "AMP": 1,
+        "INS": 1
+      },
+      "snp_records": 10,
+      "unique_snps": 10
+    },
+    {
+      "clone_id": "Ara+1_1000gen_958A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara+1_1000gen_958B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara+1_15000gen_7183A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 12,
+        "MOB": 19,
+        "AMP": 3,
+        "INS": 3
+      },
+      "snp_records": 18,
+      "unique_snps": 18
+    },
+    {
+      "clone_id": "Ara+1_15000gen_7183B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 12,
+        "MOB": 18,
+        "AMP": 2,
+        "INS": 4
+      },
+      "snp_records": 19,
+      "unique_snps": 19
+    },
+    {
+      "clone_id": "Ara+1_1500gen_1062A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2
+      },
+      "snp_records": 7,
+      "unique_snps": 7
+    },
+    {
+      "clone_id": "Ara+1_1500gen_1062B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 7,
+      "unique_snps": 7
+    },
+    {
+      "clone_id": "Ara+1_20000gen_9282A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 16,
+        "MOB": 24,
+        "AMP": 2,
+        "INS": 4,
+        "CON": 1
+      },
+      "snp_records": 19,
+      "unique_snps": 19
+    },
+    {
+      "clone_id": "Ara+1_20000gen_9282B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 15,
+        "MOB": 21,
+        "AMP": 2,
+        "INS": 4,
+        "SUB": 1
+      },
+      "snp_records": 21,
+      "unique_snps": 21
+    },
+    {
+      "clone_id": "Ara+1_2000gen_1158A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1,
+        "MOB": 3,
+        "DEL": 1
+      },
+      "snp_records": 6,
+      "unique_snps": 6
+    },
+    {
+      "clone_id": "Ara+1_2000gen_1158C",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1,
+        "MOB": 3,
+        "DEL": 2,
+        "INS": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara+1_30000gen_10450",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 34,
+        "DEL": 20,
+        "AMP": 2,
+        "INS": 7,
+        "SUB": 1
+      },
+      "snp_records": 29,
+      "unique_snps": 29
+    },
+    {
+      "clone_id": "Ara+1_30000gen_10451",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 23,
+        "MOB": 28,
+        "AMP": 2,
+        "INS": 6,
+        "SUB": 1
+      },
+      "snp_records": 30,
+      "unique_snps": 30
+    },
+    {
+      "clone_id": "Ara+1_40000gen_11008",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 36,
+        "DEL": 23,
+        "INS": 10,
+        "AMP": 2,
+        "SUB": 1
+      },
+      "snp_records": 35,
+      "unique_snps": 35
+    },
+    {
+      "clone_id": "Ara+1_40000gen_11009",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 27,
+        "MOB": 37,
+        "AMP": 4,
+        "INS": 7,
+        "SUB": 2,
+        "INV": 1
+      },
+      "snp_records": 33,
+      "unique_snps": 33
+    },
+    {
+      "clone_id": "Ara+1_50000gen_11392",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 26,
+        "MOB": 37,
+        "AMP": 3,
+        "INS": 8,
+        "INV": 1,
+        "SUB": 1
+      },
+      "snp_records": 51,
+      "unique_snps": 51
+    },
+    {
+      "clone_id": "Ara+1_50000gen_11393",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 26,
+        "MOB": 42,
+        "INS": 8,
+        "AMP": 3,
+        "INV": 1,
+        "SUB": 1
+      },
+      "snp_records": 49,
+      "unique_snps": 49
+    },
+    {
+      "clone_id": "Ara+1_5000gen_2173A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 13,
+        "INS": 1,
+        "DEL": 4,
+        "AMP": 1
+      },
+      "snp_records": 6,
+      "unique_snps": 6
+    },
+    {
+      "clone_id": "Ara+1_5000gen_2173B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 10,
+        "DEL": 3,
+        "INS": 1
+      },
+      "snp_records": 9,
+      "unique_snps": 9
+    },
+    {
+      "clone_id": "Ara+1_500gen_768A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1,
+        "DEL": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara+1_500gen_768B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1,
+        "MOB": 1,
+        "DEL": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara+2_10000gen_4531A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 5,
+        "INS": 1,
+        "AMP": 2,
+        "MOB": 3
+      },
+      "snp_records": 14,
+      "unique_snps": 14
+    },
+    {
+      "clone_id": "Ara+2_10000gen_4531B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 7,
+        "INS": 1,
+        "AMP": 2,
+        "MOB": 3
+      },
+      "snp_records": 14,
+      "unique_snps": 14
+    },
+    {
+      "clone_id": "Ara+2_1000gen_959A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara+2_1000gen_959B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara+2_15000gen_7184A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 8,
+        "INS": 2,
+        "AMP": 3,
+        "MOB": 3
+      },
+      "snp_records": 17,
+      "unique_snps": 17
+    },
+    {
+      "clone_id": "Ara+2_15000gen_7184B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 9,
+        "INS": 2,
+        "AMP": 2,
+        "MOB": 3
+      },
+      "snp_records": 19,
+      "unique_snps": 19
+    },
+    {
+      "clone_id": "Ara+2_1500gen_1063A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1,
+        "DEL": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara+2_1500gen_1063B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1
+      },
+      "snp_records": 7,
+      "unique_snps": 7
+    },
+    {
+      "clone_id": "Ara+2_20000gen_8601A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 10,
+        "INS": 3,
+        "MOB": 5,
+        "AMP": 2
+      },
+      "snp_records": 20,
+      "unique_snps": 20
+    },
+    {
+      "clone_id": "Ara+2_20000gen_8601B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 10,
+        "INS": 4,
+        "AMP": 2,
+        "MOB": 3
+      },
+      "snp_records": 18,
+      "unique_snps": 18
+    },
+    {
+      "clone_id": "Ara+2_2000gen_1159A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1,
+        "DEL": 1
+      },
+      "snp_records": 8,
+      "unique_snps": 8
+    },
+    {
+      "clone_id": "Ara+2_2000gen_1159B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 3,
+        "DEL": 1
+      },
+      "snp_records": 7,
+      "unique_snps": 7
+    },
+    {
+      "clone_id": "Ara+2_30000gen_10407",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 8,
+        "DEL": 12,
+        "INS": 3,
+        "AMP": 2
+      },
+      "snp_records": 25,
+      "unique_snps": 25
+    },
+    {
+      "clone_id": "Ara+2_30000gen_10408",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 7,
+        "DEL": 14,
+        "INS": 3,
+        "AMP": 3
+      },
+      "snp_records": 24,
+      "unique_snps": 24
+    },
+    {
+      "clone_id": "Ara+2_40000gen_10950",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 9,
+        "DEL": 12,
+        "INS": 5,
+        "AMP": 2
+      },
+      "snp_records": 34,
+      "unique_snps": 34
+    },
+    {
+      "clone_id": "Ara+2_40000gen_10951",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 9,
+        "DEL": 12,
+        "INS": 5,
+        "AMP": 2
+      },
+      "snp_records": 30,
+      "unique_snps": 30
+    },
+    {
+      "clone_id": "Ara+2_50000gen_11342",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 10,
+        "DEL": 15,
+        "INS": 5,
+        "AMP": 2
+      },
+      "snp_records": 40,
+      "unique_snps": 40
+    },
+    {
+      "clone_id": "Ara+2_50000gen_11343",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 10,
+        "DEL": 14,
+        "INS": 5,
+        "AMP": 2
+      },
+      "snp_records": 41,
+      "unique_snps": 41
+    },
+    {
+      "clone_id": "Ara+2_5000gen_2174A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 1,
+        "MOB": 4,
+        "AMP": 1
+      },
+      "snp_records": 7,
+      "unique_snps": 7
+    },
+    {
+      "clone_id": "Ara+2_5000gen_2174B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 1,
+        "MOB": 3,
+        "AMP": 1
+      },
+      "snp_records": 7,
+      "unique_snps": 7
+    },
+    {
+      "clone_id": "Ara+2_500gen_769A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara+2_500gen_769B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara+3_10000gen_4532A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 31,
+        "MOB": 2,
+        "DEL": 22,
+        "CON": 1
+      },
+      "snp_records": 288,
+      "unique_snps": 288
+    },
+    {
+      "clone_id": "Ara+3_10000gen_4532B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 41,
+        "MOB": 3,
+        "DEL": 25,
+        "CON": 1
+      },
+      "snp_records": 319,
+      "unique_snps": 319
+    },
+    {
+      "clone_id": "Ara+3_1000gen_960A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara+3_1000gen_960B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara+3_15000gen_7185A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 45,
+        "INS": 84,
+        "MOB": 1,
+        "CON": 2
+      },
+      "snp_records": 542,
+      "unique_snps": 542
+    },
+    {
+      "clone_id": "Ara+3_15000gen_7185B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 82,
+        "DEL": 43,
+        "AMP": 1,
+        "MOB": 2,
+        "CON": 2
+      },
+      "snp_records": 536,
+      "unique_snps": 536
+    },
+    {
+      "clone_id": "Ara+3_1500gen_1064A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2,
+        "MOB": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara+3_1500gen_1064B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1,
+        "MOB": 1
+      },
+      "snp_records": 6,
+      "unique_snps": 6
+    },
+    {
+      "clone_id": "Ara+3_20000gen_8602A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 97,
+        "DEL": 55,
+        "MOB": 1,
+        "CON": 2
+      },
+      "snp_records": 751,
+      "unique_snps": 751
+    },
+    {
+      "clone_id": "Ara+3_20000gen_8602B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 92,
+        "DEL": 60,
+        "MOB": 1,
+        "CON": 2
+      },
+      "snp_records": 744,
+      "unique_snps": 744
+    },
+    {
+      "clone_id": "Ara+3_2000gen_1160A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2,
+        "MOB": 2
+      },
+      "snp_records": 6,
+      "unique_snps": 6
+    },
+    {
+      "clone_id": "Ara+3_2000gen_1160B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 2,
+        "DEL": 4
+      },
+      "snp_records": 6,
+      "unique_snps": 6
+    },
+    {
+      "clone_id": "Ara+3_30000gen_10410",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 123,
+        "DEL": 69,
+        "MOB": 3,
+        "CON": 2
+      },
+      "snp_records": 966,
+      "unique_snps": 966
+    },
+    {
+      "clone_id": "Ara+3_30000gen_10411",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 126,
+        "DEL": 59,
+        "MOB": 3,
+        "CON": 2,
+        "SUB": 1
+      },
+      "snp_records": 983,
+      "unique_snps": 983
+    },
+    {
+      "clone_id": "Ara+3_40000gen_10953",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 164,
+        "DEL": 110,
+        "MOB": 4,
+        "CON": 2,
+        "SUB": 1
+      },
+      "snp_records": 1281,
+      "unique_snps": 1281
+    },
+    {
+      "clone_id": "Ara+3_40000gen_10954",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 165,
+        "DEL": 106,
+        "MOB": 4,
+        "CON": 2
+      },
+      "snp_records": 1289,
+      "unique_snps": 1289
+    },
+    {
+      "clone_id": "Ara+3_50000gen_11345",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 166,
+        "DEL": 115,
+        "SUB": 2,
+        "MOB": 4,
+        "CON": 2
+      },
+      "snp_records": 1472,
+      "unique_snps": 1472
+    },
+    {
+      "clone_id": "Ara+3_50000gen_11346",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 162,
+        "DEL": 123,
+        "MOB": 5,
+        "CON": 2
+      },
+      "snp_records": 1399,
+      "unique_snps": 1399
+    },
+    {
+      "clone_id": "Ara+3_5000gen_2175A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 22,
+        "SUB": 1,
+        "DEL": 17,
+        "MOB": 1
+      },
+      "snp_records": 115,
+      "unique_snps": 115
+    },
+    {
+      "clone_id": "Ara+3_5000gen_2175B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 22,
+        "DEL": 14,
+        "MOB": 1
+      },
+      "snp_records": 121,
+      "unique_snps": 121
+    },
+    {
+      "clone_id": "Ara+3_500gen_770A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "AMP": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara+3_500gen_770B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1,
+        "MOB": 1,
+        "DEL": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara+4_10000gen_4533A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 4,
+        "INS": 4,
+        "MOB": 1,
+        "AMP": 1
+      },
+      "snp_records": 14,
+      "unique_snps": 14
+    },
+    {
+      "clone_id": "Ara+4_10000gen_4533B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 4,
+        "INS": 4,
+        "MOB": 1,
+        "AMP": 1
+      },
+      "snp_records": 14,
+      "unique_snps": 14
+    },
+    {
+      "clone_id": "Ara+4_1000gen_961A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara+4_1000gen_961B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara+4_15000gen_7186A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 7,
+        "INS": 3,
+        "MOB": 2,
+        "AMP": 1
+      },
+      "snp_records": 16,
+      "unique_snps": 16
+    },
+    {
+      "clone_id": "Ara+4_15000gen_7186B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 6,
+        "INS": 4,
+        "MOB": 2,
+        "AMP": 1
+      },
+      "snp_records": 17,
+      "unique_snps": 17
+    },
+    {
+      "clone_id": "Ara+4_1500gen_1065A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2
+      },
+      "snp_records": 7,
+      "unique_snps": 7
+    },
+    {
+      "clone_id": "Ara+4_1500gen_1065B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 10,
+      "unique_snps": 10
+    },
+    {
+      "clone_id": "Ara+4_20000gen_8603A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 10,
+        "INS": 3,
+        "MOB": 5,
+        "AMP": 1
+      },
+      "snp_records": 23,
+      "unique_snps": 23
+    },
+    {
+      "clone_id": "Ara+4_20000gen_8603B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 9,
+        "INS": 3,
+        "AMP": 2,
+        "MOB": 2
+      },
+      "snp_records": 23,
+      "unique_snps": 23
+    },
+    {
+      "clone_id": "Ara+4_2000gen_1161A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2
+      },
+      "snp_records": 6,
+      "unique_snps": 6
+    },
+    {
+      "clone_id": "Ara+4_2000gen_1161B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 2,
+        "DEL": 1,
+        "MOB": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara+4_30000gen_10414",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 11,
+        "MOB": 3,
+        "INS": 3,
+        "AMP": 3
+      },
+      "snp_records": 26,
+      "unique_snps": 26
+    },
+    {
+      "clone_id": "Ara+4_30000gen_10415",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 10,
+        "MOB": 3,
+        "INS": 3,
+        "AMP": 1
+      },
+      "snp_records": 27,
+      "unique_snps": 27
+    },
+    {
+      "clone_id": "Ara+4_40000gen_10956",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 12,
+        "MOB": 6,
+        "INS": 3,
+        "AMP": 1
+      },
+      "snp_records": 34,
+      "unique_snps": 34
+    },
+    {
+      "clone_id": "Ara+4_40000gen_10957",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 12,
+        "MOB": 7,
+        "INS": 3,
+        "AMP": 1
+      },
+      "snp_records": 33,
+      "unique_snps": 33
+    },
+    {
+      "clone_id": "Ara+4_50000gen_11348",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 16,
+        "INS": 5,
+        "MOB": 6,
+        "AMP": 1
+      },
+      "snp_records": 43,
+      "unique_snps": 43
+    },
+    {
+      "clone_id": "Ara+4_50000gen_11349",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 15,
+        "INS": 5,
+        "MOB": 6,
+        "AMP": 2
+      },
+      "snp_records": 43,
+      "unique_snps": 43
+    },
+    {
+      "clone_id": "Ara+4_5000gen_2176A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 3,
+        "INS": 1,
+        "MOB": 1
+      },
+      "snp_records": 9,
+      "unique_snps": 9
+    },
+    {
+      "clone_id": "Ara+4_5000gen_2176B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2,
+        "INS": 1
+      },
+      "snp_records": 8,
+      "unique_snps": 8
+    },
+    {
+      "clone_id": "Ara+4_500gen_771A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara+4_500gen_771B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara+5_10000gen_4534A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2,
+        "AMP": 1,
+        "MOB": 2
+      },
+      "snp_records": 17,
+      "unique_snps": 17
+    },
+    {
+      "clone_id": "Ara+5_10000gen_4534B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2,
+        "AMP": 1,
+        "MOB": 2
+      },
+      "snp_records": 14,
+      "unique_snps": 14
+    },
+    {
+      "clone_id": "Ara+5_1000gen_962A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1,
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara+5_1000gen_962B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara+5_15000gen_7187A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 7,
+        "AMP": 2,
+        "DEL": 3
+      },
+      "snp_records": 20,
+      "unique_snps": 20
+    },
+    {
+      "clone_id": "Ara+5_15000gen_7187B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 7,
+        "DEL": 4,
+        "AMP": 2
+      },
+      "snp_records": 20,
+      "unique_snps": 20
+    },
+    {
+      "clone_id": "Ara+5_1500gen_1066A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1,
+        "DEL": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara+5_1500gen_1066B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara+5_20000gen_8604A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 5,
+        "DEL": 6,
+        "AMP": 1,
+        "INS": 1
+      },
+      "snp_records": 22,
+      "unique_snps": 22
+    },
+    {
+      "clone_id": "Ara+5_20000gen_8604B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 5,
+        "DEL": 5,
+        "AMP": 1,
+        "INS": 1
+      },
+      "snp_records": 22,
+      "unique_snps": 22
+    },
+    {
+      "clone_id": "Ara+5_2000gen_1162A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1,
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 6,
+      "unique_snps": 6
+    },
+    {
+      "clone_id": "Ara+5_2000gen_1162B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1,
+        "DEL": 1
+      },
+      "snp_records": 7,
+      "unique_snps": 7
+    },
+    {
+      "clone_id": "Ara+5_30000gen_10432",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 10,
+        "DEL": 9,
+        "AMP": 4,
+        "INS": 1
+      },
+      "snp_records": 29,
+      "unique_snps": 29
+    },
+    {
+      "clone_id": "Ara+5_30000gen_10433",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 10,
+        "DEL": 9,
+        "AMP": 4,
+        "INS": 1
+      },
+      "snp_records": 30,
+      "unique_snps": 30
+    },
+    {
+      "clone_id": "Ara+5_40000gen_10982",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 14,
+        "DEL": 11,
+        "AMP": 4,
+        "INS": 1
+      },
+      "snp_records": 38,
+      "unique_snps": 38
+    },
+    {
+      "clone_id": "Ara+5_40000gen_10983",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 15,
+        "DEL": 13,
+        "AMP": 4,
+        "INS": 1
+      },
+      "snp_records": 38,
+      "unique_snps": 38
+    },
+    {
+      "clone_id": "Ara+5_50000gen_11367",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 16,
+        "DEL": 13,
+        "AMP": 4,
+        "INS": 1
+      },
+      "snp_records": 47,
+      "unique_snps": 47
+    },
+    {
+      "clone_id": "Ara+5_50000gen_11368",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 16,
+        "DEL": 14,
+        "AMP": 5,
+        "INS": 2
+      },
+      "snp_records": 46,
+      "unique_snps": 46
+    },
+    {
+      "clone_id": "Ara+5_5000gen_2177A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 4,
+        "DEL": 2
+      },
+      "snp_records": 11,
+      "unique_snps": 11
+    },
+    {
+      "clone_id": "Ara+5_5000gen_2177B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 2,
+        "DEL": 1
+      },
+      "snp_records": 10,
+      "unique_snps": 10
+    },
+    {
+      "clone_id": "Ara+5_500gen_772A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara+5_500gen_772B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {},
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara+6_10000gen_4535A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 3,
+        "INS": 1,
+        "MOB": 1
+      },
+      "snp_records": 604,
+      "unique_snps": 604
+    },
+    {
+      "clone_id": "Ara+6_10000gen_4535B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2,
+        "INS": 1,
+        "MOB": 2
+      },
+      "snp_records": 685,
+      "unique_snps": 685
+    },
+    {
+      "clone_id": "Ara+6_1000gen_963A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara+6_1000gen_963B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {},
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara+6_15000gen_7188A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 3,
+        "MOB": 3,
+        "INS": 1
+      },
+      "snp_records": 1005,
+      "unique_snps": 1005
+    },
+    {
+      "clone_id": "Ara+6_15000gen_7188B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 3,
+        "INS": 1,
+        "MOB": 3
+      },
+      "snp_records": 1011,
+      "unique_snps": 1011
+    },
+    {
+      "clone_id": "Ara+6_1500gen_1067A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {},
+      "snp_records": 6,
+      "unique_snps": 6
+    },
+    {
+      "clone_id": "Ara+6_1500gen_1067B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2
+      },
+      "snp_records": 6,
+      "unique_snps": 6
+    },
+    {
+      "clone_id": "Ara+6_20000gen_8605A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 3,
+        "INS": 1,
+        "MOB": 3
+      },
+      "snp_records": 1249,
+      "unique_snps": 1249
+    },
+    {
+      "clone_id": "Ara+6_20000gen_8605B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 4,
+        "INS": 1,
+        "MOB": 2
+      },
+      "snp_records": 1375,
+      "unique_snps": 1375
+    },
+    {
+      "clone_id": "Ara+6_2000gen_1163A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 6,
+      "unique_snps": 6
+    },
+    {
+      "clone_id": "Ara+6_2000gen_1163B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 6,
+      "unique_snps": 6
+    },
+    {
+      "clone_id": "Ara+6_30000gen_10417",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 5,
+        "INS": 1,
+        "MOB": 4
+      },
+      "snp_records": 1857,
+      "unique_snps": 1857
+    },
+    {
+      "clone_id": "Ara+6_30000gen_10418",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 6,
+        "INS": 1,
+        "MOB": 2
+      },
+      "snp_records": 1907,
+      "unique_snps": 1907
+    },
+    {
+      "clone_id": "Ara+6_40000gen_10985",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 9,
+        "INS": 2,
+        "MOB": 3
+      },
+      "snp_records": 2205,
+      "unique_snps": 2205
+    },
+    {
+      "clone_id": "Ara+6_40000gen_10986",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 6,
+        "INS": 2,
+        "MOB": 4
+      },
+      "snp_records": 2042,
+      "unique_snps": 2042
+    },
+    {
+      "clone_id": "Ara+6_50000gen_11370",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 2,
+        "DEL": 6,
+        "MOB": 2
+      },
+      "snp_records": 2587,
+      "unique_snps": 2587
+    },
+    {
+      "clone_id": "Ara+6_50000gen_11371",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 9,
+        "INS": 3,
+        "MOB": 6
+      },
+      "snp_records": 2319,
+      "unique_snps": 2319
+    },
+    {
+      "clone_id": "Ara+6_5000gen_2178A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 8,
+      "unique_snps": 8
+    },
+    {
+      "clone_id": "Ara+6_5000gen_2178B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 3
+      },
+      "snp_records": 8,
+      "unique_snps": 8
+    },
+    {
+      "clone_id": "Ara+6_500gen_773A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara+6_500gen_773B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1,
+        "DEL": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara-1_10000gen_4536A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 3,
+        "DEL": 5,
+        "MOB": 3
+      },
+      "snp_records": 16,
+      "unique_snps": 16
+    },
+    {
+      "clone_id": "Ara-1_10000gen_4536B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 4,
+        "DEL": 5,
+        "MOB": 1
+      },
+      "snp_records": 18,
+      "unique_snps": 18
+    },
+    {
+      "clone_id": "Ara-1_1000gen_964B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 2,
+      "unique_snps": 2
+    },
+    {
+      "clone_id": "Ara-1_1000gen_964C",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1,
+        "DEL": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara-1_15000gen_7177A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 7,
+        "INS": 2,
+        "DEL": 5
+      },
+      "snp_records": 22,
+      "unique_snps": 22
+    },
+    {
+      "clone_id": "Ara-1_15000gen_7177B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 5,
+        "INS": 3,
+        "DEL": 6
+      },
+      "snp_records": 22,
+      "unique_snps": 22
+    },
+    {
+      "clone_id": "Ara-1_1500gen_1068B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1,
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 2,
+      "unique_snps": 2
+    },
+    {
+      "clone_id": "Ara-1_1500gen_1068C",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 2,
+        "DEL": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara-1_20000gen_8593A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 7,
+        "INS": 3,
+        "DEL": 6
+      },
+      "snp_records": 28,
+      "unique_snps": 28
+    },
+    {
+      "clone_id": "Ara-1_20000gen_8593B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 7,
+        "INS": 3,
+        "DEL": 5
+      },
+      "snp_records": 27,
+      "unique_snps": 27
+    },
+    {
+      "clone_id": "Ara-1_2000gen_1164A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1,
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara-1_2000gen_1164B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1,
+        "INS": 2,
+        "DEL": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara-1_30000gen_10391",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 8,
+        "INS": 6,
+        "DEL": 8,
+        "AMP": 1
+      },
+      "snp_records": 402,
+      "unique_snps": 402
+    },
+    {
+      "clone_id": "Ara-1_30000gen_10392",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 9,
+        "INS": 7,
+        "DEL": 8,
+        "AMP": 1
+      },
+      "snp_records": 492,
+      "unique_snps": 492
+    },
+    {
+      "clone_id": "Ara-1_40000gen_10938",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 10,
+        "INS": 6,
+        "DEL": 12,
+        "AMP": 1
+      },
+      "snp_records": 627,
+      "unique_snps": 627
+    },
+    {
+      "clone_id": "Ara-1_40000gen_10939",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 11,
+        "INS": 6,
+        "DEL": 10,
+        "AMP": 1,
+        "SUB": 1
+      },
+      "snp_records": 834,
+      "unique_snps": 834
+    },
+    {
+      "clone_id": "Ara-1_50000gen_11330",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 11,
+        "INS": 7,
+        "DEL": 11,
+        "AMP": 1,
+        "SUB": 1
+      },
+      "snp_records": 1081,
+      "unique_snps": 1081
+    },
+    {
+      "clone_id": "Ara-1_50000gen_11331",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 11,
+        "INS": 8,
+        "DEL": 11,
+        "AMP": 1,
+        "SUB": 1
+      },
+      "snp_records": 1103,
+      "unique_snps": 1103
+    },
+    {
+      "clone_id": "Ara-1_5000gen_2179A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2,
+        "INS": 2,
+        "MOB": 2
+      },
+      "snp_records": 9,
+      "unique_snps": 9
+    },
+    {
+      "clone_id": "Ara-1_5000gen_2179B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 2,
+        "MOB": 2,
+        "DEL": 3
+      },
+      "snp_records": 8,
+      "unique_snps": 8
+    },
+    {
+      "clone_id": "Ara-1_500gen_762B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 2,
+      "unique_snps": 2
+    },
+    {
+      "clone_id": "Ara-1_500gen_762C",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara-2_10000gen_4537A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 42,
+        "DEL": 21
+      },
+      "snp_records": 255,
+      "unique_snps": 255
+    },
+    {
+      "clone_id": "Ara-2_10000gen_4537B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 48,
+        "DEL": 19,
+        "MOB": 1
+      },
+      "snp_records": 260,
+      "unique_snps": 260
+    },
+    {
+      "clone_id": "Ara-2_1000gen_965A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara-2_1000gen_965B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara-2_15000gen_7178A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 36,
+        "INS": 50,
+        "AMP": 1,
+        "MOB": 3,
+        "CON": 1
+      },
+      "snp_records": 513,
+      "unique_snps": 513
+    },
+    {
+      "clone_id": "Ara-2_15000gen_7178B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 33,
+        "INS": 65,
+        "CON": 1,
+        "AMP": 1,
+        "SUB": 1
+      },
+      "snp_records": 421,
+      "unique_snps": 421
+    },
+    {
+      "clone_id": "Ara-2_1500gen_1069A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara-2_1500gen_1069B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "MOB": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara-2_20000gen_11830",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 51,
+        "INS": 66,
+        "MOB": 7,
+        "INV": 1,
+        "CON": 1
+      },
+      "snp_records": 526,
+      "unique_snps": 526
+    },
+    {
+      "clone_id": "Ara-2_20000gen_11831",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 50,
+        "INS": 75,
+        "MOB": 1,
+        "CON": 1,
+        "AMP": 1,
+        "SUB": 1
+      },
+      "snp_records": 534,
+      "unique_snps": 534
+    },
+    {
+      "clone_id": "Ara-2_2000gen_1165A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1,
+        "DEL": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara-2_2000gen_11829",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara-2_30000gen_11832",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 48,
+        "INS": 73,
+        "MOB": 6,
+        "CON": 1
+      },
+      "snp_records": 716,
+      "unique_snps": 716
+    },
+    {
+      "clone_id": "Ara-2_30000gen_11833",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 80,
+        "DEL": 41,
+        "CON": 1,
+        "AMP": 1,
+        "SUB": 1
+      },
+      "snp_records": 523,
+      "unique_snps": 523
+    },
+    {
+      "clone_id": "Ara-2_40000gen_11035",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 80,
+        "INS": 111,
+        "SUB": 2,
+        "MOB": 3,
+        "CON": 1,
+        "AMP": 1
+      },
+      "snp_records": 860,
+      "unique_snps": 860
+    },
+    {
+      "clone_id": "Ara-2_40000gen_11036",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 75,
+        "INS": 81,
+        "MOB": 18,
+        "CON": 1
+      },
+      "snp_records": 921,
+      "unique_snps": 921
+    },
+    {
+      "clone_id": "Ara-2_50000gen_11333",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 81,
+        "INS": 113,
+        "SUB": 2,
+        "MOB": 6,
+        "CON": 1,
+        "AMP": 1
+      },
+      "snp_records": 852,
+      "unique_snps": 852
+    },
+    {
+      "clone_id": "Ara-2_50000gen_11335",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 22,
+        "DEL": 75,
+        "INS": 86,
+        "AMP": 1,
+        "CON": 1
+      },
+      "snp_records": 932,
+      "unique_snps": 932
+    },
+    {
+      "clone_id": "Ara-2_5000gen_2180A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 14,
+        "INS": 20
+      },
+      "snp_records": 105,
+      "unique_snps": 105
+    },
+    {
+      "clone_id": "Ara-2_5000gen_2180B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 12,
+        "DEL": 9
+      },
+      "snp_records": 108,
+      "unique_snps": 108
+    },
+    {
+      "clone_id": "Ara-2_500gen_763A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1,
+        "INS": 2
+      },
+      "snp_records": 1,
+      "unique_snps": 1
+    },
+    {
+      "clone_id": "Ara-2_500gen_763B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 1,
+      "unique_snps": 1
+    },
+    {
+      "clone_id": "Ara-3_10000gen_4538A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 9,
+        "DEL": 4,
+        "INS": 2
+      },
+      "snp_records": 11,
+      "unique_snps": 11
+    },
+    {
+      "clone_id": "Ara-3_10000gen_ZDB1",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 6,
+        "INS": 3,
+        "DEL": 4
+      },
+      "snp_records": 12,
+      "unique_snps": 12
+    },
+    {
+      "clone_id": "Ara-3_10000gen_ZDB425",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 6,
+        "INS": 4,
+        "DEL": 4
+      },
+      "snp_records": 11,
+      "unique_snps": 11
+    },
+    {
+      "clone_id": "Ara-3_10000gen_ZDB429",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 11,
+        "DEL": 5,
+        "INS": 2
+      },
+      "snp_records": 11,
+      "unique_snps": 11
+    },
+    {
+      "clone_id": "Ara-3_1000gen_966A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 2,
+        "INS": 2,
+        "DEL": 1
+      },
+      "snp_records": 2,
+      "unique_snps": 2
+    },
+    {
+      "clone_id": "Ara-3_1000gen_966B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2,
+        "INS": 1
+      },
+      "snp_records": 2,
+      "unique_snps": 2
+    },
+    {
+      "clone_id": "Ara-3_15000gen_7179B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 10,
+        "INS": 5,
+        "DEL": 5
+      },
+      "snp_records": 16,
+      "unique_snps": 16
+    },
+    {
+      "clone_id": "Ara-3_15000gen_ZDB445",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 9,
+        "INS": 4,
+        "DEL": 5
+      },
+      "snp_records": 17,
+      "unique_snps": 17
+    },
+    {
+      "clone_id": "Ara-3_15000gen_ZDB446",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 15,
+        "DEL": 7,
+        "INS": 1
+      },
+      "snp_records": 15,
+      "unique_snps": 15
+    },
+    {
+      "clone_id": "Ara-3_1500gen_1070A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 2,
+        "DEL": 1,
+        "INS": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara-3_1500gen_1070B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2,
+        "INS": 1,
+        "MOB": 1
+      },
+      "snp_records": 2,
+      "unique_snps": 2
+    },
+    {
+      "clone_id": "Ara-3_20000gen_ZDB458",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 15,
+        "INS": 3,
+        "DEL": 10,
+        "AMP": 1
+      },
+      "snp_records": 18,
+      "unique_snps": 18
+    },
+    {
+      "clone_id": "Ara-3_20000gen_ZDB464",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 16,
+        "INS": 5,
+        "DEL": 13
+      },
+      "snp_records": 18,
+      "unique_snps": 18
+    },
+    {
+      "clone_id": "Ara-3_20000gen_ZDB467",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 15,
+        "INS": 3,
+        "DEL": 10
+      },
+      "snp_records": 18,
+      "unique_snps": 18
+    },
+    {
+      "clone_id": "Ara-3_2000gen_1166A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 3,
+        "MOB": 3,
+        "INS": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara-3_2000gen_1166B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 4,
+        "AMP": 1,
+        "DEL": 1,
+        "INS": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara-3_25000gen_ZDB477",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 11,
+        "INS": 2,
+        "DEL": 14
+      },
+      "snp_records": 20,
+      "unique_snps": 20
+    },
+    {
+      "clone_id": "Ara-3_25000gen_ZDB478",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 18,
+        "INS": 5,
+        "DEL": 10,
+        "CON": 1
+      },
+      "snp_records": 26,
+      "unique_snps": 26
+    },
+    {
+      "clone_id": "Ara-3_25000gen_ZDB483",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 19,
+        "INS": 4,
+        "DEL": 14,
+        "CON": 1
+      },
+      "snp_records": 27,
+      "unique_snps": 27
+    },
+    {
+      "clone_id": "Ara-3_25000gen_ZDB486",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 20,
+        "INS": 3,
+        "DEL": 15,
+        "CON": 1
+      },
+      "snp_records": 28,
+      "unique_snps": 28
+    },
+    {
+      "clone_id": "Ara-3_25000gen_ZDB488",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 19,
+        "INS": 3,
+        "DEL": 11,
+        "CON": 1
+      },
+      "snp_records": 25,
+      "unique_snps": 25
+    },
+    {
+      "clone_id": "Ara-3_27000gen_ZDB309",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 20,
+        "INS": 3,
+        "DEL": 14,
+        "CON": 1
+      },
+      "snp_records": 31,
+      "unique_snps": 31
+    },
+    {
+      "clone_id": "Ara-3_27000gen_ZDB310",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 21,
+        "INS": 5,
+        "DEL": 17,
+        "CON": 1
+      },
+      "snp_records": 28,
+      "unique_snps": 28
+    },
+    {
+      "clone_id": "Ara-3_27000gen_ZDB317",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 23,
+        "INS": 5,
+        "DEL": 15,
+        "CON": 1
+      },
+      "snp_records": 30,
+      "unique_snps": 30
+    },
+    {
+      "clone_id": "Ara-3_28000gen_ZDB334",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 21,
+        "INS": 4,
+        "DEL": 14,
+        "CON": 1,
+        "AMP": 1
+      },
+      "snp_records": 30,
+      "unique_snps": 30
+    },
+    {
+      "clone_id": "Ara-3_28000gen_ZDB339",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 22,
+        "INS": 5,
+        "DEL": 15,
+        "CON": 1
+      },
+      "snp_records": 31,
+      "unique_snps": 31
+    },
+    {
+      "clone_id": "Ara-3_29000gen_ZDB13",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 22,
+        "INS": 3,
+        "DEL": 17,
+        "CON": 1
+      },
+      "snp_records": 30,
+      "unique_snps": 30
+    },
+    {
+      "clone_id": "Ara-3_29000gen_ZDB14",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 23,
+        "INS": 4,
+        "DEL": 15,
+        "CON": 1
+      },
+      "snp_records": 30,
+      "unique_snps": 30
+    },
+    {
+      "clone_id": "Ara-3_30000gen_ZDB16",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 12,
+        "INS": 3,
+        "DEL": 14,
+        "CON": 1
+      },
+      "snp_records": 25,
+      "unique_snps": 25
+    },
+    {
+      "clone_id": "Ara-3_30000gen_ZDB17",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 22,
+        "INS": 3,
+        "DEL": 19,
+        "CON": 2
+      },
+      "snp_records": 31,
+      "unique_snps": 31
+    },
+    {
+      "clone_id": "Ara-3_30000gen_ZDB18",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 22,
+        "INS": 3,
+        "DEL": 17,
+        "CON": 1
+      },
+      "snp_records": 31,
+      "unique_snps": 31
+    },
+    {
+      "clone_id": "Ara-3_30000gen_ZDB357",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 21,
+        "INS": 5,
+        "DEL": 15
+      },
+      "snp_records": 33,
+      "unique_snps": 33
+    },
+    {
+      "clone_id": "Ara-3_30500gen_ZDB19",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 23,
+        "INS": 3,
+        "DEL": 20,
+        "CON": 1
+      },
+      "snp_records": 33,
+      "unique_snps": 33
+    },
+    {
+      "clone_id": "Ara-3_30500gen_ZDB20",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 22,
+        "INS": 3,
+        "DEL": 18,
+        "CON": 1
+      },
+      "snp_records": 32,
+      "unique_snps": 32
+    },
+    {
+      "clone_id": "Ara-3_31000gen_ZDB23",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 23,
+        "INS": 3,
+        "DEL": 20,
+        "CON": 1
+      },
+      "snp_records": 32,
+      "unique_snps": 32
+    },
+    {
+      "clone_id": "Ara-3_31500gen_ZDB199",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 13,
+        "INS": 3,
+        "DEL": 15
+      },
+      "snp_records": 27,
+      "unique_snps": 27
+    },
+    {
+      "clone_id": "Ara-3_31500gen_ZDB200",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 20,
+        "DEL": 16,
+        "INS": 6
+      },
+      "snp_records": 36,
+      "unique_snps": 36
+    },
+    {
+      "clone_id": "Ara-3_31500gen_ZDB25",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 24,
+        "INS": 3,
+        "DEL": 20,
+        "CON": 1
+      },
+      "snp_records": 32,
+      "unique_snps": 32
+    },
+    {
+      "clone_id": "Ara-3_31500gen_ZDB27",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 27,
+        "INS": 4,
+        "DEL": 19,
+        "CON": 1
+      },
+      "snp_records": 33,
+      "unique_snps": 33
+    },
+    {
+      "clone_id": "Ara-3_31500gen_ZDB564",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 22,
+        "INS": 3,
+        "DEL": 19,
+        "AMP": 1,
+        "CON": 1
+      },
+      "snp_records": 32,
+      "unique_snps": 32
+    },
+    {
+      "clone_id": "Ara-3_32000gen_ZDB172",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 23,
+        "INS": 3,
+        "DEL": 19,
+        "AMP": 3,
+        "CON": 1
+      },
+      "snp_records": 33,
+      "unique_snps": 33
+    },
+    {
+      "clone_id": "Ara-3_32000gen_ZDB30",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 27,
+        "INS": 4,
+        "DEL": 17,
+        "CON": 1
+      },
+      "snp_records": 31,
+      "unique_snps": 31
+    },
+    {
+      "clone_id": "Ara-3_32500gen_ZDB143",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 24,
+        "INS": 3,
+        "DEL": 20,
+        "AMP": 2,
+        "CON": 1
+      },
+      "snp_records": 35,
+      "unique_snps": 35
+    },
+    {
+      "clone_id": "Ara-3_32500gen_ZDB158",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 20,
+        "DEL": 18,
+        "INS": 6
+      },
+      "snp_records": 33,
+      "unique_snps": 33
+    },
+    {
+      "clone_id": "Ara-3_33000gen_CZB152",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 23,
+        "INS": 5,
+        "DEL": 21,
+        "AMP": 2,
+        "CON": 1
+      },
+      "snp_records": 32,
+      "unique_snps": 32
+    },
+    {
+      "clone_id": "Ara-3_33000gen_CZB154",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 23,
+        "INS": 3,
+        "DEL": 20,
+        "AMP": 2,
+        "CON": 1
+      },
+      "snp_records": 34,
+      "unique_snps": 34
+    },
+    {
+      "clone_id": "Ara-3_33000gen_CZB199",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 11,
+        "INS": 5,
+        "DEL": 15
+      },
+      "snp_records": 28,
+      "unique_snps": 28
+    },
+    {
+      "clone_id": "Ara-3_34000gen_ZDB83",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 23,
+        "INS": 3,
+        "DEL": 20,
+        "AMP": 3,
+        "CON": 1
+      },
+      "snp_records": 37,
+      "unique_snps": 37
+    },
+    {
+      "clone_id": "Ara-3_34000gen_ZDB87",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 24,
+        "INS": 10,
+        "DEL": 19
+      },
+      "snp_records": 38,
+      "unique_snps": 38
+    },
+    {
+      "clone_id": "Ara-3_36000gen_ZDB96",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 27,
+        "DEL": 28,
+        "INS": 9,
+        "AMP": 3,
+        "CON": 1
+      },
+      "snp_records": 150,
+      "unique_snps": 150
+    },
+    {
+      "clone_id": "Ara-3_36000gen_ZDB99",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 30,
+        "INS": 9,
+        "DEL": 18
+      },
+      "snp_records": 39,
+      "unique_snps": 39
+    },
+    {
+      "clone_id": "Ara-3_38000gen_ZDB107",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 29,
+        "DEL": 33,
+        "INS": 15,
+        "AMP": 3,
+        "SUB": 1,
+        "CON": 1
+      },
+      "snp_records": 204,
+      "unique_snps": 204
+    },
+    {
+      "clone_id": "Ara-3_38000gen_ZDB111",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 36,
+        "INS": 11,
+        "DEL": 20
+      },
+      "snp_records": 39,
+      "unique_snps": 39
+    },
+    {
+      "clone_id": "Ara-3_40000gen_10979",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 36,
+        "MOB": 30,
+        "DEL": 44,
+        "AMP": 3,
+        "CON": 1
+      },
+      "snp_records": 285,
+      "unique_snps": 285
+    },
+    {
+      "clone_id": "Ara-3_40000gen_10988",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 40,
+        "INS": 13,
+        "DEL": 28
+      },
+      "snp_records": 41,
+      "unique_snps": 41
+    },
+    {
+      "clone_id": "Ara-3_50000gen_11364",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 33,
+        "INS": 61,
+        "DEL": 68,
+        "AMP": 3,
+        "CON": 2
+      },
+      "snp_records": 641,
+      "unique_snps": 641
+    },
+    {
+      "clone_id": "Ara-3_50000gen_11365",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 33,
+        "INS": 65,
+        "DEL": 67,
+        "AMP": 4,
+        "CON": 1
+      },
+      "snp_records": 661,
+      "unique_snps": 661
+    },
+    {
+      "clone_id": "Ara-3_5000gen_2181A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 5,
+        "INS": 3,
+        "DEL": 4
+      },
+      "snp_records": 6,
+      "unique_snps": 6
+    },
+    {
+      "clone_id": "Ara-3_5000gen_ZDB409",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 7,
+        "INS": 1,
+        "DEL": 3
+      },
+      "snp_records": 7,
+      "unique_snps": 7
+    },
+    {
+      "clone_id": "Ara-3_500gen_764A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {},
+      "snp_records": 1,
+      "unique_snps": 1
+    },
+    {
+      "clone_id": "Ara-3_500gen_764B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 2,
+      "unique_snps": 2
+    },
+    {
+      "clone_id": "Ara-4_10000gen_4539A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 17,
+        "INS": 25,
+        "MOB": 1
+      },
+      "snp_records": 210,
+      "unique_snps": 210
+    },
+    {
+      "clone_id": "Ara-4_10000gen_4539B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 27,
+        "DEL": 14,
+        "MOB": 1
+      },
+      "snp_records": 235,
+      "unique_snps": 235
+    },
+    {
+      "clone_id": "Ara-4_1000gen_967A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1,
+        "DEL": 1
+      },
+      "snp_records": 2,
+      "unique_snps": 2
+    },
+    {
+      "clone_id": "Ara-4_1000gen_967B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {},
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara-4_15000gen_7180A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 18,
+        "INS": 47,
+        "MOB": 1
+      },
+      "snp_records": 396,
+      "unique_snps": 396
+    },
+    {
+      "clone_id": "Ara-4_15000gen_7180B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 24,
+        "INS": 50,
+        "MOB": 1
+      },
+      "snp_records": 407,
+      "unique_snps": 407
+    },
+    {
+      "clone_id": "Ara-4_1500gen_1071A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara-4_1500gen_1071B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 2,
+        "DEL": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara-4_20000gen_8596A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 42,
+        "INS": 74,
+        "MOB": 1
+      },
+      "snp_records": 545,
+      "unique_snps": 545
+    },
+    {
+      "clone_id": "Ara-4_20000gen_8596B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 34,
+        "INS": 66,
+        "MOB": 1
+      },
+      "snp_records": 531,
+      "unique_snps": 531
+    },
+    {
+      "clone_id": "Ara-4_2000gen_1167A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 7,
+      "unique_snps": 7
+    },
+    {
+      "clone_id": "Ara-4_2000gen_1167B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 2,
+        "DEL": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara-4_30000gen_10401",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 73,
+        "INS": 107,
+        "AMP": 1,
+        "CON": 1,
+        "SUB": 1,
+        "MOB": 1
+      },
+      "snp_records": 777,
+      "unique_snps": 777
+    },
+    {
+      "clone_id": "Ara-4_30000gen_10402",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 64,
+        "INS": 110,
+        "CON": 1,
+        "SUB": 1,
+        "MOB": 1
+      },
+      "snp_records": 757,
+      "unique_snps": 757
+    },
+    {
+      "clone_id": "Ara-4_40000gen_10944",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 97,
+        "INS": 139,
+        "MOB": 2,
+        "CON": 1,
+        "SUB": 1,
+        "AMP": 1
+      },
+      "snp_records": 909,
+      "unique_snps": 909
+    },
+    {
+      "clone_id": "Ara-4_40000gen_10945",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 140,
+        "DEL": 82,
+        "CON": 1,
+        "SUB": 1,
+        "MOB": 1
+      },
+      "snp_records": 904,
+      "unique_snps": 904
+    },
+    {
+      "clone_id": "Ara-4_50000gen_11336",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 119,
+        "INS": 152,
+        "SUB": 2,
+        "CON": 1,
+        "MOB": 2
+      },
+      "snp_records": 1067,
+      "unique_snps": 1067
+    },
+    {
+      "clone_id": "Ara-4_50000gen_11337",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 116,
+        "INS": 163,
+        "SUB": 3,
+        "CON": 1,
+        "MOB": 3
+      },
+      "snp_records": 1076,
+      "unique_snps": 1076
+    },
+    {
+      "clone_id": "Ara-4_5000gen_2182A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 2
+      },
+      "snp_records": 11,
+      "unique_snps": 11
+    },
+    {
+      "clone_id": "Ara-4_5000gen_2182B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 3,
+        "MOB": 1,
+        "DEL": 2
+      },
+      "snp_records": 7,
+      "unique_snps": 7
+    },
+    {
+      "clone_id": "Ara-4_500gen_765A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {},
+      "snp_records": 2,
+      "unique_snps": 2
+    },
+    {
+      "clone_id": "Ara-4_500gen_765B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {},
+      "snp_records": 2,
+      "unique_snps": 2
+    },
+    {
+      "clone_id": "Ara-5_10000gen_4540A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 9,
+        "DEL": 3,
+        "AMP": 1
+      },
+      "snp_records": 15,
+      "unique_snps": 15
+    },
+    {
+      "clone_id": "Ara-5_10000gen_4540B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 11,
+        "DEL": 2,
+        "SUB": 1,
+        "INS": 1,
+        "AMP": 1
+      },
+      "snp_records": 20,
+      "unique_snps": 20
+    },
+    {
+      "clone_id": "Ara-5_1000gen_968A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara-5_1000gen_968B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara-5_15000gen_7181A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 4,
+        "MOB": 9,
+        "AMP": 1,
+        "INS": 1
+      },
+      "snp_records": 22,
+      "unique_snps": 22
+    },
+    {
+      "clone_id": "Ara-5_15000gen_7181B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 5,
+        "MOB": 9,
+        "INS": 1,
+        "AMP": 1
+      },
+      "snp_records": 19,
+      "unique_snps": 19
+    },
+    {
+      "clone_id": "Ara-5_1500gen_1072A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara-5_1500gen_1072B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1,
+        "MOB": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara-5_20000gen_8597A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 13,
+        "DEL": 6,
+        "INS": 2,
+        "AMP": 1
+      },
+      "snp_records": 22,
+      "unique_snps": 22
+    },
+    {
+      "clone_id": "Ara-5_20000gen_8597B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 13,
+        "DEL": 7,
+        "INS": 1,
+        "AMP": 1
+      },
+      "snp_records": 22,
+      "unique_snps": 22
+    },
+    {
+      "clone_id": "Ara-5_2000gen_1168A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1,
+        "MOB": 1,
+        "DEL": 1
+      },
+      "snp_records": 6,
+      "unique_snps": 6
+    },
+    {
+      "clone_id": "Ara-5_2000gen_1168B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1,
+        "DEL": 1
+      },
+      "snp_records": 7,
+      "unique_snps": 7
+    },
+    {
+      "clone_id": "Ara-5_30000gen_10404",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 35,
+        "DEL": 21,
+        "AMP": 2,
+        "INS": 3,
+        "SUB": 1
+      },
+      "snp_records": 17,
+      "unique_snps": 17
+    },
+    {
+      "clone_id": "Ara-5_30000gen_10405",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 13,
+        "DEL": 8,
+        "INS": 2,
+        "AMP": 2
+      },
+      "snp_records": 40,
+      "unique_snps": 40
+    },
+    {
+      "clone_id": "Ara-5_40000gen_10947",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 11,
+        "MOB": 16,
+        "INS": 2,
+        "AMP": 1
+      },
+      "snp_records": 42,
+      "unique_snps": 42
+    },
+    {
+      "clone_id": "Ara-5_40000gen_10948",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 11,
+        "MOB": 18,
+        "INS": 2,
+        "AMP": 1
+      },
+      "snp_records": 43,
+      "unique_snps": 43
+    },
+    {
+      "clone_id": "Ara-5_50000gen_11339",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 12,
+        "MOB": 23,
+        "INS": 2,
+        "AMP": 1
+      },
+      "snp_records": 51,
+      "unique_snps": 51
+    },
+    {
+      "clone_id": "Ara-5_50000gen_11340",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 14,
+        "MOB": 24,
+        "INS": 2,
+        "AMP": 1
+      },
+      "snp_records": 53,
+      "unique_snps": 53
+    },
+    {
+      "clone_id": "Ara-5_5000gen_2183A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "AMP": 1,
+        "MOB": 4,
+        "DEL": 2
+      },
+      "snp_records": 8,
+      "unique_snps": 8
+    },
+    {
+      "clone_id": "Ara-5_5000gen_2183B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 3,
+        "AMP": 1,
+        "DEL": 1
+      },
+      "snp_records": 9,
+      "unique_snps": 9
+    },
+    {
+      "clone_id": "Ara-5_500gen_766A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 2,
+      "unique_snps": 2
+    },
+    {
+      "clone_id": "Ara-5_500gen_766B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 2,
+      "unique_snps": 2
+    },
+    {
+      "clone_id": "Ara-6_10000gen_4541A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "CON": 1,
+        "AMP": 1,
+        "MOB": 6,
+        "INS": 2,
+        "DEL": 2
+      },
+      "snp_records": 12,
+      "unique_snps": 12
+    },
+    {
+      "clone_id": "Ara-6_10000gen_4541B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 6,
+        "CON": 1,
+        "DEL": 5,
+        "INS": 1
+      },
+      "snp_records": 14,
+      "unique_snps": 14
+    },
+    {
+      "clone_id": "Ara-6_1000gen_969A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara-6_1000gen_969B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 3,
+      "unique_snps": 3
+    },
+    {
+      "clone_id": "Ara-6_15000gen_7182A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "CON": 1,
+        "MOB": 6,
+        "INS": 2,
+        "DEL": 7
+      },
+      "snp_records": 18,
+      "unique_snps": 18
+    },
+    {
+      "clone_id": "Ara-6_15000gen_7182B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "CON": 1,
+        "MOB": 7,
+        "INS": 3,
+        "DEL": 6
+      },
+      "snp_records": 21,
+      "unique_snps": 21
+    },
+    {
+      "clone_id": "Ara-6_1500gen_1073A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 5,
+      "unique_snps": 5
+    },
+    {
+      "clone_id": "Ara-6_1500gen_1073B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "INS": 1,
+        "DEL": 1
+      },
+      "snp_records": 4,
+      "unique_snps": 4
+    },
+    {
+      "clone_id": "Ara-6_20000gen_8598A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "CON": 1,
+        "INS": 2,
+        "DEL": 11,
+        "MOB": 9,
+        "AMP": 1
+      },
+      "snp_records": 19,
+      "unique_snps": 19
+    },
+    {
+      "clone_id": "Ara-6_20000gen_8598B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 9,
+        "CON": 1,
+        "DEL": 12,
+        "INS": 3,
+        "AMP": 2
+      },
+      "snp_records": 20,
+      "unique_snps": 20
+    },
+    {
+      "clone_id": "Ara-6_2000gen_1169A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 7,
+      "unique_snps": 7
+    },
+    {
+      "clone_id": "Ara-6_2000gen_1169B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 1
+      },
+      "snp_records": 8,
+      "unique_snps": 8
+    },
+    {
+      "clone_id": "Ara-6_30000gen_10447",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 14,
+        "MOB": 13,
+        "CON": 1,
+        "INS": 3,
+        "AMP": 1
+      },
+      "snp_records": 29,
+      "unique_snps": 29
+    },
+    {
+      "clone_id": "Ara-6_30000gen_10448",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 14,
+        "MOB": 12,
+        "CON": 1,
+        "INS": 3,
+        "AMP": 1
+      },
+      "snp_records": 29,
+      "unique_snps": 29
+    },
+    {
+      "clone_id": "Ara-6_40000gen_11005",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 19,
+        "MOB": 23,
+        "CON": 2,
+        "INS": 4,
+        "AMP": 1
+      },
+      "snp_records": 32,
+      "unique_snps": 32
+    },
+    {
+      "clone_id": "Ara-6_40000gen_11006",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 15,
+        "MOB": 14,
+        "CON": 1,
+        "INS": 3,
+        "AMP": 1
+      },
+      "snp_records": 34,
+      "unique_snps": 34
+    },
+    {
+      "clone_id": "Ara-6_50000gen_11389",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 21,
+        "MOB": 25,
+        "CON": 1,
+        "INS": 5,
+        "AMP": 1
+      },
+      "snp_records": 40,
+      "unique_snps": 40
+    },
+    {
+      "clone_id": "Ara-6_50000gen_11390",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 17,
+        "DEL": 15,
+        "CON": 1,
+        "INS": 4,
+        "AMP": 1
+      },
+      "snp_records": 39,
+      "unique_snps": 39
+    },
+    {
+      "clone_id": "Ara-6_5000gen_2184A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "DEL": 2,
+        "INS": 1,
+        "CON": 1
+      },
+      "snp_records": 8,
+      "unique_snps": 8
+    },
+    {
+      "clone_id": "Ara-6_5000gen_2184B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1,
+        "DEL": 2,
+        "INS": 1
+      },
+      "snp_records": 12,
+      "unique_snps": 12
+    },
+    {
+      "clone_id": "Ara-6_500gen_767A",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {
+        "MOB": 1,
+        "DEL": 1
+      },
+      "snp_records": 1,
+      "unique_snps": 1
+    },
+    {
+      "clone_id": "Ara-6_500gen_767B",
+      "status": "PASS",
+      "errors": [],
+      "non_snp": {},
+      "snp_records": 1,
+      "unique_snps": 1
+    }
+  ]
+}

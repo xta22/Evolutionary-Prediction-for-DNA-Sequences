@@ -1,0 +1,29 @@
+{
+  "output": "../LTEE_prospective/phase2b_synthetic",
+  "seeds": [
+    11,
+    23,
+    42
+  ],
+  "populations": 4,
+  "train_n": 120,
+  "low_n": 25,
+  "validation_n": 60,
+  "test_n": 120,
+  "rate": 0.08,
+  "penalties": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "maxiter": 80,
+  "genome_sites": 4629812,
+  "rare_rates": [
+    1e-08,
+    1e-07,
+    1e-06
+  ],
+  "rare_horizon": 1.0,
+  "rare_heterogeneity": 1.0,
+  "mode": "all"
+}
