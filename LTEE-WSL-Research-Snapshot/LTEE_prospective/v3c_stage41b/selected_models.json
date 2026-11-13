@@ -1,0 +1,39 @@
+{
+  "M5_global": {
+    "penalty": 0.0,
+    "coefficients": [
+      -0.2188648271739579
+    ],
+    "validation_joint_nll": 1.7564344857014311,
+    "optimizer": {
+      "success": true,
+      "iterations": 2
+    }
+  },
+  "M5_horizon": {
+    "penalty": 0.0,
+    "coefficients": [
+      -0.10946541348863438,
+      -0.10946541348863438
+    ],
+    "validation_joint_nll": 1.756434389429573,
+    "optimizer": {
+      "success": true,
+      "iterations": 2
+    }
+  },
+  "M5_history": {
+    "penalty": 0.0,
+    "coefficients": [
+      -0.4212101969551835,
+      -0.4212101969551835,
+      10.487552596439311,
+      -7.2977219634812815
+    ],
+    "validation_joint_nll": 1.7559586404768255,
+    "optimizer": {
+      "success": true,
+      "iterations": 11
+    }
+  }
+}

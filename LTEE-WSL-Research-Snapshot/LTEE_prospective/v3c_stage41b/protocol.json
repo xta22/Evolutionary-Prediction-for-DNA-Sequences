@@ -1,0 +1,26 @@
+{
+  "status": "EXPLORATORY_VALIDATION_ONLY",
+  "train_seeds": [
+    11,
+    23,
+    67,
+    101
+  ],
+  "validation_seeds": [
+    42
+  ],
+  "n_train_folds": 320,
+  "n_validation_folds": 80,
+  "source_sha256": "aaca645dbaeccfdd1b6e0652ad9858aa0172853a549383812fc641a5d65dbfbd",
+  "primary_metric": "joint_nll",
+  "pair_mode": "adjacent_disjoint",
+  "shuffled_semantics": "post-fit matched coefficients; shuffle cutoff clone pairing only; preserve marginals",
+  "limitations": [
+    "No locked test accessed",
+    "No simulator truth accessed",
+    "Overlapping folds are correlated",
+    "neutral and linkage_only can duplicate trajectories",
+    "Binary two-site forecasting only",
+    "Hyperparameters chosen using validation labels"
+  ]
+}

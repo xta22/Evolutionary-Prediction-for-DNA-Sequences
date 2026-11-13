@@ -1,0 +1,27 @@
+{
+  "status": "EXPLORATORY",
+  "train_seeds": [
+    11,
+    23
+  ],
+  "validation_seeds": [
+    42
+  ],
+  "test_seeds": [],
+  "n_train_folds": 160,
+  "n_validation_folds": 80,
+  "n_test_folds": 0,
+  "pair_mode": "adjacent",
+  "max_pairs": 0,
+  "limitations": [
+    "binary two-site joint forecasts only",
+    "no learned epistasis coefficient",
+    "train trajectories reserved, not used to fit parameters in this version",
+    "historical and target rows read separately for scoring",
+    "overlapping folds are correlated",
+    "neutral and linkage_only may be identical",
+    "pair selection fixed before scoring",
+    "shuffled model destroys cutoff within-sample pairings; it is not a retrained gate permutation",
+    "test seeds previously inspected are exploratory"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "n_folds": 80,
+  "n_scenarios": 8,
+  "expert_separation_mean_abs": 0.39621396125815617,
+  "expert_separation_max_abs": 0.6557088279980647,
+  "gate_mean": 0.19578493539225333,
+  "gate_std": 0.0059583907578968495,
+  "gate_min": 0.18611184104130166,
+  "gate_max": 0.20974264204252147,
+  "nll_original": 0.553773501135882,
+  "nll_forced_expert_a": 0.5756545330619178,
+  "nll_forced_expert_b": 0.8137114518165901,
+  "nll_forced_half_gate": 0.5913302893625728,
+  "permutation_n": 200,
+  "permutation_mean_nll": 0.5537107472618015,
+  "permutation_delta_nll_mean": -6.275387408050115e-05,
+  "permutation_delta_nll_std": 2.7399627529830115e-05,
+  "permutation_delta_nll_quantiles": [
+    -0.00011794753411231429,
+    -6.031290129426825e-05,
+    -1.8001790758381812e-05
+  ],
+  "permutation_max_prediction_change_mean": 0.012536896465880161,
+  "note": "Validation-only exploratory diagnostics; folds correlated; permutation distribution is not a formal p-value.",
+  "source": "LTEE-WSL-Research-Snapshot/ltee_v3/v3c_stage3.py",
+  "validation_seeds": [
+    42
+  ],
+  "gate_coefficients": [
+    -1.3264773968983496,
+    -0.018199353073464326,
+    -0.0181941474619417
+  ],
+  "shuffle_scope": "within scenario, across validation folds; frozen model",
+  "protocol_scales": {
+    "horizon": 10.0,
+    "volatility": 0.05629322075175086
+  }
+}

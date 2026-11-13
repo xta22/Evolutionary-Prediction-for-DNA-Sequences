@@ -1,0 +1,206 @@
+{
+  "status": "EXPLORATORY_IDENTIFIABILITY_AUDIT",
+  "n_train_folds": 320,
+  "n_validation_folds": 80,
+  "n_train_trajectories": 32,
+  "n_validation_trajectories": 8,
+  "design": {
+    "global": {
+      "shape": [
+        15360,
+        1
+      ],
+      "rank": 1,
+      "columns": 1,
+      "singular_values": [
+        123.93546707863736
+      ],
+      "condition_number": 1.0,
+      "column_means": [
+        1.0
+      ],
+      "column_std": [
+        0.0
+      ],
+      "column_min": [
+        1.0
+      ],
+      "column_max": [
+        1.0
+      ],
+      "unique_horizons": [
+        10.0
+      ],
+      "full_column_rank": true
+    },
+    "horizon": {
+      "shape": [
+        15360,
+        2
+      ],
+      "rank": 1,
+      "columns": 2,
+      "singular_values": [
+        175.27121840165415,
+        9.564213213394031e-13
+      ],
+      "condition_number": null,
+      "column_means": [
+        1.0,
+        1.0
+      ],
+      "column_std": [
+        0.0,
+        0.0
+      ],
+      "column_min": [
+        1.0,
+        1.0
+      ],
+      "column_max": [
+        1.0,
+        1.0
+      ],
+      "unique_horizons": [
+        10.0
+      ],
+      "full_column_rank": false
+    },
+    "history": {
+      "shape": [
+        15360,
+        4
+      ],
+      "rank": 3,
+      "columns": 4,
+      "singular_values": [
+        175.49313065169767,
+        8.427865197886298,
+        4.965442555524196,
+        6.084419812873116e-13
+      ],
+      "condition_number": null,
+      "column_means": [
+        1.0,
+        1.0,
+        0.04775797526041667,
+        0.052679443359375
+      ],
+      "column_std": [
+        0.0,
+        0.0,
+        0.05617016657796884,
+        0.05555234674203679
+      ],
+      "column_min": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "column_max": [
+        1.0,
+        1.0,
+        0.25,
+        0.4375
+      ],
+      "unique_horizons": [
+        10.0
+      ],
+      "full_column_rank": false
+    }
+  },
+  "original": {
+    "global": {
+      "train_nll": 1.8322965840677796,
+      "validation_nll": 1.7564344857014311,
+      "penalty": 0.0,
+      "coefficients": [
+        -0.2188648271739579
+      ]
+    },
+    "horizon": {
+      "train_nll": 1.8322965839533694,
+      "validation_nll": 1.756434389429573,
+      "penalty": 0.0,
+      "coefficients": [
+        -0.10946541348863438,
+        -0.10946541348863438
+      ]
+    },
+    "history": {
+      "train_nll": 1.829989213503372,
+      "validation_nll": 1.7559586404768255,
+      "penalty": 0.0,
+      "coefficients": [
+        -0.4212101969551835,
+        -0.4212101969551835,
+        10.487552596439311,
+        -7.2977219634812815
+      ]
+    }
+  },
+  "bootstrap": {
+    "global": {
+      "successful": 50,
+      "attempted": 50,
+      "coefficient_mean": [
+        -0.2096783318652753
+      ],
+      "coefficient_std": [
+        0.07370142067187258
+      ],
+      "validation_nll_mean": 1.7564836168590516,
+      "validation_nll_std": 0.00012447028761713923
+    },
+    "horizon": {
+      "successful": 50,
+      "attempted": 50,
+      "coefficient_mean": [
+        -0.11420703189857542,
+        -0.11420703189857542
+      ],
+      "coefficient_std": [
+        0.030384471746092462,
+        0.030384471746092462
+      ],
+      "validation_nll_mean": 1.7564447615370034,
+      "validation_nll_std": 9.139307071529242e-05
+    },
+    "history": {
+      "successful": 50,
+      "attempted": 50,
+      "coefficient_mean": [
+        -0.4296660986220093,
+        -0.42966453173596764,
+        10.526487567675295,
+        -7.3082013520712295
+      ],
+      "coefficient_std": [
+        0.046333206490149145,
+        0.046333076511307976,
+        0.5500008598136361,
+        0.5343673159262363
+      ],
+      "validation_nll_mean": 1.7559698324848096,
+      "validation_nll_std": 0.00010307714247623018
+    }
+  },
+  "prediction_sensitivity": {
+    "mean_abs_joint_probability_delta": 0.005572864856013552,
+    "max_abs_joint_probability_delta": 0.098866462975302,
+    "mean_abs_rho_delta": 0.13706196180134583,
+    "max_abs_rho_delta": 0.39546585190120787
+  },
+  "source_hashes": {
+    "stage4": "aaca645dbaeccfdd1b6e0652ad9858aa0172853a549383812fc641a5d65dbfbd",
+    "stage41b": "78bc3425588180c87536c14243f22b783e81cb0795e38e32fff8e727754809f6"
+  },
+  "limitations": [
+    "Bootstrap unit is scenario x seed; same seed across scenarios is not necessarily independent.",
+    "Overlapping folds remain correlated within trajectories.",
+    "Bootstrap resamples and evaluates on the same fixed development validation set.",
+    "No locked test or simulator truth accessed.",
+    "Rank deficiency makes coefficient-level interpretation unreliable."
+  ]
+}

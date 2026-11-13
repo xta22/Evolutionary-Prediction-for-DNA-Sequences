@@ -1,0 +1,95 @@
+{
+  "status": "EXPLORATORY_VALIDATION_ONLY",
+  "protocol": "Frozen pretrained experts, refit gate on train only; no test labels or simulator truth",
+  "source_sha256": "9c3fe9a4e44af2df6fb40e2ee679977e059d8e83cf0ab9fba171f928cfca532a",
+  "train_folds": 160,
+  "validation_folds": 80,
+  "normalization_train_only": {
+    "mean": [
+      2.3978971137177583,
+      2.3978971137177583,
+      0.28610026041666664,
+      0.13498535156250005,
+      0.1452392578125,
+      0.006046549479166665,
+      5.5
+    ],
+    "std": [
+      1.0,
+      1.0,
+      0.029858246500774635,
+      0.056293220751750854,
+      0.02355687294531033,
+      0.01998090620692078,
+      2.8722813232690143
+    ]
+  },
+  "models": {
+    "constant": {
+      "validation_nll": 0.5536824606346168,
+      "penalty": 0.001,
+      "coefficients": [
+        -1.4229030933804687
+      ],
+      "optimizer": {
+        "success": true,
+        "iterations": 3,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      },
+      "gate_mean": 0.1942068735240161,
+      "gate_std": 0.0,
+      "permutation_delta_nll_mean": 0.0,
+      "permutation_delta_nll_q025_q975": [
+        0.0,
+        0.0
+      ]
+    },
+    "volatility": {
+      "validation_nll": 0.5536837867260921,
+      "penalty": 1.0,
+      "coefficients": [
+        -1.4229234272086237,
+        -0.0003492778051895693,
+        -0.0003492778051895693
+      ],
+      "optimizer": {
+        "success": true,
+        "iterations": 4,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      },
+      "gate_mean": 0.1942051227176839,
+      "gate_std": 0.00011252476147908719,
+      "permutation_delta_nll_mean": -1.1509666961206922e-06,
+      "permutation_delta_nll_q025_q975": [
+        -2.2619936463130762e-06,
+        -1.972561902069402e-07
+      ]
+    },
+    "history_rich": {
+      "validation_nll": 0.5536882604747737,
+      "penalty": 1.0,
+      "coefficients": [
+        -1.424481062669194,
+        -0.0008943556437103658,
+        -0.0008943752450843782,
+        -0.0016283709766747483,
+        -0.0008943556437103658,
+        0.004145542872422277,
+        -0.00014584387398936666,
+        -0.0045197946783030706
+      ],
+      "optimizer": {
+        "success": true,
+        "iterations": 5,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      },
+      "gate_mean": 0.19434814491661062,
+      "gate_std": 0.001198989951537942,
+      "permutation_delta_nll_mean": -6.379408700887823e-06,
+      "permutation_delta_nll_q025_q975": [
+        -1.774856363108146e-05,
+        4.257462388351786e-06
+      ]
+    }
+  }
+}

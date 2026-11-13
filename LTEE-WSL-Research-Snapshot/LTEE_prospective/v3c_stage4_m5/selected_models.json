@@ -1,0 +1,37 @@
+{
+  "M1_independent": {
+    "alpha": 0.0,
+    "trend": 0.0,
+    "validation_joint_nll": 1.7724103788139878,
+    "n_train_folds_reserved": 160,
+    "n_validation_folds": 80
+  },
+  "M5_empirical": {
+    "alpha": 0.0,
+    "trend": 0.0,
+    "validation_joint_nll": 2.420193093593056,
+    "n_train_folds_reserved": 160,
+    "n_validation_folds": 80
+  },
+  "M5_shrunk": {
+    "alpha": 0.5,
+    "trend": 0.0,
+    "validation_joint_nll": 1.7570771035428165,
+    "n_train_folds_reserved": 160,
+    "n_validation_folds": 80
+  },
+  "M5_dynamics": {
+    "alpha": 0.5,
+    "trend": 0.0,
+    "validation_joint_nll": 1.7570771035428165,
+    "n_train_folds_reserved": 160,
+    "n_validation_folds": 80
+  },
+  "M5_shuffled": {
+    "alpha": 1.0,
+    "trend": 0.0,
+    "validation_joint_nll": 1.7724103788139878,
+    "n_train_folds_reserved": 160,
+    "n_validation_folds": 80
+  }
+}

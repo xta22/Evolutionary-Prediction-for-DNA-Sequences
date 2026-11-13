@@ -1,0 +1,97 @@
+{
+  "protocol_version": "V3-C-4.1B-0.1",
+  "status": "DRAFT_LOCK_CANDIDATE_NOT_CERTIFIED",
+  "task": {
+    "unit": "future randomly sampled individual, binary two-site joint haplotype",
+    "inputs": "observed genomes at generations <= cutoff; horizon; fixed site-pair indices",
+    "target": "four probabilities P00,P01,P10,P11 at target generation",
+    "forbidden_inputs": [
+      "future genomes as features",
+      "future mutation events as features",
+      "simulator hidden states as features",
+      "future-descendant ancestral reconstructions"
+    ]
+  },
+  "simulation": {
+    "scenarios": [
+      "context",
+      "epistasis",
+      "heterogeneous",
+      "linkage_only",
+      "neutral",
+      "recombination",
+      "regime_shift",
+      "selection_only"
+    ],
+    "generator": "v3b_simulate.py",
+    "generator_version_sha256": "UNVERIFIED",
+    "configuration_sha256": "UNVERIFIED",
+    "simulation_parameters": "MUST_FREEZE_BEFORE_LOCKED_TEST_GENERATION"
+  },
+  "splits": {
+    "train": [
+      11,
+      23,
+      67,
+      101
+    ],
+    "validation": [
+      42
+    ],
+    "locked_test": [
+      1001,
+      1003,
+      1007,
+      1009,
+      1013
+    ]
+  },
+  "previously_inspected_seeds": [
+    11,
+    23,
+    42,
+    67,
+    101
+  ],
+  "pair_selection": {
+    "method": "adjacent_nonoverlapping",
+    "formula": "(0,1),(2,3),...",
+    "selected_without_target_labels": true
+  },
+  "model_comparison": [
+    "M1_independent",
+    "M5_fixed_shrinkage",
+    "M5_learned_global",
+    "M5_horizon_aware",
+    "M5_history_aware",
+    "M5_matched_shuffled"
+  ],
+  "primary_metric": {
+    "name": "joint_nll",
+    "unit": "nats per pair per future sampled individual",
+    "aggregation": "mean within trajectory then mean across independent trajectories; report scenarios separately"
+  },
+  "secondary_metrics": [
+    "joint_brier",
+    "double_mutant_mae",
+    "ld_D_mae",
+    "marginal_nll"
+  ],
+  "training_policy": {
+    "train": "fit model parameters using training trajectories and their future labels as supervised targets",
+    "validation": "select model and regularization; no test access",
+    "locked_test": "do not inspect or generate until code, configuration, and analysis plan are frozen; one final evaluation",
+    "shuffle": "match learned parameters and shrinkage; permute within-cutoff pairing while preserving marginal counts"
+  },
+  "limitations": [
+    "binary two-site task, not four-state genome",
+    "overlapping folds are correlated",
+    "neutral and linkage_only can be identical; do not count as independent mechanisms",
+    "locked test is not certified by writing this file",
+    "oracle requires separate mathematically justified implementation"
+  ],
+  "approval": {
+    "locked_test_approved": false,
+    "human_review_required": true
+  }
+}

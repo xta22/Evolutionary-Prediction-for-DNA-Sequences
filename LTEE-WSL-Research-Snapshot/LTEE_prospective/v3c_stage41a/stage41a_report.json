@@ -1,0 +1,62 @@
+{
+  "status": "EXPLORATORY_VALIDATION_ONLY",
+  "n_folds": 80,
+  "validation_seeds": [
+    42
+  ],
+  "alpha_matched": 0.5,
+  "alpha_from_original_validation_selection": 0.5,
+  "forced_trend_strength": 0.5,
+  "permutations_per_fold": 200,
+  "summary": {
+    "independent": {
+      "joint_nll": 1.7724103788139878,
+      "marginal_nll": 0.8971485755656449,
+      "double_mutant_mae": 0.08154703793704428,
+      "ld_D_mae": 0.05298665373645835,
+      "joint_brier": 0.12807083107952474
+    },
+    "original_shrunk": {
+      "joint_nll": 1.7570771035428165,
+      "marginal_nll": 0.8971485755656449,
+      "double_mutant_mae": 0.07545776384850261,
+      "ld_D_mae": 0.04953409839791667,
+      "joint_brier": 0.12283496834759115
+    },
+    "shuffled_matched": {
+      "joint_nll": 1.7884874491119092,
+      "marginal_nll": 0.8971485755656449,
+      "double_mutant_mae": 0.08226114926516928,
+      "ld_D_mae": 0.058148193449999996,
+      "joint_brier": 0.13106555916790366
+    },
+    "empirical": {
+      "joint_nll": 2.420193093593056,
+      "marginal_nll": 0.8971485754315826,
+      "double_mutant_mae": 0.07125651074547527,
+      "ld_D_mae": 0.05749918618291829,
+      "joint_brier": 0.1291666663020264
+    },
+    "forced_dynamics": {
+      "joint_nll": 2.0155397973505322,
+      "marginal_nll": 0.9248913618299225,
+      "double_mutant_mae": 0.07889179644966324,
+      "ld_D_mae": 0.053677712961975065,
+      "joint_brier": 0.14261021562694887
+    }
+  },
+  "mean_permuted_nll": 1.790135016935923,
+  "mean_permuted_minus_original_nll": 0.033057913393106375,
+  "max_marginal_difference": 0.0,
+  "mean_original_vs_shuffled_max_probability_difference": 0.134375,
+  "mean_empirical_near_zero_fraction": 0.3035807291666667,
+  "limitations": [
+    "No trainable M5 fitted; Stage 4 original alpha selected on same validation set.",
+    "Permutation repeats are not independent evolutionary trajectories.",
+    "Shuffling preserves empirical marginals exactly, but does not force D=0 in finite samples.",
+    "Original and shuffled have identical empirical marginals before EPS normalization.",
+    "Neutral and linkage_only trajectories may be identical.",
+    "Only validation labels are used; no simulator truth or test seeds loaded.",
+    "Forced dynamics is a diagnostic, not a validation-selected forecasting model."
+  ]
+}
