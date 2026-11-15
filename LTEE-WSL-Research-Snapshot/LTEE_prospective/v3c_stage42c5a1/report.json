@@ -1,0 +1,39 @@
+{
+  "status": "EXPLORATORY_HELDOUT_DEVELOPMENT",
+  "reference_sha256": "a4d3f0eb8d1752a71969fa332e01b4b43b46c9f411b38c44cd4338e70f0dc433",
+  "train_seeds": [
+    311,
+    313,
+    317,
+    331
+  ],
+  "calibration_seeds": [
+    401,
+    409,
+    419
+  ],
+  "confirmation_seeds": [
+    503,
+    509,
+    521
+  ],
+  "rho_train_only": 0.6249213212765984,
+  "chosen_calibration": {
+    "alpha": 1,
+    "mix": 0.01,
+    "calibration_nll": 0.9836967330240909
+  },
+  "n_confirmation_folds": 72,
+  "confirmation_mean_joint_nll": {
+    "M5_calibrated": 0.9302382995505768,
+    "M5_calibrated_pairing_removed": 0.9600117668620434,
+    "M5_unsmoothed": 2.004084872332279,
+    "sampled_independent_calibrated": 0.9600117668620434,
+    "sampled_independent_unsmoothed": 2.0365727961113995
+  },
+  "limitations": [
+    "Previously explored simulator family; not a locked confirmatory test",
+    "Independent baseline is sampled-current-marginal, not full-state",
+    "M5 is a single learned global dependence coefficient, not original M5 History"
+  ]
+}
