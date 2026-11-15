@@ -1,0 +1,327 @@
+{
+  "status": "EXPLORATORY_HELDOUT_DEVELOPMENT",
+  "reference_sha256": "a4d3f0eb8d1752a71969fa332e01b4b43b46c9f411b38c44cd4338e70f0dc433",
+  "train_seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020
+  ],
+  "calibration_seeds": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "confirmation_seeds": [
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020
+  ],
+  "sample_sizes": [
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "scenario_order": [
+    "neutral",
+    "recombination",
+    "selection_only",
+    "epistasis"
+  ],
+  "cutoffs": [
+    20,
+    50
+  ],
+  "horizons": [
+    10,
+    20,
+    30
+  ],
+  "results_by_depth": [
+    {
+      "sample_size": 2,
+      "rho_train_only": 0.4030612553654097,
+      "chosen_calibration": {
+        "sample_size": 2,
+        "alpha": 1,
+        "mix": 0,
+        "calibration_nll": 1.1523720197681564
+      },
+      "n_confirmation_folds": 480,
+      "paired_seed_gain_by_scenario": [
+        {
+          "scenario": "neutral",
+          "mean_independent_minus_M5_nll": 0.004113217251370094,
+          "seed_bootstrap_95pct_ci": [
+            -0.003047883203532831,
+            0.011201710533465149
+          ]
+        },
+        {
+          "scenario": "recombination",
+          "mean_independent_minus_M5_nll": -0.00430743098272664,
+          "seed_bootstrap_95pct_ci": [
+            -0.009127800581078583,
+            0.0004806170183097171
+          ]
+        },
+        {
+          "scenario": "selection_only",
+          "mean_independent_minus_M5_nll": 0.011386381695667391,
+          "seed_bootstrap_95pct_ci": [
+            0.002846691914414526,
+            0.02003131557006196
+          ]
+        },
+        {
+          "scenario": "epistasis",
+          "mean_independent_minus_M5_nll": 0.011583665778600205,
+          "seed_bootstrap_95pct_ci": [
+            0.003116583170155171,
+            0.020419419614053153
+          ]
+        }
+      ]
+    },
+    {
+      "sample_size": 4,
+      "rho_train_only": 0.5455543390370516,
+      "chosen_calibration": {
+        "sample_size": 4,
+        "alpha": 0.5,
+        "mix": 0.05,
+        "calibration_nll": 1.0383317427206766
+      },
+      "n_confirmation_folds": 480,
+      "paired_seed_gain_by_scenario": [
+        {
+          "scenario": "neutral",
+          "mean_independent_minus_M5_nll": 0.020472887003490675,
+          "seed_bootstrap_95pct_ci": [
+            0.01189303763275826,
+            0.030512576914756253
+          ]
+        },
+        {
+          "scenario": "recombination",
+          "mean_independent_minus_M5_nll": -0.003417314637616159,
+          "seed_bootstrap_95pct_ci": [
+            -0.008748495025695953,
+            0.0021530899514849047
+          ]
+        },
+        {
+          "scenario": "selection_only",
+          "mean_independent_minus_M5_nll": 0.016502706868821437,
+          "seed_bootstrap_95pct_ci": [
+            0.010040854078806345,
+            0.023113868790507267
+          ]
+        },
+        {
+          "scenario": "epistasis",
+          "mean_independent_minus_M5_nll": 0.022242237019558835,
+          "seed_bootstrap_95pct_ci": [
+            0.010973750348198773,
+            0.03418302666049856
+          ]
+        }
+      ]
+    },
+    {
+      "sample_size": 8,
+      "rho_train_only": 0.6704152922527372,
+      "chosen_calibration": {
+        "sample_size": 8,
+        "alpha": 0.5,
+        "mix": 0.05,
+        "calibration_nll": 0.961392734055546
+      },
+      "n_confirmation_folds": 480,
+      "paired_seed_gain_by_scenario": [
+        {
+          "scenario": "neutral",
+          "mean_independent_minus_M5_nll": 0.036705621512794044,
+          "seed_bootstrap_95pct_ci": [
+            0.028657191590401483,
+            0.04454356341190927
+          ]
+        },
+        {
+          "scenario": "recombination",
+          "mean_independent_minus_M5_nll": 0.00023729743653503889,
+          "seed_bootstrap_95pct_ci": [
+            -0.006015557516500767,
+            0.007160138860155731
+          ]
+        },
+        {
+          "scenario": "selection_only",
+          "mean_independent_minus_M5_nll": 0.026387603103576046,
+          "seed_bootstrap_95pct_ci": [
+            0.01894896623932281,
+            0.03448518023803716
+          ]
+        },
+        {
+          "scenario": "epistasis",
+          "mean_independent_minus_M5_nll": 0.036768827096912426,
+          "seed_bootstrap_95pct_ci": [
+            0.024007484026071266,
+            0.04922199103647544
+          ]
+        }
+      ]
+    },
+    {
+      "sample_size": 16,
+      "rho_train_only": 0.8130360147343996,
+      "chosen_calibration": {
+        "sample_size": 16,
+        "alpha": 0.5,
+        "mix": 0.05,
+        "calibration_nll": 0.9118207118756997
+      },
+      "n_confirmation_folds": 480,
+      "paired_seed_gain_by_scenario": [
+        {
+          "scenario": "neutral",
+          "mean_independent_minus_M5_nll": 0.04504025268538525,
+          "seed_bootstrap_95pct_ci": [
+            0.03789231127398585,
+            0.05198406216717135
+          ]
+        },
+        {
+          "scenario": "recombination",
+          "mean_independent_minus_M5_nll": 0.005732441513101682,
+          "seed_bootstrap_95pct_ci": [
+            0.0016678056078995285,
+            0.010035039690464004
+          ]
+        },
+        {
+          "scenario": "selection_only",
+          "mean_independent_minus_M5_nll": 0.03293237639039678,
+          "seed_bootstrap_95pct_ci": [
+            0.023270575144057403,
+            0.04357503305663352
+          ]
+        },
+        {
+          "scenario": "epistasis",
+          "mean_independent_minus_M5_nll": 0.041754426598402346,
+          "seed_bootstrap_95pct_ci": [
+            0.029188214670063464,
+            0.05505265795479326
+          ]
+        }
+      ]
+    },
+    {
+      "sample_size": 32,
+      "rho_train_only": 0.8452886340067197,
+      "chosen_calibration": {
+        "sample_size": 32,
+        "alpha": 1,
+        "mix": 0.01,
+        "calibration_nll": 0.8811324551489371
+      },
+      "n_confirmation_folds": 480,
+      "paired_seed_gain_by_scenario": [
+        {
+          "scenario": "neutral",
+          "mean_independent_minus_M5_nll": 0.05125718279734226,
+          "seed_bootstrap_95pct_ci": [
+            0.042928501233881144,
+            0.05928821720335272
+          ]
+        },
+        {
+          "scenario": "recombination",
+          "mean_independent_minus_M5_nll": 0.006506249367281036,
+          "seed_bootstrap_95pct_ci": [
+            0.0007184307039005635,
+            0.012302458218925581
+          ]
+        },
+        {
+          "scenario": "selection_only",
+          "mean_independent_minus_M5_nll": 0.042112243448222994,
+          "seed_bootstrap_95pct_ci": [
+            0.03200001297839145,
+            0.0528965020662798
+          ]
+        },
+        {
+          "scenario": "epistasis",
+          "mean_independent_minus_M5_nll": 0.04795510132478483,
+          "seed_bootstrap_95pct_ci": [
+            0.036217954605571714,
+            0.06041583126756223
+          ]
+        }
+      ]
+    }
+  ],
+  "design_notes": [
+    "Separate, non-overlapping seed splits for fitting, calibration, and confirmation.",
+    "Each depth has its own train-only rho and calibration-only alpha/mix.",
+    "Same seeds across depths yield paired, nested observation samples; simulator population trajectories are unchanged by sample_size.",
+    "Confidence intervals resample confirmation seeds, not correlated cutoff/horizon rows.",
+    "Dependence-off is rho=0; it is not a history-pairing permutation test.",
+    "This remains development evidence; it is not a locked confirmatory test or the full M5 History model."
+  ]
+}
