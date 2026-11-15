@@ -1,0 +1,556 @@
+{
+  "status": "EXPLORATORY_HELDOUT_DEVELOPMENT",
+  "model": "M5 History, four fitted coefficients from stage41b.fit(kind='history')",
+  "train_seeds": [
+    4101,
+    4102,
+    4103,
+    4104,
+    4105,
+    4106,
+    4107,
+    4108,
+    4109,
+    4110,
+    4111,
+    4112,
+    4113,
+    4114,
+    4115,
+    4116,
+    4117,
+    4118,
+    4119,
+    4120
+  ],
+  "calibration_seeds": [
+    5101,
+    5102,
+    5103,
+    5104,
+    5105,
+    5106,
+    5107,
+    5108,
+    5109,
+    5110,
+    5111,
+    5112,
+    5113,
+    5114,
+    5115,
+    5116,
+    5117,
+    5118,
+    5119,
+    5120
+  ],
+  "confirmation_seeds": [
+    6101,
+    6102,
+    6103,
+    6104,
+    6105,
+    6106,
+    6107,
+    6108,
+    6109,
+    6110,
+    6111,
+    6112,
+    6113,
+    6114,
+    6115,
+    6116,
+    6117,
+    6118,
+    6119,
+    6120
+  ],
+  "sample_sizes": [
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "scenarios": [
+    "neutral",
+    "recombination",
+    "selection_only",
+    "epistasis"
+  ],
+  "cutoffs": [
+    20,
+    50
+  ],
+  "horizons": [
+    10,
+    20,
+    30
+  ],
+  "alphas": [
+    0,
+    0.1,
+    0.5,
+    1,
+    2,
+    5
+  ],
+  "uniform_mixes": [
+    0,
+    0.001,
+    0.01,
+    0.05
+  ],
+  "penalty": 0.01,
+  "source_sha256": {
+    "reference": "a4d3f0eb8d1752a71969fa332e01b4b43b46c9f411b38c44cd4338e70f0dc433",
+    "production_source": "aaca645dbaeccfdd1b6e0652ad9858aa0172853a549383812fc641a5d65dbfbd",
+    "model_source": "78bc3425588180c87536c14243f22b783e81cb0795e38e32fff8e727754809f6",
+    "stage42c3_matched": "f66d7b94ccc3738d1ffc0efe0cffb343183a3090bc5bf061164ac6fb8e1e0d40",
+    "stage42c4_audit": "bf5a7f579d73c45d295825cc8693cb3fdbaf9c91eb0d419538ff59cf75256bf9"
+  },
+  "results_by_depth": [
+    {
+      "sample_size": 2,
+      "m5_history_theta_train_only": [
+        -0.18932749676194313,
+        -0.07665212286038822,
+        -0.04735122073901934,
+        -0.06948778952482751
+      ],
+      "fit_info": {
+        "success": true,
+        "iterations": 6
+      },
+      "chosen_calibration": {
+        "sample_size": 2,
+        "alpha": 0.5,
+        "uniform_mix": 0.05,
+        "calibration_m5_history_nll": 1.0841248482638468
+      },
+      "n_confirmation_folds": 480,
+      "mean_nll_by_model": {
+        "sampled_independent_unsmoothed": 5.698638283762275,
+        "M5_history_unsmoothed": 5.691783183571914,
+        "sampled_independent_calibrated": 1.1020840805250838,
+        "M5_history_calibrated": 1.095195637057716,
+        "M5_history_pairing_shuffled_calibrated": 1.1066943026748863
+      },
+      "mean_paired_independent_minus_m5_nll": 0.006888443467367979,
+      "paired_gain_seed_bootstrap_95pct_ci": [
+        0.00381611303504223,
+        0.010264358586034186
+      ],
+      "paired_gain_by_scenario": [
+        {
+          "scenario": "neutral",
+          "mean_independent_minus_M5_nll": 0.013951712178227077,
+          "seed_bootstrap_95pct_ci": [
+            0.007455152528707177,
+            0.020545020462851022
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.014203653371694996,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.005201890537163234,
+            0.023586805359843137
+          ]
+        },
+        {
+          "scenario": "recombination",
+          "mean_independent_minus_M5_nll": -0.0022824897686935684,
+          "seed_bootstrap_95pct_ci": [
+            -0.006946497592760489,
+            0.002983649846072975
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.0030798706413765033,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            -0.0020205324763224643,
+            0.008262668085240942
+          ]
+        },
+        {
+          "scenario": "selection_only",
+          "mean_independent_minus_M5_nll": 0.010061091061862421,
+          "seed_bootstrap_95pct_ci": [
+            0.002392188195943307,
+            0.01825899675810654
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.019653550892376637,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.00991465880763926,
+            0.02977613526014588
+          ]
+        },
+        {
+          "scenario": "epistasis",
+          "mean_independent_minus_M5_nll": 0.005823460398075986,
+          "seed_bootstrap_95pct_ci": [
+            0.0009081114941932217,
+            0.010996641041319147
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.009057587563234154,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.0023436176211382633,
+            0.01651827773850603
+          ]
+        }
+      ]
+    },
+    {
+      "sample_size": 4,
+      "m5_history_theta_train_only": [
+        -0.03317877706909666,
+        -0.05555055112229662,
+        0.021423426670740233,
+        -0.033275451628652114
+      ],
+      "fit_info": {
+        "success": true,
+        "iterations": 6
+      },
+      "chosen_calibration": {
+        "sample_size": 4,
+        "alpha": 0.5,
+        "uniform_mix": 0.05,
+        "calibration_m5_history_nll": 0.998593709771756
+      },
+      "n_confirmation_folds": 480,
+      "mean_nll_by_model": {
+        "sampled_independent_unsmoothed": 2.9614067363962127,
+        "M5_history_unsmoothed": 2.949933335505361,
+        "sampled_independent_calibrated": 1.014730524868437,
+        "M5_history_calibrated": 1.0028901726720798,
+        "M5_history_pairing_shuffled_calibrated": 1.0249372594221144
+      },
+      "mean_paired_independent_minus_m5_nll": 0.011840352196357356,
+      "paired_gain_seed_bootstrap_95pct_ci": [
+        0.008390741663500975,
+        0.015218492545934582
+      ],
+      "paired_gain_by_scenario": [
+        {
+          "scenario": "neutral",
+          "mean_independent_minus_M5_nll": 0.023624705413764817,
+          "seed_bootstrap_95pct_ci": [
+            0.015069296080995578,
+            0.03163335469187025
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.03271111177564871,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.022576938153732948,
+            0.04317544188206461
+          ]
+        },
+        {
+          "scenario": "recombination",
+          "mean_independent_minus_M5_nll": 0.0019770548465610103,
+          "seed_bootstrap_95pct_ci": [
+            -0.003417777509583499,
+            0.0072815686034309966
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.01208447367025713,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.0036429786927983585,
+            0.020720037816236346
+          ]
+        },
+        {
+          "scenario": "selection_only",
+          "mean_independent_minus_M5_nll": 0.011205217265197003,
+          "seed_bootstrap_95pct_ci": [
+            0.0012142284238888118,
+            0.020605213526521768
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.020927966625873366,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.010550903172843289,
+            0.031307002997070024
+          ]
+        },
+        {
+          "scenario": "epistasis",
+          "mean_independent_minus_M5_nll": 0.010554431259906589,
+          "seed_bootstrap_95pct_ci": [
+            0.0015140389163045816,
+            0.02034626787420436
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.022464794928359927,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.01048764153612503,
+            0.03463079956032642
+          ]
+        }
+      ]
+    },
+    {
+      "sample_size": 8,
+      "m5_history_theta_train_only": [
+        0.1785710587917641,
+        0.05860025065528042,
+        0.0648552024661463,
+        -0.017789268991800014
+      ],
+      "fit_info": {
+        "success": true,
+        "iterations": 5
+      },
+      "chosen_calibration": {
+        "sample_size": 8,
+        "alpha": 0.5,
+        "uniform_mix": 0.05,
+        "calibration_m5_history_nll": 0.9268310334933089
+      },
+      "n_confirmation_folds": 480,
+      "mean_nll_by_model": {
+        "sampled_independent_unsmoothed": 1.7452656528170942,
+        "M5_history_unsmoothed": 1.7249898503655128,
+        "sampled_independent_calibrated": 0.9566564144769891,
+        "M5_history_calibrated": 0.9359434138267452,
+        "M5_history_pairing_shuffled_calibrated": 0.9644800020524947
+      },
+      "mean_paired_independent_minus_m5_nll": 0.02071300065024393,
+      "paired_gain_seed_bootstrap_95pct_ci": [
+        0.016750153516920475,
+        0.02499265474522142
+      ],
+      "paired_gain_by_scenario": [
+        {
+          "scenario": "neutral",
+          "mean_independent_minus_M5_nll": 0.0329181777249542,
+          "seed_bootstrap_95pct_ci": [
+            0.024191790789215822,
+            0.041747885498272706
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.04493125928112349,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.033144095773826245,
+            0.056466143094164575
+          ]
+        },
+        {
+          "scenario": "recombination",
+          "mean_independent_minus_M5_nll": 0.003452172757981825,
+          "seed_bootstrap_95pct_ci": [
+            -0.0024716907184318287,
+            0.011267599667535436
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.012135597500319274,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.004137470765376566,
+            0.022015119020402332
+          ]
+        },
+        {
+          "scenario": "selection_only",
+          "mean_independent_minus_M5_nll": 0.020051061014370066,
+          "seed_bootstrap_95pct_ci": [
+            0.00891456990713873,
+            0.03135778632358613
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.02340235056402074,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.011762041741099738,
+            0.035388964518496005
+          ]
+        },
+        {
+          "scenario": "epistasis",
+          "mean_independent_minus_M5_nll": 0.026430591103669642,
+          "seed_bootstrap_95pct_ci": [
+            0.01821509828784966,
+            0.036037259978363566
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.0336771455575342,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.024588324797399048,
+            0.04359703634417561
+          ]
+        }
+      ]
+    },
+    {
+      "sample_size": 16,
+      "m5_history_theta_train_only": [
+        0.29632863784607505,
+        0.14800683800058176,
+        0.09713404696698649,
+        0.01311150807104263
+      ],
+      "fit_info": {
+        "success": true,
+        "iterations": 9
+      },
+      "chosen_calibration": {
+        "sample_size": 16,
+        "alpha": 0.5,
+        "uniform_mix": 0.01,
+        "calibration_m5_history_nll": 0.8847196955433799
+      },
+      "n_confirmation_folds": 480,
+      "mean_nll_by_model": {
+        "sampled_independent_unsmoothed": 1.224001762330133,
+        "M5_history_unsmoothed": 1.1929104388935705,
+        "sampled_independent_calibrated": 0.9187813900038646,
+        "M5_history_calibrated": 0.8883338986650297,
+        "M5_history_pairing_shuffled_calibrated": 0.9256634153748746
+      },
+      "mean_paired_independent_minus_m5_nll": 0.030447491338834898,
+      "paired_gain_seed_bootstrap_95pct_ci": [
+        0.025877565205935173,
+        0.03531257838260456
+      ],
+      "paired_gain_by_scenario": [
+        {
+          "scenario": "neutral",
+          "mean_independent_minus_M5_nll": 0.04618673622178446,
+          "seed_bootstrap_95pct_ci": [
+            0.0368227951519969,
+            0.05613397470104826
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.05155526619045544,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.04033260681383544,
+            0.06346210916777927
+          ]
+        },
+        {
+          "scenario": "recombination",
+          "mean_independent_minus_M5_nll": 0.0065766216753610825,
+          "seed_bootstrap_95pct_ci": [
+            0.0005574418697191168,
+            0.01359270120058221
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.013407515550215488,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.006616646134404401,
+            0.020874475680302897
+          ]
+        },
+        {
+          "scenario": "selection_only",
+          "mean_independent_minus_M5_nll": 0.03047323938456601,
+          "seed_bootstrap_95pct_ci": [
+            0.021394715879201078,
+            0.03950427988495164
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.03779323018485982,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.02853423401271696,
+            0.04738427606443444
+          ]
+        },
+        {
+          "scenario": "epistasis",
+          "mean_independent_minus_M5_nll": 0.03855336807362805,
+          "seed_bootstrap_95pct_ci": [
+            0.026821584177028387,
+            0.05085233956108192
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.04656205491384953,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.032986397649389654,
+            0.062443669046060475
+          ]
+        }
+      ]
+    },
+    {
+      "sample_size": 32,
+      "m5_history_theta_train_only": [
+        0.3978265947082298,
+        0.2387755220987132,
+        0.09772671467830166,
+        0.022189566747142335
+      ],
+      "fit_info": {
+        "success": true,
+        "iterations": 3
+      },
+      "chosen_calibration": {
+        "sample_size": 32,
+        "alpha": 1,
+        "uniform_mix": 0,
+        "calibration_m5_history_nll": 0.8614014433904335
+      },
+      "n_confirmation_folds": 480,
+      "mean_nll_by_model": {
+        "sampled_independent_unsmoothed": 1.0146187861619729,
+        "M5_history_unsmoothed": 0.9814360695678119,
+        "sampled_independent_calibrated": 0.8933131887128859,
+        "M5_history_calibrated": 0.8601413408665853,
+        "M5_history_pairing_shuffled_calibrated": 0.8981293979888098
+      },
+      "mean_paired_independent_minus_m5_nll": 0.033171847846300534,
+      "paired_gain_seed_bootstrap_95pct_ci": [
+        0.02879545805728783,
+        0.037848514257521726
+      ],
+      "paired_gain_by_scenario": [
+        {
+          "scenario": "neutral",
+          "mean_independent_minus_M5_nll": 0.04947194442323518,
+          "seed_bootstrap_95pct_ci": [
+            0.040311861940298045,
+            0.05928355892417364
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.05803934774469183,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.049651240704756246,
+            0.06686877029130751
+          ]
+        },
+        {
+          "scenario": "recombination",
+          "mean_independent_minus_M5_nll": 0.00921870586484369,
+          "seed_bootstrap_95pct_ci": [
+            0.0034383941727407076,
+            0.01607881185469862
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.012874998378121793,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.007129637539779444,
+            0.019290009989599483
+          ]
+        },
+        {
+          "scenario": "selection_only",
+          "mean_independent_minus_M5_nll": 0.03397683977058632,
+          "seed_bootstrap_95pct_ci": [
+            0.025363252591680548,
+            0.04262838595189114
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.03628557625523931,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.02727626778320658,
+            0.04518372310621313
+          ]
+        },
+        {
+          "scenario": "epistasis",
+          "mean_independent_minus_M5_nll": 0.040019901326536926,
+          "seed_bootstrap_95pct_ci": [
+            0.028062092474861567,
+            0.05312012715657462
+          ],
+          "mean_M5_minus_pairing_shuffled_nll": 0.04475230611084534,
+          "pairing_shuffle_seed_bootstrap_95pct_ci": [
+            0.03239222968131082,
+            0.05845081564316016
+          ]
+        }
+      ]
+    }
+  ],
+  "design_notes": [
+    "M5 History theta is fit on train seeds separately at each sample depth.",
+    "Alpha and uniform mix are selected on calibration seeds only, separately at each depth.",
+    "Confirmation seeds are disjoint from train and calibration and are scored only after choices freeze.",
+    "The independent baseline shares the M5-selected alpha and uniform mix to isolate dependence value.",
+    "Pairing-shuffled control uses the original four-parameter theta but permutes site pairings in the cutoff sample.",
+    "Seed is the replicate unit; cutoff/horizon folds are aggregated within seed before bootstrap intervals.",
+    "Depths use nested first-N samples as implemented by the simulator; they are not random population subsamples.",
+    "This is development evidence, not a locked test or external biological validation."
+  ]
+}
