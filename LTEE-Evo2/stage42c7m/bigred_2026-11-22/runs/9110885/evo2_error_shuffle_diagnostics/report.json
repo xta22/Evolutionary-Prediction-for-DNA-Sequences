@@ -1,0 +1,34 @@
+{
+  "status": "EXPLORATORY_EVO2_ERROR_AND_EMBEDDING_SHUFFLE_DIAGNOSTICS",
+  "parts": {
+    "error_breakdown": "Existing held-out predictions, grouped by population, fold, and observed target frequency.",
+    "embedding_control": "Refit/calibrate the same nested-LOPO Evo2+history ridge head after shuffling the embedding-to-variant mapping; history features and folds are unchanged."
+  },
+  "n_prediction_rows_for_error_breakdown": 58400,
+  "n_outer_populations": 12,
+  "n_confirmation_folds": 24,
+  "n_forecast_rows": 21258,
+  "n_unique_variants": 11515,
+  "n_embedding_permutations": 20,
+  "permutation_seed": 74821,
+  "projection_dimension": 16,
+  "projection_seed": 20261118,
+  "permutation_interpretation": "Lower true score than shuffled scores suggests variant-specific Evo2 representations carry information beyond the fixed history features under this pipeline. Similar scores mean no detectable added signal here.",
+  "p_value_note": "Monte Carlo lower-tail permutation p-value over embedding shuffles; not a population-level biological p-value.",
+  "limitations": [
+    "Only 12 population clusters; intervals are exploratory.",
+    "Embedding shuffling tests variant-to-embedding association, not whether Evo2 is useful in every possible representation.",
+    "No Evo2 inference is run; stored 7B embeddings are reused.",
+    "Confirmation outcomes have already been inspected; this is development diagnosis, not a blind test."
+  ],
+  "input_sha256": {
+    "forecast_rows": "84211c9091c95505808b1a9ec80437e0cdba3bb8a89bc49015b060b2aaf32955",
+    "variant_index": "efd8ffcf2a3021698d742c0a30cc191aa7edf85ddb30ad5c84307a4e2fe6ab8d",
+    "embedding_matrix": "24ff4d9fe03640f2bc5dec3df622211096e2ed7bdb4c73bd65d66250761ad089"
+  },
+  "outputs": [
+    "stratified_error_diagnostics.csv",
+    "embedding_shuffle_population_scores.csv",
+    "embedding_shuffle_summary.csv"
+  ]
+}

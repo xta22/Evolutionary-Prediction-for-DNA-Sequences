@@ -1,0 +1,502 @@
+{
+  "status": "EXPLORATORY_TARGET_CLONE_WEIGHT_SENSITIVITY",
+  "task": "Re-score nested population-LOPO held-out predictions with site-equal versus target-clone-count weighting.",
+  "refit": "Ridge heads refit/calibrated within the same outer population folds using the original site-macro calibration criterion; no Evo2 inference is run.",
+  "weighting_definitions": {
+    "site_equal": "Within each fold, each cutoff-defined SNP allele receives weight 1; folds and populations are then macro-averaged.",
+    "target_clone_weighted": "Within each fold, each SNP allele score is weighted by n_target_clones; folds and populations are then macro-averaged."
+  },
+  "metrics": {
+    "frequency_mae": "|predicted_frequency - observed_target_frequency|",
+    "target_clone_brier": "q*(1-pred)^2 + (1-q)*pred^2",
+    "target_clone_log_loss": "-q*log(clip(pred,1e-6,1-1e-6))-(1-q)*log(1-clip(pred,1e-6,1-1e-6))"
+  },
+  "n_population_clusters": 12,
+  "n_confirmation_site_allele_rows": 14600,
+  "n_confirmation_folds": 24,
+  "n_unique_variants": 11515,
+  "projection_dimension": 16,
+  "projection_seed": 20261118,
+  "input_sha256": {
+    "forecast_rows": "84211c9091c95505808b1a9ec80437e0cdba3bb8a89bc49015b060b2aaf32955",
+    "variant_index": "efd8ffcf2a3021698d742c0a30cc191aa7edf85ddb30ad5c84307a4e2fe6ab8d",
+    "embedding_matrix": "24ff4d9fe03640f2bc5dec3df622211096e2ed7bdb4c73bd65d66250761ad089"
+  },
+  "overall_metrics": [
+    {
+      "weighting": "site_equal",
+      "model": "persistence",
+      "metric": "frequency_mae",
+      "mean_over_populations": 0.13987460818338432,
+      "population_cluster_bootstrap_95pct_ci": "[0.08825257646826014, 0.19835484948073134]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "site_equal",
+      "model": "persistence",
+      "metric": "target_clone_brier",
+      "mean_over_populations": 0.11009231239628531,
+      "population_cluster_bootstrap_95pct_ci": "[0.0707563338946696, 0.15090257110637298]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "site_equal",
+      "model": "persistence",
+      "metric": "target_clone_log_loss",
+      "mean_over_populations": 0.4276276879822029,
+      "population_cluster_bootstrap_95pct_ci": "[0.2407045008109713, 0.6858388531443403]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "site_equal",
+      "model": "history_only",
+      "metric": "frequency_mae",
+      "mean_over_populations": 0.15199968672948508,
+      "population_cluster_bootstrap_95pct_ci": "[0.10279132696328973, 0.2037889275893143]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "site_equal",
+      "model": "history_only",
+      "metric": "target_clone_brier",
+      "mean_over_populations": 0.1102068517441649,
+      "population_cluster_bootstrap_95pct_ci": "[0.06557596827678443, 0.15764870774703327]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "site_equal",
+      "model": "history_only",
+      "metric": "target_clone_log_loss",
+      "mean_over_populations": 0.35136290099299144,
+      "population_cluster_bootstrap_95pct_ci": "[0.20878740052041778, 0.5073702108504979]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "site_equal",
+      "model": "evo2_only",
+      "metric": "frequency_mae",
+      "mean_over_populations": 0.2403114543705309,
+      "population_cluster_bootstrap_95pct_ci": "[0.19550914141225617, 0.28524848060656444]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "site_equal",
+      "model": "evo2_only",
+      "metric": "target_clone_brier",
+      "mean_over_populations": 0.1315271951184764,
+      "population_cluster_bootstrap_95pct_ci": "[0.09372637166489271, 0.17038711122317815]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "site_equal",
+      "model": "evo2_only",
+      "metric": "target_clone_log_loss",
+      "mean_over_populations": 0.41209485610021224,
+      "population_cluster_bootstrap_95pct_ci": "[0.31907861565096246, 0.5044165875723586]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "site_equal",
+      "model": "evo2_plus_history",
+      "metric": "frequency_mae",
+      "mean_over_populations": 0.2118758490799936,
+      "population_cluster_bootstrap_95pct_ci": "[0.16361301794041117, 0.2585168277775844]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "site_equal",
+      "model": "evo2_plus_history",
+      "metric": "target_clone_brier",
+      "mean_over_populations": 0.11936135042247736,
+      "population_cluster_bootstrap_95pct_ci": "[0.08274047207180289, 0.15755178461902475]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "site_equal",
+      "model": "evo2_plus_history",
+      "metric": "target_clone_log_loss",
+      "mean_over_populations": 0.3818757701985307,
+      "population_cluster_bootstrap_95pct_ci": "[0.29227816978045745, 0.4730965308100294]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "model": "persistence",
+      "metric": "frequency_mae",
+      "mean_over_populations": 0.13987460818338432,
+      "population_cluster_bootstrap_95pct_ci": "[0.0869284826401619, 0.19656157511420994]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "model": "persistence",
+      "metric": "target_clone_brier",
+      "mean_over_populations": 0.11009231239628531,
+      "population_cluster_bootstrap_95pct_ci": "[0.07060269466416058, 0.15087953481068048]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "model": "persistence",
+      "metric": "target_clone_log_loss",
+      "mean_over_populations": 0.4276276879822029,
+      "population_cluster_bootstrap_95pct_ci": "[0.23857893595041021, 0.6843578819553336]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "model": "history_only",
+      "metric": "frequency_mae",
+      "mean_over_populations": 0.15199968672948508,
+      "population_cluster_bootstrap_95pct_ci": "[0.102511426367259, 0.20440348929853158]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "model": "history_only",
+      "metric": "target_clone_brier",
+      "mean_over_populations": 0.1102068517441649,
+      "population_cluster_bootstrap_95pct_ci": "[0.06481055667519135, 0.1570792548350656]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "model": "history_only",
+      "metric": "target_clone_log_loss",
+      "mean_over_populations": 0.35136290099299144,
+      "population_cluster_bootstrap_95pct_ci": "[0.2099328271205038, 0.5042531876306119]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "model": "evo2_only",
+      "metric": "frequency_mae",
+      "mean_over_populations": 0.2403114543705309,
+      "population_cluster_bootstrap_95pct_ci": "[0.19545319746737214, 0.28482138103852506]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "model": "evo2_only",
+      "metric": "target_clone_brier",
+      "mean_over_populations": 0.1315271951184764,
+      "population_cluster_bootstrap_95pct_ci": "[0.09402728415159374, 0.17021350842486951]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "model": "evo2_only",
+      "metric": "target_clone_log_loss",
+      "mean_over_populations": 0.41209485610021224,
+      "population_cluster_bootstrap_95pct_ci": "[0.31766684772739945, 0.5064894869554369]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "model": "evo2_plus_history",
+      "metric": "frequency_mae",
+      "mean_over_populations": 0.2118758490799936,
+      "population_cluster_bootstrap_95pct_ci": "[0.16422700231509293, 0.2586311472068312]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "model": "evo2_plus_history",
+      "metric": "target_clone_brier",
+      "mean_over_populations": 0.11936135042247736,
+      "population_cluster_bootstrap_95pct_ci": "[0.08237454563691887, 0.15702966783914574]",
+      "n_population_clusters": 12
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "model": "evo2_plus_history",
+      "metric": "target_clone_log_loss",
+      "mean_over_populations": 0.3818757701985307,
+      "population_cluster_bootstrap_95pct_ci": "[0.29436667396690824, 0.4719519766047613]",
+      "n_population_clusters": 12
+    }
+  ],
+  "paired_deltas": [
+    {
+      "weighting": "site_equal",
+      "comparison": "evo2_plus_history_minus_history_only",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": 0.05987616235050853,
+      "population_cluster_bootstrap_95pct_ci": "[0.015760573130837157, 0.09600091291399628]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "evo2_plus_history_minus_evo2_only",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": -0.02843560529053733,
+      "population_cluster_bootstrap_95pct_ci": "[-0.041031908537185566, -0.015786703387991225]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "evo2_only_minus_persistence",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": 0.10043684618714661,
+      "population_cluster_bootstrap_95pct_ci": "[0.07845976218668681, 0.12227689674570093]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "history_only_minus_persistence",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": 0.01212507854610076,
+      "population_cluster_bootstrap_95pct_ci": "[-0.011257918771332085, 0.04241842670367805]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "evo2_plus_history_minus_persistence",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": 0.0720012408966093,
+      "population_cluster_bootstrap_95pct_ci": "[0.051406583893572035, 0.09160915034090396]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "evo2_plus_history_minus_history_only",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": 0.009154498678312436,
+      "population_cluster_bootstrap_95pct_ci": "[-0.002018397474143934, 0.02021504006816387]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "evo2_plus_history_minus_evo2_only",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": -0.012165844695999078,
+      "population_cluster_bootstrap_95pct_ci": "[-0.02063186914514947, -0.0005622801927208272]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "evo2_only_minus_persistence",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": 0.02143488272219114,
+      "population_cluster_bootstrap_95pct_ci": "[0.013460030010111826, 0.028993356928580804]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "history_only_minus_persistence",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": 0.00011453934787962877,
+      "population_cluster_bootstrap_95pct_ci": "[-0.010725989340788685, 0.012104715002828849]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "evo2_plus_history_minus_persistence",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": 0.009269038026192063,
+      "population_cluster_bootstrap_95pct_ci": "[0.0020981892368863177, 0.01701780599614116]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "evo2_plus_history_minus_history_only",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": 0.03051286920553926,
+      "population_cluster_bootstrap_95pct_ci": "[-0.05315669465443648, 0.09453093748222417]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "evo2_plus_history_minus_evo2_only",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": -0.03021908590168162,
+      "population_cluster_bootstrap_95pct_ci": "[-0.049384840046154406, -0.0053287801847464455]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "evo2_only_minus_persistence",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": -0.015532831881990597,
+      "population_cluster_bootstrap_95pct_ci": "[-0.21551571776730316, 0.10115718196061264]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "history_only_minus_persistence",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": -0.07626478698921148,
+      "population_cluster_bootstrap_95pct_ci": "[-0.27379185212434876, 0.06696221026077465]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "site_equal",
+      "comparison": "evo2_plus_history_minus_persistence",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": -0.045751917783672214,
+      "population_cluster_bootstrap_95pct_ci": "[-0.24586836567447687, 0.073804599725155]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "evo2_plus_history_minus_history_only",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": 0.05987616235050853,
+      "population_cluster_bootstrap_95pct_ci": "[0.015441579377106338, 0.09588431611007915]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "evo2_plus_history_minus_evo2_only",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": -0.02843560529053733,
+      "population_cluster_bootstrap_95pct_ci": "[-0.04101753768601685, -0.015961852381417507]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "evo2_only_minus_persistence",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": 0.10043684618714661,
+      "population_cluster_bootstrap_95pct_ci": "[0.07835231934536623, 0.12151718729947836]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "history_only_minus_persistence",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": 0.01212507854610076,
+      "population_cluster_bootstrap_95pct_ci": "[-0.011216298843959532, 0.04290665715196545]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "evo2_plus_history_minus_persistence",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": 0.0720012408966093,
+      "population_cluster_bootstrap_95pct_ci": "[0.05180557181065024, 0.09178919060344641]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "evo2_plus_history_minus_history_only",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": 0.009154498678312436,
+      "population_cluster_bootstrap_95pct_ci": "[-0.002021122297134999, 0.020398889519503704]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "evo2_plus_history_minus_evo2_only",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": -0.012165844695999078,
+      "population_cluster_bootstrap_95pct_ci": "[-0.020701991227538147, -0.0007500732907296937]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "evo2_only_minus_persistence",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": 0.02143488272219114,
+      "population_cluster_bootstrap_95pct_ci": "[0.013342828459656985, 0.02900969904277903]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "history_only_minus_persistence",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": 0.00011453934787962877,
+      "population_cluster_bootstrap_95pct_ci": "[-0.010682392769754898, 0.012086370985811043]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "evo2_plus_history_minus_persistence",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": 0.009269038026192063,
+      "population_cluster_bootstrap_95pct_ci": "[0.0019478938514566613, 0.016968433462962427]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "evo2_plus_history_minus_history_only",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": 0.03051286920553926,
+      "population_cluster_bootstrap_95pct_ci": "[-0.05452543043993263, 0.09474698196013819]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "evo2_plus_history_minus_evo2_only",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": -0.03021908590168162,
+      "population_cluster_bootstrap_95pct_ci": "[-0.04916658302890276, -0.005200719977278889]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "evo2_only_minus_persistence",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": -0.015532831881990597,
+      "population_cluster_bootstrap_95pct_ci": "[-0.21651901013622354, 0.10090672206141231]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "history_only_minus_persistence",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": -0.07626478698921148,
+      "population_cluster_bootstrap_95pct_ci": "[-0.2733516595053513, 0.07047142384518967]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "weighting": "target_clone_weighted",
+      "comparison": "evo2_plus_history_minus_persistence",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": -0.045751917783672214,
+      "population_cluster_bootstrap_95pct_ci": "[-0.24635657518926668, 0.07279613826935219]",
+      "n_population_clusters": 12,
+      "negative_favors_left": true
+    }
+  ],
+  "outputs": [
+    "heldout_site_predictions.csv",
+    "weighting_sensitivity_summary.csv",
+    "paired_population_deltas.csv",
+    "outer_model_selections.csv"
+  ],
+  "limitations": [
+    "Clone-count weighting changes the estimand; report alongside site-equal results.",
+    "The 12 populations, not the SNP rows, are the population-level uncertainty clusters.",
+    "This is internal development evidence, not a blind locked biological test."
+  ]
+}

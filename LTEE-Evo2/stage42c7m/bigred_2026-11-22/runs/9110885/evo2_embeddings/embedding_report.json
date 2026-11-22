@@ -1,0 +1,24 @@
+{
+  "status": "FROZEN_EVO2_VARIANT_CONTEXT_EMBEDDINGS_COMPLETE",
+  "model": "evo2_7b",
+  "layer": "blocks.28.mlp.l3",
+  "pooling": "mean over layer token axis",
+  "variant_embedding": "alternate-window pooled embedding minus reference-window pooled embedding",
+  "n_variants": 11515,
+  "embedding_dimension": 4096,
+  "device": "NVIDIA A100-SXM4-40GB",
+  "torch_version": "2.7.1+cu128",
+  "cuda_version": "12.8",
+  "input_fasta_sha256": "64ca98e0474147f548a3e20ff6ee8721e37a55826b9815dac7a1200a3d0bd1e1",
+  "input_index_sha256": "efd8ffcf2a3021698d742c0a30cc191aa7edf85ddb30ad5c84307a4e2fe6ab8d",
+  "outputs": [
+    "variant_embedding_delta.npy",
+    "embedded_variant_index.csv",
+    "embedding_report.json"
+  ],
+  "limitations": [
+    "Embeddings use REL606 local sequence context with only the focal SNP substituted; other clone-specific variants are omitted.",
+    "This is a frozen representation; Evo2 weights are not fine-tuned.",
+    "A mean-pooled local-window difference is an exploratory variant-context feature, not a causal effect estimate."
+  ]
+}

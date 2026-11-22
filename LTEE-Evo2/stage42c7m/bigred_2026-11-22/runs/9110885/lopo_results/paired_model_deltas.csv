@@ -1,0 +1,10 @@
+comparison,metric,delta_definition,mean_paired_population_delta,population_cluster_bootstrap_95pct_ci,n_heldout_population_clusters
+history_only_minus_persistence,frequency_mae,negative favors the left model,0.01212507854610076,"[-0.011331951323054349, 0.04322960264749646]",12
+evo2_context_minus_persistence,frequency_mae,negative favors the left model,0.07200124073022261,"[0.05167556238662224, 0.09197758907410952]",12
+evo2_context_minus_history_only,frequency_mae,negative favors the left model,0.05987616218412186,"[0.01607030635036914, 0.09675781819272584]",12
+history_only_minus_persistence,target_clone_brier,negative favors the left model,0.00011453934787962877,"[-0.01067212002636927, 0.012004000457304279]",12
+evo2_context_minus_persistence,target_clone_brier,negative favors the left model,0.009269038058609076,"[0.0019151578712340396, 0.01694819494129951]",12
+evo2_context_minus_history_only,target_clone_brier,negative favors the left model,0.00915449871072945,"[-0.001813599732806007, 0.020416677670092562]",12
+history_only_minus_persistence,target_clone_log_loss,negative favors the left model,-0.07626478698921148,"[-0.2697023237426451, 0.06919802866790256]",12
+evo2_context_minus_persistence,target_clone_log_loss,negative favors the left model,-0.04575191800360945,"[-0.24699989718084928, 0.07352863167509531]",12
+evo2_context_minus_history_only,target_clone_log_loss,negative favors the left model,0.030512868985602033,"[-0.05426143744523596, 0.09479297024163025]",12

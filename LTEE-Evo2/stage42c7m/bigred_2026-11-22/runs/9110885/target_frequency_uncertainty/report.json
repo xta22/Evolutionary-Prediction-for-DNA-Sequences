@@ -1,0 +1,30 @@
+{
+  "status": "EXPLORATORY_BETA_BINOMIAL_TARGET_FREQUENCY_UNCERTAINTY",
+  "input": "/geode3/home/u110/xta1/BigRed200/stage42c7m/runs/9110885/target_clone_weight_sensitivity/heldout_site_predictions.csv",
+  "n_site_fold_allele_rows": 14600,
+  "n_population_clusters": 12,
+  "n_population_time_folds": 24,
+  "target_clone_count_distribution_by_site_rows": {
+    "2": 14600
+  },
+  "posterior": "Independent site-wise Jeffreys posterior: theta_i | k_i,n_i ~ Beta(k_i+0.5,n_i-k_i+0.5).",
+  "scoring_targets": {
+    "latent_frequency": "Posterior draws of the latent population allele frequency.",
+    "replicate_sample_frequency": "A new target clone panel simulated from each posterior-drawn latent frequency, using that site's observed target clone count."
+  },
+  "aggregation": "Sites averaged within fold; folds averaged within population; populations equally averaged. Posterior intervals describe only target-frequency sampling uncertainty under the stated model, not a population-bootstrap confidence interval.",
+  "independence_assumption": "Conditional binomial sampling of clones and independent posterior draws across SNP alleles. LTEE clones/loci may be correlated through shared ancestry/linkage, so intervals may understate uncertainty.",
+  "n_posterior_draws": 5000,
+  "seed": 734201,
+  "metrics": {
+    "frequency_mae": "|predicted frequency - latent theta|",
+    "target_clone_brier": "theta*(1-p)^2 + (1-theta)*p^2",
+    "target_clone_log_loss": "-theta*log(clip(p,1e-6,1-1e-6))-(1-theta)*log(1-clip(p,1e-6,1-1e-6))"
+  },
+  "outputs": [
+    "posterior_frequency_by_site.csv",
+    "posterior_macro_scores.csv",
+    "posterior_macro_model_deltas.csv"
+  ],
+  "interpretation_warning": "This is a plug-in Bayesian sensitivity analysis using held-out observed counts to estimate latent frequencies. It is not a new blind test and does not remove uncertainty from only 12 populations or model selection."
+}

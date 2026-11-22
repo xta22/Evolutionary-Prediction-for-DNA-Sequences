@@ -1,0 +1,24 @@
+{
+  "status": "EVO2_CUTOFF_SNP_WINDOW_BUNDLE_PREPARED",
+  "source_feature_rows": "/home/xiaoyuetang/LTEE-Ecoli/LTEE_prospective/v3c_stage42c7k_frequency_trend_run2/feature_rows_with_history.csv",
+  "source_feature_rows_sha256": "afbc4b33697634fd6225d0f78372bb3154eb856b3cb4af1b5ef7de0aa7d79856",
+  "reference": "/home/xiaoyuetang/LTEE-Ecoli/reference/REL606.gbk",
+  "reference_sha256": "d068425134e474e93110e8a1817b0627b737799aba48c7fd14f3e7b90e504c59",
+  "reference_record_name": "REL606",
+  "reference_length": 4629812,
+  "n_forecast_rows": 21258,
+  "n_unique_cutoff_observed_snp_alleles": 11515,
+  "window_bp": 2048,
+  "files": [
+    "variant_windows.fasta",
+    "variant_index.csv",
+    "forecast_rows.csv",
+    "prepare_report.json"
+  ],
+  "notes": [
+    "Windows contain the REL606 reference context with the focal alternate allele substituted at its center.",
+    "The embedding is an allele-context representation; it does not include other population-specific mutations.",
+    "Candidate variants are drawn only from cutoff-observed alleles in the fixed fold feature table.",
+    "Sequences wrap at chromosome ends, treating REL606 as circular."
+  ]
+}

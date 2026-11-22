@@ -1,0 +1,16 @@
+comparison,metric,mean_paired_population_delta,population_cluster_bootstrap_95pct_ci,n_heldout_population_clusters,negative_favors_left
+evo2_plus_history_minus_history_only,frequency_mae,0.05987616167634832,"[0.015430530300285945, 0.09653435524023006]",12,True
+evo2_plus_history_minus_evo2_only,frequency_mae,-0.02843560790791742,"[-0.040977985514758064, -0.01573373164840555]",12,True
+evo2_only_minus_persistence,frequency_mae,0.1004368481303665,"[0.07820650137843133, 0.12182269946283386]",12,True
+history_only_minus_persistence,frequency_mae,0.01212507854610076,"[-0.011267466639827075, 0.04307248240909223]",12,True
+evo2_plus_history_minus_persistence,frequency_mae,0.0720012402224491,"[0.051796001935752733, 0.09164773718652298]",12,True
+evo2_plus_history_minus_history_only,target_clone_brier,0.009154496758009173,"[-0.0019268676383063525, 0.02038736825268563]",12,True
+evo2_plus_history_minus_evo2_only,target_clone_brier,-0.012165846867962946,"[-0.02056169706319394, -0.0007360155533367926]",12,True
+evo2_only_minus_persistence,target_clone_brier,0.021434882973851748,"[0.013193760906760013, 0.028990666032205088]",12,True
+history_only_minus_persistence,target_clone_brier,0.00011453934787962877,"[-0.010671801747892838, 0.012153372700251497]",12,True
+evo2_plus_history_minus_persistence,target_clone_brier,0.009269036105888804,"[0.0019946068716791606, 0.01698641179826109]",12,True
+evo2_plus_history_minus_history_only,target_clone_log_loss,0.03051286225421829,"[-0.053073664842975855, 0.09540186616584347]",12,True
+evo2_plus_history_minus_evo2_only,target_clone_log_loss,-0.03021909517766221,"[-0.04925055767839592, -0.005144387366316662]",12,True
+evo2_only_minus_persistence,target_clone_log_loss,-0.015532829557330976,"[-0.2155339836851983, 0.1005875183330542]",12,True
+history_only_minus_persistence,target_clone_log_loss,-0.07626478698921148,"[-0.26851483699883155, 0.06823762230941434]",12,True
+evo2_plus_history_minus_persistence,target_clone_log_loss,-0.0457519247349932,"[-0.24864876168577763, 0.07380459362872606]",12,True

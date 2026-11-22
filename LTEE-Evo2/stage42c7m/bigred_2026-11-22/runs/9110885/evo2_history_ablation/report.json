@@ -1,0 +1,260 @@
+{
+  "status": "EXPLORATORY_FROZEN_EVO2_HISTORY_ABLATION_NESTED_LOPO",
+  "question": "Does Evo2 context add forecast value beyond explicit history, and does history add value beyond Evo2?",
+  "models": [
+    "persistence",
+    "history_only",
+    "evo2_only",
+    "evo2_plus_history"
+  ],
+  "outer_validation": "population-level nested LOPO; held-out confirmation only",
+  "n_population_clusters": 12,
+  "n_forecast_rows": 21258,
+  "n_unique_variants": 11515,
+  "n_confirmation_population_time_folds": 24,
+  "evo2": {
+    "model": "evo2_7b",
+    "layer": "blocks.28.mlp.l3",
+    "feature": "frozen alternate-minus-reference pooled embedding",
+    "projection_dimension": 16,
+    "projection_seed": 20261118,
+    "ridge_grid": [
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "persistence_blend_grid": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "calibration_criterion": "population-macro target-clone log loss",
+  "input_sha256": {
+    "forecast_rows": "84211c9091c95505808b1a9ec80437e0cdba3bb8a89bc49015b060b2aaf32955",
+    "variant_index": "efd8ffcf2a3021698d742c0a30cc191aa7edf85ddb30ad5c84307a4e2fe6ab8d",
+    "embedding": "24ff4d9fe03640f2bc5dec3df622211096e2ed7bdb4c73bd65d66250761ad089"
+  },
+  "overall_metrics": [
+    {
+      "model": "persistence",
+      "metric": "frequency_mae",
+      "mean_over_heldout_populations": 0.13987460818338432,
+      "population_cluster_bootstrap_95pct_ci": "[0.08749560675619093, 0.19690144336400572]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "persistence",
+      "metric": "target_clone_brier",
+      "mean_over_heldout_populations": 0.11009231239628531,
+      "population_cluster_bootstrap_95pct_ci": "[0.07072726655247093, 0.15156948435154824]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "persistence",
+      "metric": "target_clone_log_loss",
+      "mean_over_heldout_populations": 0.4276276879822029,
+      "population_cluster_bootstrap_95pct_ci": "[0.23961514811969153, 0.6824285672432335]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "history_only",
+      "metric": "frequency_mae",
+      "mean_over_heldout_populations": 0.15199968672948508,
+      "population_cluster_bootstrap_95pct_ci": "[0.10341911076281368, 0.2029687918055971]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "history_only",
+      "metric": "target_clone_brier",
+      "mean_over_heldout_populations": 0.1102068517441649,
+      "population_cluster_bootstrap_95pct_ci": "[0.06532357539449085, 0.1573041002628112]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "history_only",
+      "metric": "target_clone_log_loss",
+      "mean_over_heldout_populations": 0.35136290099299144,
+      "population_cluster_bootstrap_95pct_ci": "[0.20811762461676706, 0.5071509109124693]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "evo2_only",
+      "metric": "frequency_mae",
+      "mean_over_heldout_populations": 0.2403114563137508,
+      "population_cluster_bootstrap_95pct_ci": "[0.19516705183487415, 0.28536973787453085]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "evo2_only",
+      "metric": "target_clone_brier",
+      "mean_over_heldout_populations": 0.13152719537013702,
+      "population_cluster_bootstrap_95pct_ci": "[0.09388904557297263, 0.170238596019282]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "evo2_only",
+      "metric": "target_clone_log_loss",
+      "mean_over_heldout_populations": 0.41209485842487187,
+      "population_cluster_bootstrap_95pct_ci": "[0.3195786168919705, 0.507000138825591]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "evo2_plus_history",
+      "metric": "frequency_mae",
+      "mean_over_heldout_populations": 0.21187584840583337,
+      "population_cluster_bootstrap_95pct_ci": "[0.16438648650364493, 0.25892898316487006]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "evo2_plus_history",
+      "metric": "target_clone_brier",
+      "mean_over_heldout_populations": 0.11936134850217407,
+      "population_cluster_bootstrap_95pct_ci": "[0.08254952544497493, 0.15726609473530176]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "evo2_plus_history",
+      "metric": "target_clone_log_loss",
+      "mean_over_heldout_populations": 0.3818757632472097,
+      "population_cluster_bootstrap_95pct_ci": "[0.29212014147476467, 0.473517155513193]",
+      "n_heldout_population_clusters": 12
+    }
+  ],
+  "paired_deltas": [
+    {
+      "comparison": "evo2_plus_history_minus_history_only",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": 0.05987616167634832,
+      "population_cluster_bootstrap_95pct_ci": "[0.015430530300285945, 0.09653435524023006]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "evo2_plus_history_minus_evo2_only",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": -0.02843560790791742,
+      "population_cluster_bootstrap_95pct_ci": "[-0.040977985514758064, -0.01573373164840555]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "evo2_only_minus_persistence",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": 0.1004368481303665,
+      "population_cluster_bootstrap_95pct_ci": "[0.07820650137843133, 0.12182269946283386]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "history_only_minus_persistence",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": 0.01212507854610076,
+      "population_cluster_bootstrap_95pct_ci": "[-0.011267466639827075, 0.04307248240909223]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "evo2_plus_history_minus_persistence",
+      "metric": "frequency_mae",
+      "mean_paired_population_delta": 0.0720012402224491,
+      "population_cluster_bootstrap_95pct_ci": "[0.051796001935752733, 0.09164773718652298]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "evo2_plus_history_minus_history_only",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": 0.009154496758009173,
+      "population_cluster_bootstrap_95pct_ci": "[-0.0019268676383063525, 0.02038736825268563]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "evo2_plus_history_minus_evo2_only",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": -0.012165846867962946,
+      "population_cluster_bootstrap_95pct_ci": "[-0.02056169706319394, -0.0007360155533367926]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "evo2_only_minus_persistence",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": 0.021434882973851748,
+      "population_cluster_bootstrap_95pct_ci": "[0.013193760906760013, 0.028990666032205088]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "history_only_minus_persistence",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": 0.00011453934787962877,
+      "population_cluster_bootstrap_95pct_ci": "[-0.010671801747892838, 0.012153372700251497]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "evo2_plus_history_minus_persistence",
+      "metric": "target_clone_brier",
+      "mean_paired_population_delta": 0.009269036105888804,
+      "population_cluster_bootstrap_95pct_ci": "[0.0019946068716791606, 0.01698641179826109]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "evo2_plus_history_minus_history_only",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": 0.03051286225421829,
+      "population_cluster_bootstrap_95pct_ci": "[-0.053073664842975855, 0.09540186616584347]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "evo2_plus_history_minus_evo2_only",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": -0.03021909517766221,
+      "population_cluster_bootstrap_95pct_ci": "[-0.04925055767839592, -0.005144387366316662]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "evo2_only_minus_persistence",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": -0.015532829557330976,
+      "population_cluster_bootstrap_95pct_ci": "[-0.2155339836851983, 0.1005875183330542]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "history_only_minus_persistence",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": -0.07626478698921148,
+      "population_cluster_bootstrap_95pct_ci": "[-0.26851483699883155, 0.06823762230941434]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    },
+    {
+      "comparison": "evo2_plus_history_minus_persistence",
+      "metric": "target_clone_log_loss",
+      "mean_paired_population_delta": -0.0457519247349932,
+      "population_cluster_bootstrap_95pct_ci": "[-0.24864876168577763, 0.07380459362872606]",
+      "n_heldout_population_clusters": 12,
+      "negative_favors_left": true
+    }
+  ],
+  "metric_definitions": {
+    "frequency_mae": "mean across cutoff-defined site-allele rows within fold of |p_hat - q|, then equal-weight folds within population and populations overall",
+    "target_clone_brier": "for target frequency q, q*(1-p_hat)^2 + (1-q)*p_hat^2; equals expected binary Brier over target clones",
+    "target_clone_log_loss": "-q*ln(clip(p_hat,1e-6,1-1e-6))-(1-q)*ln(1-clip(p_hat,1e-6,1-1e-6)); equals mean binary cross-entropy over target clones"
+  },
+  "limitations": [
+    "Not whole-sequence likelihood or sequence generation; only cutoff-observed SNP alternate alleles are scored.",
+    "Only 12 population clusters; bootstrap reflects population-level variation.",
+    "Frozen local-context embeddings use focal SNP substitution on REL606 background; not full clone genome context.",
+    "Development evidence, not a blind locked biological test."
+  ]
+}

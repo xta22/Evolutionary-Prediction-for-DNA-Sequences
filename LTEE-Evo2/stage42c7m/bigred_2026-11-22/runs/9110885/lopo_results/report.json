@@ -1,0 +1,189 @@
+{
+  "status": "EXPLORATORY_FROZEN_EVO2_NESTED_POPULATION_LOPO",
+  "outer_validation": "Hold out each population's confirmation folds; fit and calibrate on other populations only.",
+  "evo2": {
+    "model": "evo2_7b",
+    "layer": "blocks.28.mlp.l3",
+    "embedding": "alternate-window minus reference-window mean-pooled embedding",
+    "random_projection_dimension": 16,
+    "random_projection_seed": 20261118,
+    "ridge_penalty_grid": [
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "blend_grid": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "calibration_criterion": "population-macro target-clone log loss",
+  "n_population_clusters": 12,
+  "n_forecast_rows": 21258,
+  "n_unique_variants": 11515,
+  "n_confirmation_population_time_folds": 24,
+  "projection_note": "Random projection is label-independent; all feature standardization is fit on outer training rows only.",
+  "input_sha256": {
+    "forecast_rows": "84211c9091c95505808b1a9ec80437e0cdba3bb8a89bc49015b060b2aaf32955",
+    "variant_index": "efd8ffcf2a3021698d742c0a30cc191aa7edf85ddb30ad5c84307a4e2fe6ab8d",
+    "embedding_matrix": "24ff4d9fe03640f2bc5dec3df622211096e2ed7bdb4c73bd65d66250761ad089"
+  },
+  "overall_metrics": [
+    {
+      "model": "persistence",
+      "metric": "frequency_mae",
+      "mean_over_heldout_populations": 0.13987460818338432,
+      "population_cluster_bootstrap_95pct_ci": "[0.08730164316821272, 0.19569075201196343]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "persistence",
+      "metric": "target_clone_brier",
+      "mean_over_heldout_populations": 0.11009231239628531,
+      "population_cluster_bootstrap_95pct_ci": "[0.07094380503629026, 0.15063130356493704]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "persistence",
+      "metric": "target_clone_log_loss",
+      "mean_over_heldout_populations": 0.4276276879822029,
+      "population_cluster_bootstrap_95pct_ci": "[0.24046310167564813, 0.686544937012097]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "history_only",
+      "metric": "frequency_mae",
+      "mean_over_heldout_populations": 0.15199968672948508,
+      "population_cluster_bootstrap_95pct_ci": "[0.10352207865806683, 0.20220060119756242]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "history_only",
+      "metric": "target_clone_brier",
+      "mean_over_heldout_populations": 0.1102068517441649,
+      "population_cluster_bootstrap_95pct_ci": "[0.06580005333230034, 0.15719194871690492]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "history_only",
+      "metric": "target_clone_log_loss",
+      "mean_over_heldout_populations": 0.35136290099299144,
+      "population_cluster_bootstrap_95pct_ci": "[0.21052900830562107, 0.5082151131538383]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "evo2_context",
+      "metric": "frequency_mae",
+      "mean_over_heldout_populations": 0.21187584891360692,
+      "population_cluster_bootstrap_95pct_ci": "[0.16526651757906763, 0.2591561582354753]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "evo2_context",
+      "metric": "target_clone_brier",
+      "mean_over_heldout_populations": 0.11936135045489436,
+      "population_cluster_bootstrap_95pct_ci": "[0.08291483619488994, 0.15726928552145597]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "model": "evo2_context",
+      "metric": "target_clone_log_loss",
+      "mean_over_heldout_populations": 0.38187576997859335,
+      "population_cluster_bootstrap_95pct_ci": "[0.29221573641215776, 0.47360247102360087]",
+      "n_heldout_population_clusters": 12
+    }
+  ],
+  "paired_deltas": [
+    {
+      "comparison": "history_only_minus_persistence",
+      "metric": "frequency_mae",
+      "delta_definition": "negative favors the left model",
+      "mean_paired_population_delta": 0.01212507854610076,
+      "population_cluster_bootstrap_95pct_ci": "[-0.011331951323054349, 0.04322960264749646]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "comparison": "evo2_context_minus_persistence",
+      "metric": "frequency_mae",
+      "delta_definition": "negative favors the left model",
+      "mean_paired_population_delta": 0.07200124073022261,
+      "population_cluster_bootstrap_95pct_ci": "[0.05167556238662224, 0.09197758907410952]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "comparison": "evo2_context_minus_history_only",
+      "metric": "frequency_mae",
+      "delta_definition": "negative favors the left model",
+      "mean_paired_population_delta": 0.05987616218412186,
+      "population_cluster_bootstrap_95pct_ci": "[0.01607030635036914, 0.09675781819272584]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "comparison": "history_only_minus_persistence",
+      "metric": "target_clone_brier",
+      "delta_definition": "negative favors the left model",
+      "mean_paired_population_delta": 0.00011453934787962877,
+      "population_cluster_bootstrap_95pct_ci": "[-0.01067212002636927, 0.012004000457304279]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "comparison": "evo2_context_minus_persistence",
+      "metric": "target_clone_brier",
+      "delta_definition": "negative favors the left model",
+      "mean_paired_population_delta": 0.009269038058609076,
+      "population_cluster_bootstrap_95pct_ci": "[0.0019151578712340396, 0.01694819494129951]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "comparison": "evo2_context_minus_history_only",
+      "metric": "target_clone_brier",
+      "delta_definition": "negative favors the left model",
+      "mean_paired_population_delta": 0.00915449871072945,
+      "population_cluster_bootstrap_95pct_ci": "[-0.001813599732806007, 0.020416677670092562]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "comparison": "history_only_minus_persistence",
+      "metric": "target_clone_log_loss",
+      "delta_definition": "negative favors the left model",
+      "mean_paired_population_delta": -0.07626478698921148,
+      "population_cluster_bootstrap_95pct_ci": "[-0.2697023237426451, 0.06919802866790256]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "comparison": "evo2_context_minus_persistence",
+      "metric": "target_clone_log_loss",
+      "delta_definition": "negative favors the left model",
+      "mean_paired_population_delta": -0.04575191800360945,
+      "population_cluster_bootstrap_95pct_ci": "[-0.24699989718084928, 0.07352863167509531]",
+      "n_heldout_population_clusters": 12
+    },
+    {
+      "comparison": "evo2_context_minus_history_only",
+      "metric": "target_clone_log_loss",
+      "delta_definition": "negative favors the left model",
+      "mean_paired_population_delta": 0.030512868985602033,
+      "population_cluster_bootstrap_95pct_ci": "[-0.05426143744523596, 0.09479297024163025]",
+      "n_heldout_population_clusters": 12
+    }
+  ],
+  "outputs": [
+    "outer_population_metrics.csv",
+    "outer_fold_metrics.csv",
+    "outer_model_selections.csv",
+    "paired_model_deltas.csv",
+    "overall_model_metrics.csv",
+    "report.json"
+  ],
+  "limitations": [
+    "Only 12 LTEE population clusters are available; intervals will be uncertain.",
+    "Candidate alleles are cutoff-observed SNPs only; novel later mutations, indels, and structural variants are excluded.",
+    "Evo2 sees only the REL606 focal-variant context, not other mutations in the sampled clone population.",
+    "The supervised head is a low-dimensional ridge model; Evo2 is frozen and not fine-tuned.",
+    "Earlier C7I-C7L results have been inspected, so this is internal development evidence, not a blind locked test."
+  ]
+}
